@@ -9,16 +9,13 @@ const Form = () => (
         <h2>Contact Rex9</h2>
         <form action="https://formspree.io/f/moqrrpoj" method="post" id="contact" name="contact">
           <div className={form.userBox}>
-            <input type="text" name="name" required="" />
-            <label>Full Name</label>
+            <input type="text" name="name" placeholder="Enter your Full Name" required="" />
           </div>
           <div className={form.userBox}>
-            <input type="text" name="email" required="" />
-            <label>Email</label>
+            <input type="text" name="email" placeholder="Enter your Email" required="" />
           </div>
           <div className={form.userBox}>
-            <textarea type="text" name="details" required="" />
-            <label>Details</label>
+            <textarea type="text" name="details" placeholder="What can Rex9 help you?" required="" />
           </div>
           <button type="submit">
             <span />

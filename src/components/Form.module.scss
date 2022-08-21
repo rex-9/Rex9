@@ -5,13 +5,8 @@
 }
 
 .contactBox {
-  //   position: absolute;
-  //   top: 50%;
-  //   left: 50%;
   width: 400px;
-  padding: 40px;
-  //   transform: translate(-50%, -50%);
-//   background: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
   background: linear-gradient(rgb(7, 46, 60, 0.5), rgba(0, 0, 0, 0.5));
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
@@ -19,7 +14,7 @@
 }
 
 .contactBox h2 {
-  margin: 0 0 30px;
+  margin: 10px 0 20px 0;
   padding: 0;
   color: #fff;
   text-align: center;
@@ -34,7 +29,7 @@
   padding: 10px 0;
   font-size: 16px;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   border: none;
   border-bottom: 1px solid #fff;
   outline: none;
@@ -47,32 +42,19 @@
   padding: 10px 0;
   font-size: 16px;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   border: none;
   border-bottom: 1px solid #fff;
   outline: none;
   background: transparent;
 }
 
-.contactBox .userBox label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
-  pointer-events: none;
-  transition: 0.5s;
-}
-
-.contactBox .userBox input:focus ~ label,
-.contactBox .userBox input:valid ~ label,
-.contactBox .userBox textarea:focus ~ label,
-.contactBox .userBox textarea:valid ~ label {
-  top: -20px;
-  left: 0;
-  color: #03e9f4;
-  font-size: 12px;
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    left: 0;
+    color: #03e9f4;
+    opacity: 0.5;
+    font-size: 14px;
 }
 
 .contactBox form button {
@@ -81,6 +63,7 @@
   position: relative;
   display: inline-block;
   padding: 10px 20px;
+  margin-top: 10px;
   color: #03e9f4;
   font-size: 16px;
   text-decoration: none;

@@ -1,18 +1,18 @@
-import form from './Form.module.scss';
+import style from './Form.module.scss';
 
 const Form = () => (
   <>
-    <div className={form.form}>
-      <div className={form.contactBox}>
+    <div className={style.form}>
+      <div className={style.contactBox}>
         <h2>Contact Rex9</h2>
         <form action="https://formspree.io/f/moqrrpoj" method="post" id="contact" name="contact">
-          <div className={form.userBox}>
+          <div className={style.userBox}>
             <input type="text" name="name" placeholder="Enter your Full Name" required="" />
           </div>
-          <div className={form.userBox}>
+          <div className={style.userBox}>
             <input type="text" name="email" placeholder="Enter your Email" required="" />
           </div>
-          <div className={form.userBox}>
+          <div className={style.userBox}>
             <textarea type="text" name="details" placeholder="What can Rex9 help you?" required="" />
           </div>
           <button type="submit">

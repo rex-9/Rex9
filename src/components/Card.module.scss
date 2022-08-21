@@ -1,0 +1,30 @@
+.card {
+  padding: 10px;
+  transition: height 2s, transform 2s;
+}
+
+.card:hover {
+  height: 300px;
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  transform: translateY(-110px);
+  cursor: pointer;
+  z-index: -1;
+  transition: transform 2s;
+}
+
+.content:hover {
+  transform: translateY(0);
+}
+
+.card:hover .content {
+  transform: translateY(0);
+}

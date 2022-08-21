@@ -1,50 +1,65 @@
+import Pokeverse from '../assets/projects/Pokeverse.png';
+import Mathgic from '../assets/projects/Mathgic.png';
+import Leaderboard from '../assets/projects/Leaderboard.png';
+import ToDoList from '../assets/projects/ToDoList.png';
+import Landsbetween from '../assets/projects/Landsbetween-home.png';
+import AwesomeBooks from '../assets/projects/AwesomeBooks.png';
+import Bookstore from '../assets/projects/Bookstore.png';
+
 const projects = [{
-  image: './src/assets/projects/Pokeverse.png',
+  id: 1,
+  image: Pokeverse,
   name: 'Pokeverse',
   techs: ['React', 'Redux', 'JavaScript'],
-  details: 'Details of Pokeverse',
+  detail: 'Detail of Pokeverse',
   live: 'https://rex-9.github.io/Pokeverse',
   source: 'https://github.com/rex-9/Pokeverse',
 }, {
-  image: './src/assets/projects/Mathgic.png',
+  id: 2,
+  image: Mathgic,
   name: 'Mathgic',
   techs: ['React', 'Redux', 'JavaScript'],
-  details: 'Details of Mathgic',
+  detail: 'Detail of Mathgic',
   live: 'https://Mathgic.netlify.app',
   source: 'https://github.com/rex-9/Mathgic',
 }, {
-  image: './src/assets/projects/Leaderboard.png',
+  id: 3,
+  image: Leaderboard,
   name: 'Leaderboard',
   techs: ['React', 'Redux', 'JavaScript'],
-  details: 'Details of Leaderboard',
+  detail: 'Detail of Leaderboard',
   live: 'https://rex-9.github.io/Leaderboard',
   source: 'https://github.com/rex-9/Leaderboard',
 }, {
-  image: './src/assets/projects/ToDoList.png',
+  id: 4,
+  image: ToDoList,
   name: 'To-Do List',
   techs: ['React', 'Redux', 'JavaScript'],
-  details: 'Details of To-Do List',
+  detail: 'Detail of To-Do List',
   live: 'https://rex-9.github.io/ToDoList',
   source: 'https://github.com/rex-9/ToDoList',
 }, {
-  image: './src/assets/projects/landsbetween-home.png',
+  id: 5,
+  image: Landsbetween,
   name: 'Landsbetween',
   techs: ['React', 'Redux', 'JavaScript'],
-  details: 'Details of Landsbetween',
+  detail: 'Detail of Landsbetween',
   live: 'https://rex-9.github.io/Landsbetween',
   source: 'https://github.com/rex-9/Landsbetween',
 }, {
-  image: './src/assets/projects/Awesomebooks.png',
+  id: 6,
+  image: AwesomeBooks,
   name: 'Awesomebooks',
   techs: ['React', 'Redux', 'JavaScript'],
-  details: 'Details of Awesomebooks',
+  detail: 'Detail of Awesomebooks',
   live: 'https://rex-9.github.io/AwesomeBooks/',
   source: 'https://github.com/rex-9/AwesomeBooks',
 }, {
-  image: './src/assets/projects/Bookstore.png',
+  id: 7,
+  image: Bookstore,
   name: 'Bookstore',
   techs: ['React', 'Redux', 'JavaScript'],
-  details: 'Details of Bookstore',
+  detail: 'Detail of Bookstore',
   live: 'https://rex9bookstore.netlify.app',
   source: 'https://github.com/rex-9/Bookstore',
 }];
@@ -67,4 +82,4 @@ const profiles = [{
   link: 'https://facebook.com/htetnaing0814',
 }];
 
-export default { projects, profiles };
+export { projects, profiles };

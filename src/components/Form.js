@@ -13,11 +13,11 @@ const Form = () => (
             <label>Full Name</label>
           </div>
           <div className={form.userBox}>
-            <input type="password" name="email" required="" />
+            <input type="text" name="email" required="" />
             <label>Email</label>
           </div>
           <div className={form.userBox}>
-            <textarea type="password" name="details" required="" />
+            <textarea type="text" name="details" required="" />
             <label>Details</label>
           </div>
           <button type="submit">

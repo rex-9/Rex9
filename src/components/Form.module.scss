@@ -24,6 +24,14 @@
   position: relative;
 }
 
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  left: 0;
+  color: #03e9f4;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
 .contactBox .userBox input {
   width: 100%;
   padding: 10px 0;
@@ -47,14 +55,6 @@
   border-bottom: 1px solid #fff;
   outline: none;
   background: transparent;
-}
-
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-    left: 0;
-    color: #03e9f4;
-    opacity: 0.5;
-    font-size: 14px;
 }
 
 .contactBox form button {

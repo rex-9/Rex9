@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
-
 import form from './Form.module.scss';
 
 const Form = () => (

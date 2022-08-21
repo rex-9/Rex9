@@ -1,12 +1,13 @@
 /* eslint-disable react/destructuring-assignment */
-/* eslint-disable no-unused-vars */
+/* eslint-disable react/forbid-prop-types */
+/* eslint-disable max-len */
 
-import PropTypes from 'prop-types';
+import { PropTypes } from 'prop-types';
 import style from './Card.module.scss';
 
 const Card = (props) => {
   const {
-    image, name, techs, brief, detail, live, source,
+    image, name, techs, brief, live, source,
   } = props.project;
   return (
     <>
@@ -31,7 +32,9 @@ const Card = (props) => {
 };
 
 Card.propTypes = {
-  project: PropTypes.isRequired,
+  project: PropTypes.shape({
+    id: PropTypes.number.isRequired, image: PropTypes.string.isRequired, name: PropTypes.string.isRequired, techs: PropTypes.array.isRequired, brief: PropTypes.string.isRequired, live: PropTypes.string.isRequired, source: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Card;

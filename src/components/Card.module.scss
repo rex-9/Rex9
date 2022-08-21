@@ -6,6 +6,7 @@ $dark4: #6b1818;
 .card {
   border-radius: 25px;
   margin: 20px;
+  height: 470px;
   transition: height 1.5s, transform 1.5s;
 }
 
@@ -33,6 +34,10 @@ $dark4: #6b1818;
     height: 400px;
     object-fit: cover;
   }
+
+  .card {
+    height: 470px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -41,6 +46,10 @@ $dark4: #6b1818;
     height: 300px;
     object-fit: cover;
   }
+
+  .card {
+    height: 350px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -48,6 +57,10 @@ $dark4: #6b1818;
     width: 80vw;
     height: 200px;
     object-fit: cover;
+  }
+
+  .card {
+    height: 250px;
   }
 }
 

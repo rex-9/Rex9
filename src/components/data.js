@@ -12,7 +12,6 @@ const projects = [{
   name: 'Mathgic',
   techs: ['JavaScript', 'React'],
   brief: 'Mathgical Calculator',
-  detail: 'Detail of Mathgic',
   live: 'https://Mathgic.netlify.app',
   source: 'https://github.com/rex-9/Mathgic',
 }, {
@@ -21,7 +20,6 @@ const projects = [{
   name: 'Pokeverse',
   techs: ['JavaScript', 'Webpack'],
   brief: 'The Pokeverse of Cuteness',
-  detail: 'Detail of Pokeverse',
   live: 'https://rex-9.github.io/Pokeverse',
   source: 'https://github.com/rex-9/Pokeverse',
 }, {
@@ -30,7 +28,6 @@ const projects = [{
   name: 'Leaderboard',
   techs: ['JavaScript', 'Webpack'],
   brief: 'Board of Talents',
-  detail: 'Detail of Leaderboard',
   live: 'https://rex-9.github.io/Leaderboard',
   source: 'https://github.com/rex-9/Leaderboard',
 }, {
@@ -39,7 +36,6 @@ const projects = [{
   name: 'To-Do List',
   techs: ['JavaScript', 'Webpack'],
   brief: 'List of Determination',
-  detail: 'Detail of To-Do List',
   live: 'https://rex-9.github.io/ToDoList',
   source: 'https://github.com/rex-9/ToDoList',
 }, {
@@ -48,7 +44,6 @@ const projects = [{
   name: 'Landsbetween',
   techs: ['JavaScript'],
   brief: 'Call of the Landsbetween',
-  detail: 'Detail of Landsbetween',
   live: 'https://rex-9.github.io/Landsbetween',
   source: 'https://github.com/rex-9/Landsbetween',
 }, {
@@ -57,7 +52,6 @@ const projects = [{
   name: 'Awesomebooks',
   techs: ['JavaScript'],
   brief: 'Books of Awesomeness',
-  detail: 'Detail of Awesomebooks',
   live: 'https://rex-9.github.io/AwesomeBooks/',
   source: 'https://github.com/rex-9/AwesomeBooks',
 }, {
@@ -66,7 +60,6 @@ const projects = [{
   name: 'Bookstore',
   techs: ['JavaScript', 'React', 'Redux'],
   brief: 'Store of the Wisdom',
-  detail: 'Detail of Bookstore',
   live: 'https://rex9bookstore.netlify.app',
   source: 'https://github.com/rex-9/Bookstore',
 }];

@@ -2,11 +2,28 @@
 
 .form {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 50px 30px 50px;
 }
 
-.contactBox {
+.contactText {
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Clip', serif;
+  padding: 50px;
+  line-height: 50px;
+  color: white;
+  text-shadow:
+    0 0 0.6rem $red1,
+    0 0 1.5rem $red2,
+    -0.2rem 0.1rem 1rem $red2,
+    0.2rem 0.1rem 1rem $red2,
+    0 -0.5rem 2rem $red3,
+    0 0.5rem 3rem $red3;
+}
+
+.contactForm {
   width: 400px;
   padding: 20px 40px;
   background: linear-gradient(rgb(7, 46, 60, 0.5), rgba(0, 0, 0, 0.5));
@@ -15,15 +32,11 @@
   border-radius: 10px;
 }
 
-.contactBox h2 {
+.contactForm h2 {
   margin: 10px 0 20px 0;
   padding: 0;
   color: $text;
   text-align: center;
-}
-
-.contactBox .userBox {
-  position: relative;
 }
 
 input::-webkit-input-placeholder,
@@ -34,7 +47,7 @@ textarea::-webkit-input-placeholder {
   font-size: 14px;
 }
 
-.contactBox .userBox input {
+.contactForm .userBox input {
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
@@ -44,9 +57,10 @@ textarea::-webkit-input-placeholder {
   border-bottom: 1px solid $text;
   outline: none;
   background: transparent;
+  cursor: url("../assets/design/spot48.png"), auto !important;
 }
 
-.contactBox .userBox textarea {
+.contactForm .userBox textarea {
   width: 100%;
   height: 100px;
   padding: 10px 0;
@@ -57,9 +71,10 @@ textarea::-webkit-input-placeholder {
   border-bottom: 1px solid $text;
   outline: none;
   background: transparent;
+  cursor: url("../assets/design/spot48.png"), auto !important;
 }
 
-.contactBox form button {
+.contactForm form button {
   border: none;
   background-color: transparent;
   position: relative;
@@ -75,7 +90,7 @@ textarea::-webkit-input-placeholder {
   letter-spacing: 4px;
 }
 
-.contactBox button:hover {
+.contactForm button:hover {
   background: $red3;
   color: $text;
   border-radius: 5px;
@@ -86,12 +101,12 @@ textarea::-webkit-input-placeholder {
     0 0 100px $red3;
 }
 
-.contactBox button span {
+.contactForm button span {
   position: absolute;
   display: block;
 }
 
-.contactBox button span:nth-child(1) {
+.contactForm button span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -111,7 +126,7 @@ textarea::-webkit-input-placeholder {
   }
 }
 
-.contactBox button span:nth-child(2) {
+.contactForm button span:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -132,7 +147,7 @@ textarea::-webkit-input-placeholder {
   }
 }
 
-.contactBox button span:nth-child(3) {
+.contactForm button span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
@@ -153,7 +168,7 @@ textarea::-webkit-input-placeholder {
   }
 }
 
-.contactBox button span:nth-child(4) {
+.contactForm button span:nth-child(4) {
   bottom: -100%;
   left: 0;
   width: 2px;
@@ -172,4 +187,26 @@ textarea::-webkit-input-placeholder {
   100% {
     bottom: 100%;
   }
+}
+
+.divider {
+  box-sizing: content-box;
+  box-shadow: inset 0 0 5px $red2;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, $red1, $red2, $red3, $red4);
+  border-image-slice: 1;
+}
+
+.profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+.profile {
+  margin: 0 10px;
 }

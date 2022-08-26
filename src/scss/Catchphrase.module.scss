@@ -7,25 +7,18 @@
   padding: 150px 0 0 120px;
   color: white;
   text-shadow:
-    0 0 0.6rem $dark1,
-    0 0 1.5rem $dark2,
-    -0.2rem 0.1rem 1rem $dark2,
-    0.2rem 0.1rem 1rem $dark2,
-    0 -0.5rem 2rem $dark3,
-    0 0.5rem 3rem $dark3;
-}
-
-// svg {
-//     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
-// }
-
-.arrowBox {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+    0 0 0.6rem $red1,
+    0 0 1.5rem $red2,
+    -0.2rem 0.1rem 1rem $red2,
+    0.2rem 0.1rem 1rem $red2,
+    0 -0.5rem 2rem $red3,
+    0 0.5rem 3rem $red3;
 }
 
 .downArrow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   color: red;
   margin-bottom: 120px;
   animation: bounce 1s alternate-reverse infinite;
@@ -39,4 +32,8 @@
   100% {
     transform: translateY(-10px);
   }
+}
+
+svg {
+  filter: drop-shadow(0 0 0.6rem $red1) drop-shadow(0 0 1.5rem $red2) drop-shadow(-0.2rem 0.1rem 1rem $red2) drop-shadow(0.2rem 0.1rem 1rem $red2) drop-shadow(0 -0.5rem 2rem $red3) drop-shadow(0 0.5rem 3rem $red3);
 }

@@ -9,12 +9,12 @@
 .card:hover {
   height: auto;
   box-shadow:
-    0 0 0.6rem $dark1,
-    0 0 1.5rem $dark2,
-    -0.2rem 0.1rem 1rem $dark2,
-    0.2rem 0.1rem 1rem $dark2,
-    0 -0.5rem 2rem $dark3,
-    0 0.5rem 3rem $dark3;
+    0 0 0.6rem $red1,
+    0 0 1.5rem $red2,
+    -0.2rem 0.1rem 1rem $red2,
+    0.2rem 0.1rem 1rem $red2,
+    0 -0.5rem 2rem $red3,
+    0 0.5rem 3rem $red3;
 }
 
 .card img {
@@ -95,12 +95,12 @@
   font-size: 22px;
   padding: 10px;
   text-shadow:
-    0 0 0.6rem $dark1,
-    0 0 1.5rem $dark2,
-    -0.2rem 0.1rem 1rem $dark2,
-    0.2rem 0.1rem 1rem $dark2,
-    0 -0.5rem 2rem $dark3,
-    0 0.5rem 3rem $dark3;
+    0 0 0.6rem $red1,
+    0 0 1.5rem $red2,
+    -0.2rem 0.1rem 1rem $red2,
+    0.2rem 0.1rem 1rem $red2,
+    0 -0.5rem 2rem $red3,
+    0 0.5rem 3rem $red3;
 }
 
 .techsBox {
@@ -111,7 +111,7 @@
 
 .tech {
   padding: 5px;
-  border: 1px solid $dark3;
+  border: 1px solid $red3;
   border-radius: 5px;
 }
 
@@ -139,7 +139,7 @@ a {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  color: $dark3;
+  color: $red3;
   font-size: 16px;
   text-transform: uppercase;
   overflow: hidden;
@@ -149,12 +149,12 @@ a {
 }
 
 a:hover {
-  background: $dark3;
+  background: $red3;
   color: #fff;
   border-radius: 5px;
   box-shadow:
-    0 0 5px $dark3,
-    0 0 25px $dark3,
-    0 0 50px $dark3,
-    0 0 100px $dark3;
+    0 0 5px $red3,
+    0 0 25px $red3,
+    0 0 50px $red3,
+    0 0 100px $red3;
 }

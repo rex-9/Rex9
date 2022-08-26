@@ -29,7 +29,7 @@
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   left: 0;
-  color: $dark2;
+  color: $red2;
   opacity: 0.5;
   font-size: 14px;
 }
@@ -66,7 +66,7 @@ textarea::-webkit-input-placeholder {
   display: inline-block;
   padding: 10px 20px;
   margin-top: 10px;
-  color: $dark3;
+  color: $red3;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -76,14 +76,14 @@ textarea::-webkit-input-placeholder {
 }
 
 .contactBox button:hover {
-  background: $dark3;
+  background: $red3;
   color: $text;
   border-radius: 5px;
   box-shadow:
-    0 0 5px $dark3,
-    0 0 25px $dark3,
-    0 0 50px $dark3,
-    0 0 100px $dark3;
+    0 0 5px $red3,
+    0 0 25px $red3,
+    0 0 50px $red3,
+    0 0 100px $red3;
 }
 
 .contactBox button span {
@@ -96,7 +96,7 @@ textarea::-webkit-input-placeholder {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, $dark2);
+  background: linear-gradient(90deg, transparent, $red2);
   animation: btn-anim1 1s linear infinite;
 }
 
@@ -116,7 +116,7 @@ textarea::-webkit-input-placeholder {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, $dark2);
+  background: linear-gradient(180deg, transparent, $red2);
   animation: btn-anim2 1s linear infinite;
   animation-delay: 0.25s;
 }
@@ -137,7 +137,7 @@ textarea::-webkit-input-placeholder {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, $dark2);
+  background: linear-gradient(270deg, transparent, $red2);
   animation: btn-anim3 1s linear infinite;
   animation-delay: 0.5s;
 }
@@ -158,7 +158,7 @@ textarea::-webkit-input-placeholder {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, $dark2);
+  background: linear-gradient(360deg, transparent, $red2);
   animation: btn-anim4 1s linear infinite;
   animation-delay: 0.75s;
 }

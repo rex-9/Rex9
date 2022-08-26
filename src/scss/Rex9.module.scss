@@ -14,7 +14,7 @@
   background-image:
     radial-gradient(
       ellipse 50% 35% at 50% 50%,
-      $dark4,
+      $red4,
       transparent
     );
   transform: translate(50%, 50%);
@@ -24,14 +24,14 @@
   font-family: "Clip", serif;
   text-transform: uppercase;
   font-size: 6em;
-  color: $dark1;
+  color: $red1;
   text-shadow:
-    0 0 0.6rem $dark1,
-    0 0 1.5rem $dark2,
-    -0.2rem 0.1rem 1rem $dark2,
-    0.2rem 0.1rem 1rem $dark2,
-    0 -0.5rem 2rem $dark3,
-    0 0.5rem 3rem $dark3;
+    0 0 0.6rem $red1,
+    0 0 1.5rem $red2,
+    -0.2rem 0.1rem 1rem $red2,
+    0.2rem 0.1rem 1rem $red2,
+    0 -0.5rem 2rem $red3,
+    0 0.5rem 3rem $red3;
   animation: shine 2s forwards, flicker 3s infinite;
 }
 
@@ -40,25 +40,25 @@
   22%,
   36%,
   75% {
-    color: $dark1;
+    color: $red1;
     text-shadow:
-      0 0 0.6rem $dark1,
-      0 0 1.5rem $dark2,
-      -0.2rem 0.1rem 1rem $dark2,
-      0.2rem 0.1rem 1rem $dark2,
-      0 -0.5rem 2rem $dark3,
-      0 0.5rem 3rem $dark3;
+      0 0 0.6rem $red1,
+      0 0 1.5rem $red2,
+      -0.2rem 0.1rem 1rem $red2,
+      0.2rem 0.1rem 1rem $red2,
+      0 -0.5rem 2rem $red3,
+      0 0.5rem 3rem $red3;
   }
 
   28%,
   33% {
-    color: $dark2;
+    color: $red2;
     text-shadow: none;
   }
 
   82%,
   97% {
-    color: $dark3;
+    color: $red3;
     text-shadow: none;
   }
 }
@@ -73,19 +73,19 @@
 
 @keyframes shine {
   0% {
-    color: $dark4;
+    color: $red4;
     text-shadow: none;
   }
 
   100% {
-    color: $dark1;
+    color: $red1;
     text-shadow:
-      0 0 0.6rem $dark1,
-      0 0 1.5rem $dark2,
-      -0.2rem 0.1rem 1rem $dark2,
-      0.2rem 0.1rem 1rem $dark2,
-      0 -0.5rem 2rem $dark3,
-      0 0.5rem 3rem $dark3;
+      0 0 0.6rem $red1,
+      0 0 1.5rem $red2,
+      -0.2rem 0.1rem 1rem $red2,
+      0.2rem 0.1rem 1rem $red2,
+      0 -0.5rem 2rem $red3,
+      0 0.5rem 3rem $red3;
   }
 }
 

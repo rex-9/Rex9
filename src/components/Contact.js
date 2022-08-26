@@ -1,12 +1,13 @@
-import style from '../scss/Form.module.scss';
+import style from '../scss/Contact.module.scss';
 import github from '../assets/design/github.svg';
 import linkedin from '../assets/design/linkedin.svg';
 import medium from '../assets/design/medium.svg';
 import angellist from '../assets/design/angellist.svg';
 import twitter from '../assets/design/twitter.svg';
 import facebook from '../assets/design/facebook.svg';
+import Rex9 from '../assets/projects/Rex9.pdf';
 
-const Form = () => (
+const Contact = () => (
   <>
     <div className={style.form}>
       <div className={style.contactText}>
@@ -16,6 +17,16 @@ const Form = () => (
         {' '}
         so if you&apos;d
         like to chat, please kindly get in touch with me.
+        <br />
+        <div className={style.resumeBox}>
+          <div className={style.resume}>
+            <span />
+            <span />
+            <span />
+            <span />
+            <a href={Rex9} download>Download my Resume 📄</a>
+          </div>
+        </div>
       </div>
       <div className={style.contactForm}>
         <h2>Keep in Touch</h2>
@@ -51,4 +62,4 @@ const Form = () => (
   </>
 );
 
-export default Form;
+export default Contact;

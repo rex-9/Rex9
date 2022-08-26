@@ -74,6 +74,16 @@ textarea::-webkit-input-placeholder {
   cursor: url("../assets/design/spot48.png"), auto !important;
 }
 
+.resumeBox {
+  text-align: center;
+}
+
+.resume {
+  position: relative;
+  display: inline-block;
+  margin-top: 80px;
+}
+
 .contactForm form button {
   border: none;
   background-color: transparent;
@@ -90,6 +100,7 @@ textarea::-webkit-input-placeholder {
   letter-spacing: 4px;
 }
 
+.resume:hover,
 .contactForm button:hover {
   background: $red3;
   color: $text;
@@ -101,11 +112,13 @@ textarea::-webkit-input-placeholder {
     0 0 100px $red3;
 }
 
+.resume span,
 .contactForm button span {
   position: absolute;
   display: block;
 }
 
+.resume span:nth-child(1),
 .contactForm button span:nth-child(1) {
   top: 0;
   left: -100%;
@@ -126,6 +139,7 @@ textarea::-webkit-input-placeholder {
   }
 }
 
+.resume span:nth-child(2),
 .contactForm button span:nth-child(2) {
   top: -100%;
   right: 0;
@@ -147,6 +161,7 @@ textarea::-webkit-input-placeholder {
   }
 }
 
+.resume span:nth-child(3),
 .contactForm button span:nth-child(3) {
   bottom: 0;
   right: -100%;
@@ -168,6 +183,7 @@ textarea::-webkit-input-placeholder {
   }
 }
 
+.resume span:nth-child(4),
 .contactForm button span:nth-child(4) {
   bottom: -100%;
   left: 0;

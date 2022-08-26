@@ -33,6 +33,7 @@
 }
 
 .contactForm h2 {
+  font-family: 'Clip', serif;
   margin: 10px 0 20px 0;
   padding: 0;
   color: $text;
@@ -82,9 +83,15 @@ textarea::-webkit-input-placeholder {
   position: relative;
   display: inline-block;
   margin-top: 80px;
+  padding: 10px 20px;
+}
+
+.resume a {
+  color: white;
 }
 
 .contactForm form button {
+  font-family: 'Quicksand', serif;
   border: none;
   background-color: transparent;
   position: relative;

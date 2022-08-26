@@ -22,8 +22,8 @@ const Card = (props) => {
           </div>
           <div className={style.brief}>{brief}</div>
           <div className={style.buttons}>
-            <a href={source}>Source</a>
-            <a href={live}>Live</a>
+            <a className={style.more} href={source}>Source</a>
+            <a className={style.more} href={live}>Live</a>
           </div>
         </div>
       </div>

@@ -132,8 +132,7 @@
   padding-bottom: 10px;
 }
 
-a {
-  text-decoration: none;
+.more {
   border: none;
   background-color: transparent;
   position: relative;
@@ -146,6 +145,10 @@ a {
   transition: 0.5s;
   letter-spacing: 4px;
   cursor: url("../assets/design/spot48.png"), auto;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:hover {

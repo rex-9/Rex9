@@ -1,11 +1,13 @@
+@import './constants.scss';
+
 .box {
   padding: 20px 50px;
   text-align: center;
 }
 
-header {
+.box h2 {
   font-family: 'Clip', serif;
-  color: white;
+  color: $text;
 }
 
 .cardBox {

@@ -3,7 +3,7 @@
 .phrase {
   font-family: 'Clip', serif;
   font-size: 20px;
-  height: 50vh;
+  height: 43vh;
   padding: 150px 0 0 120px;
   color: white;
   text-shadow:
@@ -36,4 +36,15 @@
 
 svg {
   filter: drop-shadow(0 0 0.6rem $red1) drop-shadow(0 0 1.5rem $red2) drop-shadow(-0.2rem 0.1rem 1rem $red2) drop-shadow(0.2rem 0.1rem 1rem $red2) drop-shadow(0 -0.5rem 2rem $red3) drop-shadow(0 0.5rem 3rem $red3);
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.profile {
+    margin: 0 10px 30px 10px;
 }

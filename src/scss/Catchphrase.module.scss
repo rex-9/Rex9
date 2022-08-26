@@ -39,12 +39,20 @@ svg {
 }
 
 .profiles {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 30px;
 }
 
 .profile {
-    margin: 0 10px 30px 10px;
+  margin: 0 10px;
+}
+
+@media (max-width: 1000px) {
+  .phrase {
+    padding: 100px 50px 0 50px;
+  }
 }

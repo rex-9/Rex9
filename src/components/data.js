@@ -4,7 +4,7 @@ import Leaderboard from '../assets/projects/Leaderboard.png';
 import ToDoList from '../assets/projects/ToDoList.png';
 import Landsbetween from '../assets/projects/Landsbetween-home.png';
 import AwesomeBooks from '../assets/projects/AwesomeBooks.png';
-import Bookstore from '../assets/projects/Bookstore.png';
+// import Bookstore from '../assets/projects/Bookstore.png';
 
 import github from '../assets/design/github.svg';
 import linkedin from '../assets/design/linkedin.svg';
@@ -61,15 +61,17 @@ const projects = [{
   brief: 'Books of Awesomeness',
   live: 'https://rex-9.github.io/AwesomeBooks/',
   source: 'https://github.com/rex-9/AwesomeBooks',
-}, {
-  id: 7,
-  image: Bookstore,
-  name: 'Bookstore',
-  techs: ['JavaScript', 'React', 'Redux'],
-  brief: 'Store of the Wisdom',
-  live: 'https://rex9bookstore.netlify.app',
-  source: 'https://github.com/rex-9/Bookstore',
-}];
+},
+// , {
+//   id: 7,
+//   image: Bookstore,
+//   name: 'Bookstore',
+//   techs: ['JavaScript', 'React', 'Redux'],
+//   brief: 'Store of the Wisdom',
+//   live: 'https://rex9bookstore.netlify.app',
+//   source: 'https://github.com/rex-9/Bookstore',
+// }
+];
 
 const profiles = [{
   platform: 'GitHub',

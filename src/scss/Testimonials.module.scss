@@ -1,7 +1,8 @@
 @import './constants.scss';
 
 .box {
-  padding: 20px 50px;
+  padding: 5px 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -11,5 +12,8 @@
 }
 
 .cardBox {
-  background-color: blue;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  overflow-x: auto;
 }

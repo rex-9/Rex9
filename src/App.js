@@ -1,6 +1,6 @@
 import Rex9 from './components/Rex9';
 import Catchphrase from './components/Catchphrase';
-import DisplayCards from './components/DisplayCards';
+import Cards from './components/Cards';
 import Contact from './components/Contact';
 import Testimonials from './components/Testimonials';
 // import Comet from './components/Comet';
@@ -12,7 +12,7 @@ const App = () => (
     {/* <Comet /> */}
     <Rex9 />
     <Catchphrase />
-    <DisplayCards />
+    <Cards />
     <Testimonials />
     <Contact />
   </>

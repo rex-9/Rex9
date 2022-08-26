@@ -1,11 +1,6 @@
 /* eslint-disable max-len */
 import style from '../scss/Catchphrase.module.scss';
-import github from '../assets/design/github.svg';
-import linkedin from '../assets/design/linkedin.svg';
-import medium from '../assets/design/medium.svg';
-import angellist from '../assets/design/angellist.svg';
-import twitter from '../assets/design/twitter.svg';
-import facebook from '../assets/design/facebook.svg';
+import { profiles } from './data';
 
 const Catchphrase = () => (
   <>
@@ -15,12 +10,9 @@ const Catchphrase = () => (
       <p>I can help you build attractive websites with maximum quality within the shortest time. 😎</p>
     </div>
     <div className={style.profiles}>
-      <a className={style.profile} href="https://github.com/rex-9"><img src={github} alt="github" /></a>
-      <a className={style.profile} href="https://linkedin.com/in/rex9"><img src={linkedin} alt="linkedin" /></a>
-      <a className={style.profile} href="https://medium.com/@rex9"><img src={medium} alt="medium" /></a>
-      <a className={style.profile} href="https://angel.co/u/rex9"><img src={angellist} alt="angellist" /></a>
-      <a className={style.profile} href="https://twitter.com/htetnaing0814"><img src={twitter} alt="twitter" /></a>
-      <a className={style.profile} href="https://facebook.com/htetnaing0814"><img src={facebook} alt="facebook" /></a>
+      {
+        profiles.map((profile) => <a key={profile.platform} className={style.profile} href={profile.link}><img src={profile.logo} alt={profile.platform} /></a>)
+      }
     </div>
     <div className={style.downArrow}>
       <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">

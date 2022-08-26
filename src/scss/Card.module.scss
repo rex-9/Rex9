@@ -70,12 +70,12 @@
   border-radius: 0 0 25px 25px;
   transform: translateY(-125px);
   transition: transform 1.5s;
-  background: rgba(42, 53, 81, 0.3);
-  box-shadow: 0 4px 30px rgba(255, 9, 9, 0.4);
+  background: $glass;
+  box-shadow: 0 4px 30px $red4;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-top: none;
-  border: 1px solid rgba(42, 53, 81, 0.3);
+  border: 1px solid $glass;
 }
 
 .content:hover {
@@ -147,11 +147,7 @@
   cursor: url("../assets/design/spot48.png"), auto;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
+.more:hover {
   background: $red3;
   color: #fff;
   border-radius: 5px;

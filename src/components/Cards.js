@@ -1,13 +1,13 @@
-import style from '../scss/DisplayCards.module.scss';
+import style from '../scss/Cards.module.scss';
 
 import Card from './Card';
 
 import { projects } from './data';
 
-const DisplayCards = () => (
+const Cards = () => (
   <>
     <h1 className={style.myRecentWorks}>My Recent Works</h1>
-    <div className={style.displayCards}>
+    <div className={style.cards}>
       {
         projects.map((project) => <Card key={project.id} project={project} />)
       }
@@ -15,4 +15,4 @@ const DisplayCards = () => (
   </>
 );
 
-export default DisplayCards;
+export default Cards;

@@ -3,7 +3,7 @@ import style from '../scss/Catchphrase.module.scss';
 import github from '../assets/design/github.svg';
 import linkedin from '../assets/design/linkedin.svg';
 import medium from '../assets/design/medium.svg';
-import angelist from '../assets/design/angelist.svg';
+import angellist from '../assets/design/angellist.svg';
 import twitter from '../assets/design/twitter.svg';
 import facebook from '../assets/design/facebook.svg';
 
@@ -12,13 +12,13 @@ const Catchphrase = () => (
     <div className={style.phrase}>
       <p>Greetings, Champion...</p>
       <p>This is Rex9, spiritual Full-Stack Developer. ✨</p>
-      <p>Rex9 can offer you attractive websites with maximum quality within the shortest time. 😎</p>
+      <p>I can help you build attractive websites with maximum quality within the shortest time. 😎</p>
     </div>
     <div className={style.profiles}>
       <a className={style.profile} href="https://github.com/rex-9"><img src={github} alt="github" /></a>
       <a className={style.profile} href="https://linkedin.com/in/rex9"><img src={linkedin} alt="linkedin" /></a>
       <a className={style.profile} href="https://medium.com/@rex9"><img src={medium} alt="medium" /></a>
-      <a className={style.profile} href="https://angel.co/u/rex9"><img src={angelist} alt="angelist" /></a>
+      <a className={style.profile} href="https://angel.co/u/rex9"><img src={angellist} alt="angellist" /></a>
       <a className={style.profile} href="https://twitter.com/htetnaing0814"><img src={twitter} alt="twitter" /></a>
       <a className={style.profile} href="https://facebook.com/htetnaing0814"><img src={facebook} alt="facebook" /></a>
     </div>

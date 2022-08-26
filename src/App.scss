@@ -6,10 +6,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  //   background-image: url('./assets/design/light-ring.jpg');
+  cursor: url("./assets/design/spot32.png"), auto;
   background-color: #080808;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-brick-wall.png");
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  //   background-attachment: fixed;
+  background-image: url("./assets/design/dark-brick-wall.png");
+}
+
+button {
+  cursor: url("./assets/design/spot48.png"), auto;
 }

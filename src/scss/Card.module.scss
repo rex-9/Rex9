@@ -1,7 +1,4 @@
-$dark1: #ffe6e6;
-$dark2: #ff6565;
-$dark3: #ff2424;
-$dark4: #6b1818;
+@import './constants.scss';
 
 .card {
   border-radius: 25px;
@@ -148,7 +145,7 @@ a {
   overflow: hidden;
   transition: 0.5s;
   letter-spacing: 4px;
-  cursor: pointer;
+  cursor: url("../assets/design/spot48.png"), auto;
 }
 
 a:hover {

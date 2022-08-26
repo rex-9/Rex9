@@ -1,4 +1,4 @@
-import style from './Form.module.scss';
+import style from '../scss/Form.module.scss';
 
 const Form = () => (
   <>

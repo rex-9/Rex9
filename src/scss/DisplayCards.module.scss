@@ -1,0 +1,22 @@
+@import './constants.scss';
+
+.displayCards {
+  color: white;
+  margin: 40px 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.myRecentWorks {
+  font-family: 'Clip', serif;
+  text-align: center;
+  color: white;
+  text-shadow:
+    0 0 0.6rem $dark1,
+    0 0 1.5rem $dark2,
+    -0.2rem 0.1rem 1rem $dark2,
+    0.2rem 0.1rem 1rem $dark2,
+    0 -0.5rem 2rem $dark3,
+    0 0.5rem 3rem $dark3;
+}

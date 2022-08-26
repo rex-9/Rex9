@@ -1,4 +1,4 @@
-import style from './Rex9.module.scss';
+import style from '../scss/Rex9.module.scss';
 
 const Rex9 = () => (
   <>

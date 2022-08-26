@@ -3,7 +3,7 @@
 /* eslint-disable max-len */
 
 import { PropTypes } from 'prop-types';
-import style from './Card.module.scss';
+import style from '../scss/Card.module.scss';
 
 const Card = (props) => {
   const {

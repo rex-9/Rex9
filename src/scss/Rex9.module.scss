@@ -1,29 +1,9 @@
-// $bg: #141114;
-// $dark1: #ffe6ff;
-// $dark2: #ff65bd;
-// $dark3: #ff2483;
-// $dark4: #6b1839;
-
-$bg: black;
-$dark1: #ffe6e6;
-$dark2: #ff6565;
-$dark3: #ff2424;
-$dark4: #6b1818;
+@import './constants.scss';
 
 @font-face {
   font-family: 'Clip';
   src: url("../assets/fonts/Clip.ttf");
 }
-
-// body {
-//   background-color: $bg;
-// background-image: linear-gradient(335deg, black 23px, transparent 23px),
-//   linear-gradient(155deg, black 23px, transparent 23px),
-//   linear-gradient(335deg, black 23px, transparent 23px),
-//   linear-gradient(155deg, black 23px, transparent 23px);
-// background-size: 58px 58px;
-// background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
-// }
 
 .sign {
   display: flex;

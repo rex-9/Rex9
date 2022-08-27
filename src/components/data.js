@@ -3,8 +3,9 @@ import Mathgic from '../assets/projects/Mathgic.png';
 import Leaderboard from '../assets/projects/Leaderboard.png';
 import ToDoList from '../assets/projects/ToDoList.png';
 import Landsbetween from '../assets/projects/Landsbetween-home.png';
-import AwesomeBooks from '../assets/projects/AwesomeBooks.png';
+// import AwesomeBooks from '../assets/projects/AwesomeBooks.png';
 // import Bookstore from '../assets/projects/Bookstore.png';
+import Xrocket from '../assets/projects/Xrockets.png';
 
 import github from '../assets/design/github.svg';
 import linkedin from '../assets/design/linkedin.svg';
@@ -31,14 +32,6 @@ const projects = [{
   source: 'https://github.com/rex-9/Pokeverse',
 }, {
   id: 3,
-  image: Leaderboard,
-  name: 'Leaderboard',
-  techs: ['JavaScript', 'Webpack'],
-  brief: 'Board of Talents',
-  live: 'https://rex-9.github.io/Leaderboard',
-  source: 'https://github.com/rex-9/Leaderboard',
-}, {
-  id: 4,
   image: ToDoList,
   name: 'To-Do List',
   techs: ['JavaScript', 'Webpack'],
@@ -46,22 +39,39 @@ const projects = [{
   live: 'https://rex-9.github.io/ToDoList',
   source: 'https://github.com/rex-9/ToDoList',
 }, {
+  id: 4,
+  image: Xrocket,
+  name: 'Xrocket',
+  techs: ['JavaScript', 'React', 'Redux'],
+  brief: 'SpaceX Rockets and Missions',
+  live: 'https://xrocket.netlify.app',
+  source: 'https://github.com/rex-9/RocketX',
+}, {
   id: 5,
+  image: Leaderboard,
+  name: 'Leaderboard',
+  techs: ['JavaScript', 'Webpack'],
+  brief: 'Board of Talents',
+  live: 'https://rex-9.github.io/Leaderboard',
+  source: 'https://github.com/rex-9/Leaderboard',
+}, {
+  id: 6,
   image: Landsbetween,
   name: 'Landsbetween',
   techs: ['JavaScript'],
   brief: 'Call of the Landsbetween',
   live: 'https://rex-9.github.io/Landsbetween',
   source: 'https://github.com/rex-9/Landsbetween',
-}, {
-  id: 6,
-  image: AwesomeBooks,
-  name: 'Awesomebooks',
-  techs: ['JavaScript'],
-  brief: 'Books of Awesomeness',
-  live: 'https://rex-9.github.io/AwesomeBooks/',
-  source: 'https://github.com/rex-9/AwesomeBooks',
 },
+//  {
+//   id: 6,
+//   image: AwesomeBooks,
+//   name: 'Awesomebooks',
+//   techs: ['JavaScript'],
+//   brief: 'Books of Awesomeness',
+//   live: 'https://rex-9.github.io/AwesomeBooks/',
+//   source: 'https://github.com/rex-9/AwesomeBooks',
+// },
 // , {
 //   id: 7,
 //   image: Bookstore,

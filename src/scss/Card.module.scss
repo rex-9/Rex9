@@ -20,19 +20,19 @@
 .card img {
   border-radius: 25px 25px 0 0;
   width: 40vw;
-  height: 400px;
+  height: 300px;
   object-fit: cover;
 }
 
 @media (max-width: 1000px) {
   .card img {
-    width: 80vw;
-    height: 400px;
+    width: 60vw;
+    height: 300px;
     object-fit: cover;
   }
 
   .card {
-    height: 470px;
+    height: 370px;
   }
 }
 

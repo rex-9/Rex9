@@ -4,7 +4,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   padding: 0 50px 30px 50px;
+  height: 80vh;
+}
+
+@media (max-width: 1377px) {
+  .contact {
+    height: auto;
+  }
 }
 
 .contactText {
@@ -84,6 +92,7 @@ textarea::-webkit-input-placeholder {
 .resume {
   position: relative;
   display: inline-block;
+  overflow: hidden;
   margin-top: 80px;
   padding: 10px 20px;
 }

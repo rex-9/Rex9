@@ -16,6 +16,13 @@
     0 0.5rem 3rem $red3;
 }
 
+@media (max-width: 600px) {
+  .phrase {
+    height: auto;
+    margin-bottom: 40px;
+  }
+}
+
 .downArrow {
   display: flex;
   justify-content: center;

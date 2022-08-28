@@ -1,18 +1,18 @@
-import Pokeverse from '../assets/projects/Pokeverse.png';
-import Mathgic from '../assets/projects/Mathgic.png';
-import Leaderboard from '../assets/projects/Leaderboard.png';
-import ToDoList from '../assets/projects/ToDoList.png';
-import Landsbetween from '../assets/projects/Landsbetween-home.png';
-// import AwesomeBooks from '../assets/projects/AwesomeBooks.png';
-// import Bookstore from '../assets/projects/Bookstore.png';
-import Xrocket from '../assets/projects/Xrockets.png';
+import Pokeverse from './assets/projects/Pokeverse.png';
+import Mathgic from './assets/projects/Mathgic.png';
+import Leaderboard from './assets/projects/Leaderboard.png';
+import ToDoList from './assets/projects/ToDoList.png';
+import Landsbetween from './assets/projects/Landsbetween-home.png';
+// import AwesomeBooks from './assets/projects/AwesomeBooks.png';
+// import Bookstore from './assets/projects/Bookstore.png';
+import Xrocket from './assets/projects/Xrockets.png';
 
-import github from '../assets/design/github.svg';
-import linkedin from '../assets/design/linkedin.svg';
-import medium from '../assets/design/medium.svg';
-import angellist from '../assets/design/angellist.svg';
-import twitter from '../assets/design/twitter.svg';
-import facebook from '../assets/design/facebook.svg';
+import github from './assets/design/github.svg';
+import linkedin from './assets/design/linkedin.svg';
+import medium from './assets/design/medium.svg';
+import angellist from './assets/design/angellist.svg';
+import twitter from './assets/design/twitter.svg';
+import facebook from './assets/design/facebook.svg';
 
 const projects = [{
   id: 1,

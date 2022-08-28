@@ -1,6 +1,6 @@
-@import './constants.scss';
+@import '../../constants.scss';
 
-.form {
+.contact {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -60,7 +60,7 @@ textarea::-webkit-input-placeholder {
   border-bottom: 1px solid $text;
   outline: none;
   background: transparent;
-  cursor: url("../assets/design/spot48.png"), auto !important;
+  cursor: url("../../assets/design/spot48.png"), auto !important;
 }
 
 .contactForm .userBox textarea {
@@ -74,7 +74,7 @@ textarea::-webkit-input-placeholder {
   border-bottom: 1px solid $text;
   outline: none;
   background: transparent;
-  cursor: url("../assets/design/spot48.png"), auto !important;
+  cursor: url("../../assets/design/spot48.png"), auto !important;
 }
 
 .resumeBox {

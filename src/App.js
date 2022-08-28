@@ -1,8 +1,9 @@
-import Rex9 from './components/Rex9';
-import Catchphrase from './components/Catchphrase';
-import Cards from './components/Cards';
-import Contact from './components/Contact';
-import Testimonials from './components/Testimonials';
+import Rex9 from './components/Rex9/Rex9';
+import Catchphrase from './components/Catchphrase/Catchphrase';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Testimonials from './components/Testimonials/Testimonials';
+import Nav from './components/Nav/Nav';
 // import Comet from './components/Comet';
 
 import './App.scss';
@@ -10,9 +11,10 @@ import './App.scss';
 const App = () => (
   <>
     {/* <Comet /> */}
+    <Nav />
     <Rex9 />
     <Catchphrase />
-    <Cards />
+    <Projects />
     <Testimonials />
     <Contact />
   </>

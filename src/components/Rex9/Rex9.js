@@ -1,13 +1,13 @@
-import style from '../scss/Rex9.module.scss';
+import style from './Rex9.module.scss';
 
 const Rex9 = () => (
   <>
-    <div className={style.sign}>
+    <section id="Greetings" className={style.sign}>
       <span className={style.fastFlicker}>r</span>
       e
       <span className={style.flicker}>x</span>
       9
-    </div>
+    </section>
   </>
 );
 

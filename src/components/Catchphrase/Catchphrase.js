@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
-import style from '../scss/Catchphrase.module.scss';
-import { profiles } from './data';
+import style from './Catchphrase.module.scss';
+import { profiles } from '../../data';
 
 const Catchphrase = () => (
   <>

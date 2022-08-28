@@ -3,15 +3,15 @@
 /* eslint-disable max-len */
 
 import { PropTypes } from 'prop-types';
-import style from '../scss/Card.module.scss';
+import style from './Project.module.scss';
 
-const Card = (props) => {
+const Project = (props) => {
   const {
     image, name, techs, brief, live, source,
   } = props.project;
   return (
     <>
-      <div className={style.card}>
+      <div className={style.project}>
         <img src={image} alt="" />
         <div className={style.content}>
           <div className={style.name}>{name}</div>
@@ -31,10 +31,10 @@ const Card = (props) => {
   );
 };
 
-Card.propTypes = {
+Project.propTypes = {
   project: PropTypes.shape({
     id: PropTypes.number.isRequired, image: PropTypes.string.isRequired, name: PropTypes.string.isRequired, techs: PropTypes.array.isRequired, brief: PropTypes.string.isRequired, live: PropTypes.string.isRequired, source: PropTypes.string.isRequired,
   }).isRequired,
 };
 
-export default Card;
+export default Project;

@@ -2,7 +2,6 @@
 
 .nav {
   background-color: $glass;
-  height: 70px;
 }
 
 .desktopNav {
@@ -17,16 +16,44 @@
 
 .mobileNav {
   display: flex;
-  justify-content: end;
   align-items: center;
-  height: 70px;
-  filter: drop-shadow(0 0 0.4rem $red1) drop-shadow(0 0 0.8rem $red2) drop-shadow(0 0 1.2rem $red3);
+}
+
+.mobileNav button {
+  background-color: transparent;
+  border: 0;
 }
 
 .mobileNav img {
   height: 50px;
   width: 50px;
   margin-right: 30px;
+  filter: drop-shadow(0 0 0.4rem $red1) drop-shadow(0 0 0.8rem $red2) drop-shadow(0 0 1.2rem $red3);
+}
+
+.cancel {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+}
+
+.menu {
+  font-family: 'Clip', serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 20px;
+  height: 200px;
+}
+
+.menu a:hover {
+  color: white;
+  text-shadow:
+    0 0 6px $red1,
+    0 0 12px $red2,
+    0 0 16px $red3,
+    0 0 20px $red4;
 }
 
 @media (max-width: 650px) {
@@ -61,4 +88,5 @@
 
 .inactive {
   color: white;
+  text-shadow: 0 0 6px black;
 }

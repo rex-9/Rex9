@@ -5,7 +5,7 @@ import cancel from '../../assets/design/cancel.png';
 
 const Nav = () => {
   const [active, setActive] = useState('#Greetings');
-  const [menuState, setMenu] = useState(true);
+  const [menuState, setMenu] = useState(false);
 
   const mobileNavClick = (section) => {
     setActive(section);

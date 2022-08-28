@@ -7,7 +7,7 @@ import style from './Project.module.scss';
 
 const Project = (props) => {
   const {
-    image, name, techs, brief, live, source,
+    image, name, techs, heading, live, source,
   } = props.project;
   return (
     <>
@@ -20,7 +20,7 @@ const Project = (props) => {
               techs.map((tech) => <div key={tech} className={style.tech}>{tech}</div>)
             }
           </div>
-          <div className={style.brief}>{brief}</div>
+          <div className={style.heading}>{heading}</div>
           <div className={style.buttons}>
             <a className={style.more} href={source}>Source</a>
             <a className={style.more} href={live}>Live</a>
@@ -33,7 +33,7 @@ const Project = (props) => {
 
 Project.propTypes = {
   project: PropTypes.shape({
-    id: PropTypes.number.isRequired, image: PropTypes.string.isRequired, name: PropTypes.string.isRequired, techs: PropTypes.array.isRequired, brief: PropTypes.string.isRequired, live: PropTypes.string.isRequired, source: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired, image: PropTypes.string.isRequired, name: PropTypes.string.isRequired, techs: PropTypes.array.isRequired, heading: PropTypes.string.isRequired, live: PropTypes.string.isRequired, source: PropTypes.string.isRequired,
   }).isRequired,
 };
 

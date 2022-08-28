@@ -116,13 +116,14 @@
 }
 
 @font-face {
-  font-family: 'JustSignature';
-  src: url("../../assets/fonts/JustSignature.ttf");
+  font-family: 'Storytime';
+  src: url("../../assets/fonts/Storytime.ttf");
 }
 
-.brief {
+.heading {
   padding: 5px;
-  font-family: 'JustSignature', serif;
+  font-family: 'Storytime', serif;
+  font-size: 20px;
 }
 
 .buttons {

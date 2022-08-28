@@ -68,7 +68,7 @@ textarea::-webkit-input-placeholder {
   border-bottom: 1px solid $text;
   outline: none;
   background: transparent;
-  cursor: url("../../assets/design/spot48.png"), auto !important;
+  cursor: $laser;
 }
 
 .contactForm .userBox textarea {
@@ -82,7 +82,7 @@ textarea::-webkit-input-placeholder {
   border-bottom: 1px solid $text;
   outline: none;
   background: transparent;
-  cursor: url("../../assets/design/spot48.png"), auto !important;
+  cursor: $laser;
 }
 
 .resumeBox {

@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  cursor: url("./assets/design/spot48.png") 15 15, auto !important;
+  cursor: $laser;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -15,12 +15,12 @@ body {
 }
 
 button {
-  cursor: url("./assets/design/spot48.png") 15 15, auto !important;
+  cursor: $laser;
 }
 
 a {
   text-decoration: none;
-  cursor: url("./assets/design/spot48.png") 15 15, auto !important;
+  cursor: $laser;
 }
 
 /* width */

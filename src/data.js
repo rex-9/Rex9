@@ -1,6 +1,7 @@
+import YummyValley from './assets/projects/YummyValley.png';
 import Pokeverse from './assets/projects/Pokeverse.png';
 import Mathgic from './assets/projects/Mathgic.png';
-import Leaderboard from './assets/projects/Leaderboard.png';
+// import Leaderboard from './assets/projects/Leaderboard.png';
 import ToDoList from './assets/projects/ToDoList.png';
 import Landsbetween from './assets/projects/Landsbetween-home.png';
 // import AwesomeBooks from './assets/projects/AwesomeBooks.png';
@@ -16,30 +17,14 @@ import facebook from './assets/design/facebook.svg';
 
 const projects = [{
   id: 1,
-  image: Mathgic,
-  name: 'Mathgic',
-  techs: ['JavaScript', 'React'],
-  heading: 'Mathgical Calculator',
-  live: 'https://Mathgic.netlify.app',
-  source: 'https://github.com/rex-9/Mathgic',
+  image: YummyValley,
+  name: 'Yummy Valley',
+  techs: ['JavaScript', 'React', 'Redux'],
+  heading: 'Userfriendly website for Homemade meals',
+  live: 'https://YummyValley.netlify.app',
+  source: 'https://github.com/rex-9/YummyValley',
 }, {
   id: 2,
-  image: Pokeverse,
-  name: 'Pokeverse',
-  techs: ['JavaScript', 'Webpack'],
-  heading: 'The Pokeverse of Cuteness',
-  live: 'https://rex-9.github.io/Pokeverse',
-  source: 'https://github.com/rex-9/Pokeverse',
-}, {
-  id: 3,
-  image: ToDoList,
-  name: 'To-Do List',
-  techs: ['JavaScript', 'Webpack'],
-  heading: 'List of Determination',
-  live: 'https://rex-9.github.io/ToDoList',
-  source: 'https://github.com/rex-9/ToDoList',
-}, {
-  id: 4,
   image: Xrocket,
   name: 'Xrocket',
   techs: ['JavaScript', 'React', 'Redux'],
@@ -47,15 +32,39 @@ const projects = [{
   live: 'https://xrocket.netlify.app',
   source: 'https://github.com/rex-9/RocketX',
 }, {
-  id: 5,
-  image: Leaderboard,
-  name: 'Leaderboard',
-  techs: ['JavaScript', 'Webpack'],
-  heading: 'Board of Talents',
-  live: 'https://rex-9.github.io/Leaderboard',
-  source: 'https://github.com/rex-9/Leaderboard',
+  id: 3,
+  image: Mathgic,
+  name: 'Mathgic',
+  techs: ['JavaScript', 'React'],
+  heading: 'Mathgical Calculator',
+  live: 'https://Mathgic.netlify.app',
+  source: 'https://github.com/rex-9/Mathgic',
 }, {
-  id: 6,
+  id: 4,
+  image: Pokeverse,
+  name: 'Pokeverse',
+  techs: ['JavaScript', 'Webpack'],
+  heading: 'The Pokeverse of Cuteness',
+  live: 'https://rex-9.github.io/Pokeverse',
+  source: 'https://github.com/rex-9/Pokeverse',
+}, {
+  id: 5,
+  image: ToDoList,
+  name: 'To-Do List',
+  techs: ['JavaScript', 'Webpack'],
+  heading: 'List of Determination',
+  live: 'https://rex-9.github.io/ToDoList',
+  source: 'https://github.com/rex-9/ToDoList',
+// }, {
+//   id: 6,
+//   image: Leaderboard,
+//   name: 'Leaderboard',
+//   techs: ['JavaScript', 'Webpack'],
+//   heading: 'Board of Talents',
+//   live: 'https://rex-9.github.io/Leaderboard',
+//   source: 'https://github.com/rex-9/Leaderboard',
+}, {
+  id: 7,
   image: Landsbetween,
   name: 'Landsbetween',
   techs: ['JavaScript'],
@@ -64,7 +73,7 @@ const projects = [{
   source: 'https://github.com/rex-9/Landsbetween',
 },
 //  {
-//   id: 6,
+//   id: 8,
 //   image: AwesomeBooks,
 //   name: 'Awesomebooks',
 //   techs: ['JavaScript'],
@@ -73,7 +82,7 @@ const projects = [{
 //   source: 'https://github.com/rex-9/AwesomeBooks',
 // },
 // , {
-//   id: 7,
+//   id: 9,
 //   image: Bookstore,
 //   name: 'Bookstore',
 //   techs: ['JavaScript', 'React', 'Redux'],

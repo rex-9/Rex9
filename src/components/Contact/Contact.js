@@ -28,7 +28,7 @@ const Contact = () => (
         </div>
         <div className={style.contactForm}>
           <h2>Keep in Touch</h2>
-          <form action="https://formspree.io/f/moqrrpoj" method="post" id="contact" name="contact">
+          <form action="https://formspree.io/f/moqrrpoj" method="post" id="contact" name="contact" target="_blank" rel="noopener noreferrer">
             <div className={style.userBox}>
               <input type="text" name="name" placeholder="Kindly enter your Full Name" required />
             </div>
@@ -51,7 +51,7 @@ const Contact = () => (
       <div className={style.divider} />
       <div className={style.profiles}>
         {
-          profiles.map((profile) => <a key={profile.platform} className={style.profile} href={profile.link}><img src={profile.logo} alt={profile.platform} /></a>)
+          profiles.map((profile) => <a key={profile.platform} className={style.profile} href={profile.link} target="_blank" rel="noopener noreferrer"><img src={profile.logo} alt={profile.platform} /></a>)
         }
       </div>
     </section>

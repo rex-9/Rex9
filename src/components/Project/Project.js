@@ -22,8 +22,8 @@ const Project = (props) => {
           </div>
           <div className={style.heading}>{heading}</div>
           <div className={style.buttons}>
-            <a className={style.more} href={source}>Source</a>
-            <a className={style.more} href={live}>Live</a>
+            <a className={style.more} href={source} target="_blank" rel="noopener noreferrer">Source</a>
+            <a className={style.more} href={live} target="_blank" rel="noopener noreferrer">Live</a>
           </div>
         </div>
       </div>

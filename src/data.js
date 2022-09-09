@@ -1,9 +1,10 @@
+import eduValley from './assets/projects/eduValley.png';
 import YummyValley from './assets/projects/YummyValley.png';
 import Pokeverse from './assets/projects/Pokeverse.png';
 import Mathgic from './assets/projects/Mathgic.png';
 // import Leaderboard from './assets/projects/Leaderboard.png';
 import ToDoList from './assets/projects/ToDoList.png';
-import Landsbetween from './assets/projects/Landsbetween-home.png';
+// import Landsbetween from './assets/projects/Landsbetween-home.png';
 // import AwesomeBooks from './assets/projects/AwesomeBooks.png';
 // import Bookstore from './assets/projects/Bookstore.png';
 import Xrocket from './assets/projects/Xrockets.png';
@@ -16,6 +17,14 @@ import twitter from './assets/design/twitter.svg';
 import facebook from './assets/design/facebook.svg';
 
 const projects = [{
+  id: 0,
+  image: eduValley,
+  name: 'eduValley',
+  techs: ['Flutter', 'Laravel', 'Full-Stack'],
+  heading: 'Online Learning Platform for Teachers and Students',
+  live: 'https://play.google.com/store/apps/details?id=com.eduValley.flutterValley',
+  source: 'https://github.com/rex-9/eduValley-flutter',
+}, {
   id: 1,
   image: YummyValley,
   name: 'Yummy Valley',
@@ -55,41 +64,40 @@ const projects = [{
   heading: 'List of Determination',
   live: 'https://rex-9.github.io/ToDoList',
   source: 'https://github.com/rex-9/ToDoList',
+  // }, {
+  //   id: 6,
+  //   image: Leaderboard,
+  //   name: 'Leaderboard',
+  //   techs: ['JavaScript', 'Webpack'],
+  //   heading: 'Board of Talents',
+  //   live: 'https://rex-9.github.io/Leaderboard',
+  //   source: 'https://github.com/rex-9/Leaderboard',
 // }, {
-//   id: 6,
-//   image: Leaderboard,
-//   name: 'Leaderboard',
-//   techs: ['JavaScript', 'Webpack'],
-//   heading: 'Board of Talents',
-//   live: 'https://rex-9.github.io/Leaderboard',
-//   source: 'https://github.com/rex-9/Leaderboard',
-}, {
-  id: 7,
-  image: Landsbetween,
-  name: 'Landsbetween',
-  techs: ['JavaScript'],
-  heading: 'Call of the Landsbetween',
-  live: 'https://rex-9.github.io/Landsbetween',
-  source: 'https://github.com/rex-9/Landsbetween',
+  //   id: 7,
+  //   image: Landsbetween,
+  //   name: 'Landsbetween',
+  //   techs: ['JavaScript'],
+  //   heading: 'Call of the Landsbetween',
+  //   live: 'https://rex-9.github.io/Landsbetween',
+  //   source: 'https://github.com/rex-9/Landsbetween',
+  // }, {
+  //   id: 8,
+  //   image: AwesomeBooks,
+  //   name: 'Awesomebooks',
+  //   techs: ['JavaScript'],
+  //   heading: 'Books of Awesomeness',
+  //   live: 'https://rex-9.github.io/AwesomeBooks/',
+  //   source: 'https://github.com/rex-9/AwesomeBooks',
+  // },
+  // , {
+  //   id: 9,
+  //   image: Bookstore,
+  //   name: 'Bookstore',
+  //   techs: ['JavaScript', 'React', 'Redux'],
+  //   heading: 'Store of the Wisdom',
+  //   live: 'https://rex9bookstore.netlify.app',
+  //   source: 'https://github.com/rex-9/Bookstore',
 },
-//  {
-//   id: 8,
-//   image: AwesomeBooks,
-//   name: 'Awesomebooks',
-//   techs: ['JavaScript'],
-//   heading: 'Books of Awesomeness',
-//   live: 'https://rex-9.github.io/AwesomeBooks/',
-//   source: 'https://github.com/rex-9/AwesomeBooks',
-// },
-// , {
-//   id: 9,
-//   image: Bookstore,
-//   name: 'Bookstore',
-//   techs: ['JavaScript', 'React', 'Redux'],
-//   heading: 'Store of the Wisdom',
-//   live: 'https://rex9bookstore.netlify.app',
-//   source: 'https://github.com/rex-9/Bookstore',
-// }
 ];
 
 const profiles = [{

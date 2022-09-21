@@ -4,10 +4,10 @@ import Pokeverse from './assets/projects/Pokeverse.png';
 import Mathgic from './assets/projects/Mathgic.png';
 // import Leaderboard from './assets/projects/Leaderboard.png';
 import ToDoList from './assets/projects/ToDoList.png';
-// import Landsbetween from './assets/projects/Landsbetween-home.png';
+// import Landsbetween from './assets/projects/Landsbetween.png';
 // import AwesomeBooks from './assets/projects/AwesomeBooks.png';
 // import Bookstore from './assets/projects/Bookstore.png';
-import Xrocket from './assets/projects/Xrockets.png';
+import Xrocket from './assets/projects/XRocket.png';
 
 import github from './assets/design/github.svg';
 import linkedin from './assets/design/linkedin.svg';

@@ -1,9 +1,11 @@
+import AppleUI from './assets/projects/AppleUI.png';
+import RexNoBasket from './assets/projects/RexNoBasket.png';
 import eduValley from './assets/projects/eduValley.png';
 import YummyValley from './assets/projects/YummyValley.png';
 import Pokeverse from './assets/projects/Pokeverse.png';
-import Mathgic from './assets/projects/Mathgic.png';
+// import Mathgic from './assets/projects/Mathgic.png';
 // import Leaderboard from './assets/projects/Leaderboard.png';
-import ToDoList from './assets/projects/ToDoList.png';
+// import ToDoList from './assets/projects/ToDoList.png';
 // import Landsbetween from './assets/projects/Landsbetween.png';
 // import AwesomeBooks from './assets/projects/AwesomeBooks.png';
 // import Bookstore from './assets/projects/Bookstore.png';
@@ -26,6 +28,22 @@ const projects = [{
   source: 'https://github.com/rex-9/eduValley-flutter',
 }, {
   id: 1,
+  image: AppleUI,
+  name: 'AppleTV Home Page',
+  techs: ['JavaScript', 'React'],
+  heading: 'Displays My UI skills',
+  live: 'https://apple-ui-next.vercel.app/',
+  source: 'https://github.com/rex-9/AppleUI',
+}, {
+  id: 2,
+  image: RexNoBasket,
+  name: 'Rex No Basket',
+  techs: ['JavaScript', 'React', 'Redux'],
+  heading: 'Displays My State Management Skills',
+  live: 'https://rex-no-basket.vercel.app/',
+  source: 'https://github.com/rex-9/RexNoBasket',
+}, {
+  id: 3,
   image: YummyValley,
   name: 'Yummy Valley',
   techs: ['JavaScript', 'React', 'Redux'],
@@ -33,7 +51,7 @@ const projects = [{
   live: 'https://YummyValley.netlify.app',
   source: 'https://github.com/rex-9/YummyValley',
 }, {
-  id: 2,
+  id: 4,
   image: Xrocket,
   name: 'Xrocket',
   techs: ['JavaScript', 'React', 'Redux'],
@@ -41,31 +59,31 @@ const projects = [{
   live: 'https://xrocket.netlify.app',
   source: 'https://github.com/rex-9/RocketX',
 }, {
-  id: 3,
-  image: Mathgic,
-  name: 'Mathgic',
-  techs: ['JavaScript', 'React'],
-  heading: 'Mathgical Calculator',
-  live: 'https://Mathgic.netlify.app',
-  source: 'https://github.com/rex-9/Mathgic',
-}, {
-  id: 4,
+//   id: 5,
+//   image: Mathgic,
+//   name: 'Mathgic',
+//   techs: ['JavaScript', 'React'],
+//   heading: 'Mathgical Calculator',
+//   live: 'https://Mathgic.netlify.app',
+//   source: 'https://github.com/rex-9/Mathgic',
+// }, {
+  id: 6,
   image: Pokeverse,
   name: 'Pokeverse',
   techs: ['JavaScript', 'Webpack'],
   heading: 'The Pokeverse of Cuteness',
   live: 'https://rex-9.github.io/Pokeverse',
   source: 'https://github.com/rex-9/Pokeverse',
-}, {
-  id: 5,
-  image: ToDoList,
-  name: 'To-Do List',
-  techs: ['JavaScript', 'Webpack'],
-  heading: 'List of Determination',
-  live: 'https://rex-9.github.io/ToDoList',
-  source: 'https://github.com/rex-9/ToDoList',
+// }, {
+//   id: 7,
+//   image: ToDoList,
+//   name: 'To-Do List',
+//   techs: ['JavaScript', 'Webpack'],
+//   heading: 'List of Determination',
+//   live: 'https://rex-9.github.io/ToDoList',
+//   source: 'https://github.com/rex-9/ToDoList',
   // }, {
-  //   id: 6,
+  //   id: 8,
   //   image: Leaderboard,
   //   name: 'Leaderboard',
   //   techs: ['JavaScript', 'Webpack'],
@@ -73,7 +91,7 @@ const projects = [{
   //   live: 'https://rex-9.github.io/Leaderboard',
   //   source: 'https://github.com/rex-9/Leaderboard',
 // }, {
-  //   id: 7,
+  //   id: 9,
   //   image: Landsbetween,
   //   name: 'Landsbetween',
   //   techs: ['JavaScript'],
@@ -81,7 +99,7 @@ const projects = [{
   //   live: 'https://rex-9.github.io/Landsbetween',
   //   source: 'https://github.com/rex-9/Landsbetween',
   // }, {
-  //   id: 8,
+  //   id: 10,
   //   image: AwesomeBooks,
   //   name: 'Awesomebooks',
   //   techs: ['JavaScript'],
@@ -90,7 +108,7 @@ const projects = [{
   //   source: 'https://github.com/rex-9/AwesomeBooks',
   // },
   // , {
-  //   id: 9,
+  //   id: 11,
   //   image: Bookstore,
   //   name: 'Bookstore',
   //   techs: ['JavaScript', 'React', 'Redux'],

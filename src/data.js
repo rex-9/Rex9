@@ -1,106 +1,112 @@
-import AppleUI from './assets/projects/AppleUI.png';
-import RexNoBasket from './assets/projects/RexNoBasket.png';
-import eduValley from './assets/projects/eduValley.png';
-import YummyValley from './assets/projects/YummyValley.png';
-import Pokeverse from './assets/projects/Pokeverse.png';
-// import Mathgic from './assets/projects/Mathgic.png';
-// import Leaderboard from './assets/projects/Leaderboard.png';
-// import ToDoList from './assets/projects/ToDoList.png';
-// import Landsbetween from './assets/projects/Landsbetween.png';
-// import AwesomeBooks from './assets/projects/AwesomeBooks.png';
-// import Bookstore from './assets/projects/Bookstore.png';
-import Xrocket from './assets/projects/XRocket.png';
-
-import github from './assets/design/github.svg';
-import linkedin from './assets/design/linkedin.svg';
-import medium from './assets/design/medium.svg';
-import angellist from './assets/design/angellist.svg';
-import twitter from './assets/design/twitter.svg';
-import facebook from './assets/design/facebook.svg';
+import { images, icons } from './assets/assets.js';
 
 const projects = [{
   id: 0,
-  image: eduValley,
+  image: images.eduValley,
   name: 'eduValley',
-  techs: ['Flutter', 'Laravel', 'Full-Stack'],
-  heading: 'Online Learning Platform for Teachers and Students',
+  techs: [ 'Full-Stack', 'Flutter', 'Laravel'],
+  heading: 'Online Learning Platform',
   live: 'https://play.google.com/store/apps/details?id=com.eduValley.flutterValley',
   source: 'https://github.com/rex-9/eduValley-flutter',
 }, {
-  id: 1,
-  image: AppleUI,
+  id: 2,
+  image: images.ChibiURL,
+  name: 'Chibi URL',
+  techs: ['Full-Stack', 'Ruby on Rails', 'TailwindCSS'],
+  heading: 'URL shorten service',
+  live: 'https://www.loom.com/share/13be355568724ca6b5d8948f1ad2b7e9',
+  source: 'https://github.com/rex-9/ChibiURL',
+}, {
+  id: 3,
+  image: images.WebArena,
+  name: 'Web Arena',
+  techs: ['Full-Stack', 'Ruby on Rails', 'TailwindCSS', 'Rspec', 'Capybara'],
+  heading: 'Mini Search Engine',
+  live: 'https://web-arena.onrender.com',
+  source: 'https://github.com/rex-9/WebArena',
+}, {
+  id: 4,
+  image: images.CarValley,
+  name: 'Car Valley',
+  techs: ['Full-Stack', 'React', 'Redux', 'Ruby on Rails', 'Rswag'],
+  heading: 'Homemade Meals',
+  live: '',
+  source: 'https://github.com/ChrispaixK/car-valley-front-end',
+}, {
+  id: 5,
+  image: images.AppleUI,
   name: 'AppleTV Home Page',
-  techs: ['JavaScript', 'React'],
-  heading: 'Displays My UI skills',
+  techs: ['Frontend', 'JavaScript', 'React'],
+  heading: 'My UI skills',
   live: 'https://apple-ui-next.vercel.app/',
   source: 'https://github.com/rex-9/AppleUI',
 }, {
-  id: 2,
-  image: RexNoBasket,
+  id: 6,
+  image: images.RexNoBasket,
   name: 'Rex No Basket',
-  techs: ['JavaScript', 'React', 'Redux'],
-  heading: 'Displays My State Management Skills',
+  techs: ['Frontend', 'JavaScript', 'React', 'Redux'],
+  heading: 'My State Management Skills',
   live: 'https://rex-no-basket.vercel.app/',
   source: 'https://github.com/rex-9/RexNoBasket',
 }, {
-  id: 3,
-  image: YummyValley,
+  id: 7,
+  image: images.YummyValley,
   name: 'Yummy Valley',
-  techs: ['JavaScript', 'React', 'Redux'],
-  heading: 'Userfriendly website for Homemade meals',
+  techs: ['Frontend', 'JavaScript', 'React', 'Redux'],
+  heading: 'Homemade Meals',
   live: 'https://YummyValley.netlify.app',
   source: 'https://github.com/rex-9/YummyValley',
 }, {
-  id: 4,
-  image: Xrocket,
+  id: 8,
+  image: images.Xrocket,
   name: 'Xrocket',
-  techs: ['JavaScript', 'React', 'Redux'],
-  heading: 'Rockets and Missions from SpaceX api',
+  techs: ['Frontend', 'JavaScript', 'React', 'Redux'],
+  heading: 'Missions from SpaceX api',
   live: 'https://xrocket.netlify.app',
   source: 'https://github.com/rex-9/RocketX',
 }, {
-//   id: 5,
-//   image: Mathgic,
+//   id: 9,
+//   image: images.Mathgic,
 //   name: 'Mathgic',
 //   techs: ['JavaScript', 'React'],
 //   heading: 'Mathgical Calculator',
 //   live: 'https://Mathgic.netlify.app',
 //   source: 'https://github.com/rex-9/Mathgic',
 // }, {
-  id: 6,
-  image: Pokeverse,
+  id: 10,
+  image: images.Pokeverse,
   name: 'Pokeverse',
   techs: ['JavaScript', 'Webpack'],
   heading: 'The Pokeverse of Cuteness',
   live: 'https://rex-9.github.io/Pokeverse',
   source: 'https://github.com/rex-9/Pokeverse',
 // }, {
-//   id: 7,
-//   image: ToDoList,
+//   id: 11,
+//   image: images.ToDoList,
 //   name: 'To-Do List',
 //   techs: ['JavaScript', 'Webpack'],
 //   heading: 'List of Determination',
 //   live: 'https://rex-9.github.io/ToDoList',
 //   source: 'https://github.com/rex-9/ToDoList',
   // }, {
-  //   id: 8,
-  //   image: Leaderboard,
+  //   id: 12,
+  //   image: images.Leaderboard,
   //   name: 'Leaderboard',
   //   techs: ['JavaScript', 'Webpack'],
   //   heading: 'Board of Talents',
   //   live: 'https://rex-9.github.io/Leaderboard',
   //   source: 'https://github.com/rex-9/Leaderboard',
-// }, {
-  //   id: 9,
-  //   image: Landsbetween,
-  //   name: 'Landsbetween',
-  //   techs: ['JavaScript'],
-  //   heading: 'Call of the Landsbetween',
-  //   live: 'https://rex-9.github.io/Landsbetween',
-  //   source: 'https://github.com/rex-9/Landsbetween',
+}, {
+    id: 13,
+    image: images.Landsbetween,
+    name: 'Landsbetween',
+    techs: ['JavaScript'],
+    heading: 'Call of the Landsbetween',
+    live: 'https://rex-9.github.io/Landsbetween',
+    source: 'https://github.com/rex-9/Landsbetween',
   // }, {
-  //   id: 10,
-  //   image: AwesomeBooks,
+  //   id: 14,
+  //   image: images.AwesomeBooks,
   //   name: 'Awesomebooks',
   //   techs: ['JavaScript'],
   //   heading: 'Books of Awesomeness',
@@ -108,8 +114,8 @@ const projects = [{
   //   source: 'https://github.com/rex-9/AwesomeBooks',
   // },
   // , {
-  //   id: 11,
-  //   image: Bookstore,
+  //   id: 15,
+  //   image: images.Bookstore,
   //   name: 'Bookstore',
   //   techs: ['JavaScript', 'React', 'Redux'],
   //   heading: 'Store of the Wisdom',
@@ -122,32 +128,32 @@ const profiles = [{
   platform: 'GitHub',
   username: 'rex-9',
   link: 'https://github.com/rex-9',
-  logo: github,
+  logo: icons.github,
 }, {
   platform: 'Linkedin',
   username: 'rex9',
   link: 'https://linkedin.com/in/rex9',
-  logo: linkedin,
+  logo: icons.linkedin,
 }, {
   platform: 'Angellist',
   username: 'rex9',
   link: 'https://angel.co/u/rex9',
-  logo: angellist,
+  logo: icons.angellist,
 }, {
   platform: 'Medium',
   username: 'rex9',
   link: 'https://medium.com/@rex9',
-  logo: medium,
+  logo: icons.medium,
 }, {
   platform: 'Twitter',
   username: 'htetnaing0814',
   link: 'https://twitter.com/htetnaing0814',
-  logo: twitter,
+  logo: icons.twitter,
 }, {
   platform: 'Facebook',
   username: 'htetnaing0814',
   link: 'https://facebook.com/htetnaing0814',
-  logo: facebook,
+  logo: icons.facebook,
 }];
 
 const testimonials = [{

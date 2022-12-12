@@ -10,28 +10,6 @@ const Project = (props) => {
     image, name, techs, heading, live, source,
   } = props.project;
 
-  const breakTheLine = (string) => {
-    const arr = string.split(' ');
-    const half = arr.length / 2;
-    let firstHalfNo = '';
-    if (half >= 2.5) {
-      if (!Number.isInteger(half)) {
-        firstHalfNo = half - 0.5;
-      } else {
-        firstHalfNo = half;
-      }
-    }
-    const firstHalf = arr.slice(0, firstHalfNo).join(' ');
-    const secondHalf = arr.slice(firstHalfNo, arr.length).join(' ');
-    return (
-      <>
-        <div>{firstHalf}</div>
-        <br />
-        <div>{secondHalf}</div>
-      </>
-    );
-  };
-
   return (
     <>
       <div className={style.project}>
@@ -43,7 +21,7 @@ const Project = (props) => {
               techs.map((tech) => <div key={tech} className={style.tech}>{tech}</div>)
             }
           </div>
-          <div className={style.heading}>{breakTheLine(heading)}</div>
+          <div className={style.heading}>{heading}</div>
           <div className={style.buttons}>
             <a className={style.more} href={source} target="_blank" rel="noopener noreferrer">Source</a>
             <a className={style.more} href={live} target="_blank" rel="noopener noreferrer">Live</a>

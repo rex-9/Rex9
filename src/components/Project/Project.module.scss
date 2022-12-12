@@ -20,7 +20,7 @@
 .project img {
   border-radius: 25px 25px 0 0;
   width: 40vw;
-  height: 300px;
+  height: 330px;
   object-fit: cover;
 }
 
@@ -68,7 +68,7 @@
   position: relative;
   z-index: -1;
   border-radius: 0 0 25px 25px;
-  transform: translateY(-170px);
+  transform: translateY(-140px);
   transition: transform 1.5s;
   background: $glass;
   box-shadow: 0 4px 30px $red4;
@@ -114,6 +114,12 @@
   padding: 5px;
   border: 1px solid $red3;
   border-radius: 5px;
+  font-weight: bold;
+}
+
+.tech:hover {
+  background-color: $red3;
+  color: #fff;
 }
 
 @font-face {
@@ -150,7 +156,6 @@
   overflow: hidden;
   transition: 0.5s;
   letter-spacing: 4px;
-  cursor: $laser;
 }
 
 .more:hover {

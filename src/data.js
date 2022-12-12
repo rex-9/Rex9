@@ -96,14 +96,14 @@ const projects = [{
   //   heading: 'Board of Talents',
   //   live: 'https://rex-9.github.io/Leaderboard',
   //   source: 'https://github.com/rex-9/Leaderboard',
-}, {
-    id: 13,
-    image: images.Landsbetween,
-    name: 'Landsbetween',
-    techs: ['JavaScript'],
-    heading: 'Call of the Landsbetween',
-    live: 'https://rex-9.github.io/Landsbetween',
-    source: 'https://github.com/rex-9/Landsbetween',
+// }, {
+//     id: 13,
+//     image: images.Landsbetween,
+//     name: 'Landsbetween',
+//     techs: ['JavaScript'],
+//     heading: 'Call of the Landsbetween',
+//     live: 'https://rex-9.github.io/Landsbetween',
+//     source: 'https://github.com/rex-9/Landsbetween',
   // }, {
   //   id: 14,
   //   image: images.AwesomeBooks,

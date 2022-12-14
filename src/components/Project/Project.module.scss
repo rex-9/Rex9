@@ -140,18 +140,13 @@
     0 0.5rem 3rem $red3;
 }
 
-@font-face {
-  font-family: 'Storytime';
-  src: url("../../assets/fonts/Storytime.ttf");
-}
-
 .heading {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 5px;
-  font-family: 'Storytime', serif;
-  font-size: 22px;
+  font-family: 'Clip', serif;
+  font-size: 20px;
   line-height: 15px;
 }
 

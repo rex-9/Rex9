@@ -65,14 +65,14 @@ const projects = [{
   live: 'https://xrocket.netlify.app',
   source: 'https://github.com/rex-9/RocketX',
 }, {
-//   id: 9,
-//   image: images.Mathgic,
-//   name: 'Mathgic',
-//   techs: ['JavaScript', 'React'],
-//   heading: 'Mathgical Calculator',
-//   live: 'https://Mathgic.netlify.app',
-//   source: 'https://github.com/rex-9/Mathgic',
-// }, {
+  //   id: 9,
+  //   image: images.Mathgic,
+  //   name: 'Mathgic',
+  //   techs: ['JavaScript', 'React'],
+  //   heading: 'Mathgical Calculator',
+  //   live: 'https://Mathgic.netlify.app',
+  //   source: 'https://github.com/rex-9/Mathgic',
+  // }, {
   id: 10,
   image: images.Pokeverse,
   name: 'Pokeverse',
@@ -80,14 +80,14 @@ const projects = [{
   heading: 'The Pokeverse of Cuteness',
   live: 'https://rex-9.github.io/Pokeverse',
   source: 'https://github.com/rex-9/Pokeverse',
-// }, {
-//   id: 11,
-//   image: images.ToDoList,
-//   name: 'To-Do List',
-//   techs: ['JavaScript', 'Webpack'],
-//   heading: 'List of Determination',
-//   live: 'https://rex-9.github.io/ToDoList',
-//   source: 'https://github.com/rex-9/ToDoList',
+  // }, {
+  //   id: 11,
+  //   image: images.ToDoList,
+  //   name: 'To-Do List',
+  //   techs: ['JavaScript', 'Webpack'],
+  //   heading: 'List of Determination',
+  //   live: 'https://rex-9.github.io/ToDoList',
+  //   source: 'https://github.com/rex-9/ToDoList',
   // }, {
   //   id: 12,
   //   image: images.Leaderboard,
@@ -96,14 +96,14 @@ const projects = [{
   //   heading: 'Board of Talents',
   //   live: 'https://rex-9.github.io/Leaderboard',
   //   source: 'https://github.com/rex-9/Leaderboard',
-// }, {
-//     id: 13,
-//     image: images.Landsbetween,
-//     name: 'Landsbetween',
-//     techs: ['JavaScript'],
-//     heading: 'Call of the Landsbetween',
-//     live: 'https://rex-9.github.io/Landsbetween',
-//     source: 'https://github.com/rex-9/Landsbetween',
+  // }, {
+  //     id: 13,
+  //     image: images.Landsbetween,
+  //     name: 'Landsbetween',
+  //     techs: ['JavaScript'],
+  //     heading: 'Call of the Landsbetween',
+  //     live: 'https://rex-9.github.io/Landsbetween',
+  //     source: 'https://github.com/rex-9/Landsbetween',
   // }, {
   //   id: 14,
   //   image: images.AwesomeBooks,
@@ -157,9 +157,25 @@ const profiles = [{
 }];
 
 const skills = {
-  languages: ['JavaScript', 'Ruby', 'PHP', 'Dart', 'Python'],
-  frontend: ['ReactJS', 'ReduxJS', 'Flutter', 'Livewire', 'AlpineJS', 'TailwindCSS'],
-  fullstack: ['Ruby on Rails', 'Laravel'],
+  languages: [
+    { name: 'JavaScript', url: 'https://www.javascript.com' },
+    { name: 'Ruby', url: 'https://www.ruby-lang.org/en/' },
+    { name: 'PHP', url: 'https://www.php.net' },
+    { name: 'Dart', url: 'https://dart.dev' },
+    { name: 'Python', url: 'https://www.python.org' }
+  ],
+  frontend: [
+    { name: 'ReactJS', url: 'https://reactjs.org' },
+    { name: 'ReduxJS', url: 'https://redux.js.org' },
+    { name: 'Flutter', url: 'https://www.flutter.dev' },
+    { name: 'Livewire', url: 'https://laravel-livewire.com' },
+    { name: 'AlpineJS', url: 'https://alpinejs.dev' },
+    { name: 'TailwindCSS', url: 'https://tailwindcss.com' },
+  ],
+  fullstack: [
+    { name: 'Ruby on Rails', url: 'https://rubyonrails.org' },
+    { name: 'Laravel', url: 'https://laravel.com' }
+  ],
 };
 
 const testimonials = [{

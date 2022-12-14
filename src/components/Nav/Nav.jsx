@@ -17,6 +17,7 @@ const Nav = () => {
       <section className={style.nav} style={menuState === false ? { height: '70px' } : { height: 'auto' }}>
         <nav className={style.desktopNav}>
           <a href="#Greetings" onClick={() => setActive('#Greetings')} className={active === '#Greetings' ? style.active : style.inactive}>Greetings</a>
+          <a href="#Skills" onClick={() => setActive('#Skills')} className={active === '#Skills' ? style.active : style.inactive}>Skills</a>
           <a href="#Projects" onClick={() => setActive('#Projects')} className={active === '#Projects' ? style.active : style.inactive}>Projects</a>
           <a href="#Testimonials" onClick={() => setActive('#Testimonials')} className={active === '#Testimonials' ? style.active : style.inactive}>Testimonials</a>
           <a href="#Contact" onClick={() => setActive('#Contact')} className={active === '#Contact' ? style.active : style.inactive}>Contact</a>

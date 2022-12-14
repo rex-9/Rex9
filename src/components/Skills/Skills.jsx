@@ -3,7 +3,7 @@ import style from './Skills.module.scss';
 
 const Skills = () => {
   return (
-    <section className={style.container}>
+    <section id="Skills" className={style.container}>
       <div>
         <h1>Skills</h1>
         <div className={style.box}>
@@ -11,7 +11,7 @@ const Skills = () => {
             <h4>Languages</h4>
             <div className={style.skills}>
               {
-                skills.languages.map(skill => <p className={style.skill}>{skill}</p>)
+                skills.languages.map(language => <a href={language.url} target="_blank" className={style.skill}>{language.name}</a>)
               }
             </div>
           </article>
@@ -19,7 +19,7 @@ const Skills = () => {
             <h4>Frontend</h4>
             <div className={style.skills}>
               {
-                skills.frontend.map(skill => <p className={style.skill}>{skill}</p>)
+                skills.frontend.map(frontend => <a href={frontend.url} target="_blank" className={style.skill}>{frontend.name}</a>)
               }
             </div>
           </article>
@@ -27,7 +27,7 @@ const Skills = () => {
             <h4>Full-Stack</h4>
             <div className={style.skills}>
               {
-                skills.fullstack.map(skill => <p className={style.skill}>{skill}</p>)
+                skills.fullstack.map(fullstack => <a href={fullstack.url} target="_blank" className={style.skill}>{fullstack.name}</a>)
               }
             </div>
           </article>

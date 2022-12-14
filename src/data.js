@@ -156,6 +156,12 @@ const profiles = [{
   logo: icons.facebook,
 }];
 
+const skills = {
+  languages: ['JavaScript', 'Ruby', 'PHP', 'Dart', 'Python'],
+  frontend: ['ReactJS', 'ReduxJS', 'Flutter', 'Livewire', 'AlpineJS', 'TailwindCSS'],
+  fullstack: ['Ruby on Rails', 'Laravel'],
+}
+
 const testimonials = [{
   link: 'https://www.linkedin.com/in/alan-luqman/',
   name: 'Alan Luqman',
@@ -174,4 +180,4 @@ const testimonials = [{
   recommendation: 'Htet Naing is a very hard working and a brilliant coder. His ability to quickly analyze and solve data structures and algorithms are amazing. He has good knowledge on HTML, JavaScript, React and Redux. I have learned a lot while collaborating with him @ Microverse.',
 }];
 
-export { projects, profiles, testimonials };
+export { projects, profiles, skills, testimonials };

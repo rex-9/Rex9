@@ -127,11 +127,17 @@
   border: 1px solid $red3;
   border-radius: 5px;
   font-weight: bold;
+  font-family: 'Clip', serif;
 }
 
 .tech:hover {
-  background-color: $red3;
-  color: #fff;
+  text-shadow:
+    0 0 0.6rem $red1,
+    0 0 1.5rem $red2,
+    -0.2rem 0.1rem 1rem $red2,
+    0.2rem 0.1rem 1rem $red2,
+    0 -0.5rem 2rem $red3,
+    0 0.5rem 3rem $red3;
 }
 
 @font-face {

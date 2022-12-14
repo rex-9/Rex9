@@ -7,7 +7,7 @@
   color: white;
   font-family: 'Clip', serif;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   text-shadow:
     0 0 0.6rem $red1,
     0 0 1.5rem $red2,
@@ -31,6 +31,10 @@
   border-radius: 25px;
   margin: 0 10px;
   padding: 0 20px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 30px $red4;
 }
 
 .skills {

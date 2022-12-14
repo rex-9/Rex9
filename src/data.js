@@ -1,10 +1,10 @@
-import { images, icons } from './assets/assets.js';
+import { images, icons } from './assets/assets';
 
 const projects = [{
   id: 0,
   image: images.eduValley,
   name: 'eduValley',
-  techs: [ 'Full-Stack', 'Flutter', 'Laravel'],
+  techs: ['Full-Stack', 'Flutter', 'Laravel'],
   heading: 'Online Learning Platform',
   live: 'https://play.google.com/store/apps/details?id=com.eduValley.flutterValley',
   source: 'https://github.com/rex-9/eduValley-flutter',
@@ -160,7 +160,7 @@ const skills = {
   languages: ['JavaScript', 'Ruby', 'PHP', 'Dart', 'Python'],
   frontend: ['ReactJS', 'ReduxJS', 'Flutter', 'Livewire', 'AlpineJS', 'TailwindCSS'],
   fullstack: ['Ruby on Rails', 'Laravel'],
-}
+};
 
 const testimonials = [{
   link: 'https://www.linkedin.com/in/alan-luqman/',
@@ -180,4 +180,6 @@ const testimonials = [{
   recommendation: 'Htet Naing is a very hard working and a brilliant coder. His ability to quickly analyze and solve data structures and algorithms are amazing. He has good knowledge on HTML, JavaScript, React and Redux. I have learned a lot while collaborating with him @ Microverse.',
 }];
 
-export { projects, profiles, skills, testimonials };
+export {
+  projects, profiles, skills, testimonials,
+};

@@ -7,7 +7,7 @@ import ChibiURL from './projects/ChibiURL.png';
 import WebArena from './projects/WebArena.png';
 import Pokeverse from './projects/Pokeverse.png';
 import Mathgic from './projects/Mathgic.png';
-import Leaderboard from './projects/Leaderboard.png';
+// import Leaderboard from './projects/Leaderboard.png';
 import ToDoList from './projects/ToDoList.png';
 import Landsbetween from './projects/Landsbetween.png';
 import AwesomeBooks from './projects/AwesomeBooks.png';
@@ -31,7 +31,7 @@ export const images = {
   WebArena,
   Pokeverse,
   Mathgic,
-  Leaderboard,
+  // Leaderboard,
   ToDoList,
   Landsbetween,
   AwesomeBooks,

@@ -58,6 +58,17 @@
   .project {
     height: 250px;
   }
+
+  .techsBox {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .tech {
+    font-size: 10px;
+  }
 }
 
 .content {
@@ -104,9 +115,10 @@
 }
 
 .techsBox {
-  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
   margin: 15px 0;
 }
 

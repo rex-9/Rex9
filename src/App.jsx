@@ -4,16 +4,16 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Testimonials from './components/Testimonials/Testimonials';
 import Nav from './components/Nav/Nav';
-// import Comet from './components/Comet';
+import Skills from './components/Skills/Skills';
 
 import './App.scss';
 
 const App = () => (
   <>
-    {/* <Comet /> */}
     <Nav />
     <Rex9 />
     <Catchphrase />
+    <Skills />
     <Projects />
     <Testimonials />
     <Contact />

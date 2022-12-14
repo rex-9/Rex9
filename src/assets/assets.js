@@ -9,7 +9,7 @@ import Pokeverse from './projects/Pokeverse.png';
 import Mathgic from './projects/Mathgic.png';
 import Leaderboard from './projects/Leaderboard.png';
 import ToDoList from './projects/ToDoList.png';
-// import Landsbetween from './projects/Landsbetween.png';
+import Landsbetween from './projects/Landsbetween.png';
 import AwesomeBooks from './projects/AwesomeBooks.png';
 import Bookstore from './projects/Bookstore.png';
 import Xrocket from './projects/XRocket.png';
@@ -33,7 +33,7 @@ export const images = {
   Mathgic: Mathgic,
   Leaderboard: Leaderboard,
   ToDoList: ToDoList,
-  // Landsbetween: Landsbetween,
+  Landsbetween: Landsbetween,
   AwesomeBooks: AwesomeBooks,
   Bookstore: Bookstore,
   Xrocket: Xrocket,

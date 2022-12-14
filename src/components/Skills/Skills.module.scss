@@ -1,0 +1,31 @@
+@import '../../constants.scss';
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Clip', serif;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow:
+    0 0 0.6rem $red1,
+    0 0 1.5rem $red2,
+    -0.2rem 0.1rem 1rem $red2,
+    0.2rem 0.1rem 1rem $red2,
+    0 -0.5rem 2rem $red3,
+    0 0.5rem 3rem $red3;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+}

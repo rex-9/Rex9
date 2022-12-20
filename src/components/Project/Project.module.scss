@@ -79,7 +79,7 @@
   position: relative;
   z-index: -1;
   border-radius: 0 0 25px 25px;
-  transform: translateY(-140px);
+  transform: translateY(-190px);
   transition: transform 1.5s;
   background: $glass;
   box-shadow: 0 4px 30px $red4;
@@ -140,14 +140,28 @@
     0 0.5rem 3rem $red3;
 }
 
-.heading {
+.details {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 70px;
   padding: 5px;
   font-family: 'Clip', serif;
-  font-size: 20px;
   line-height: 15px;
+}
+
+.details p {
+  margin: 5px 0;
+  list-style-type: disc;
+}
+
+.details p::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+  background-color: white;
 }
 
 .buttons {

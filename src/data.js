@@ -5,7 +5,7 @@ const projects = [{
   image: images.eduValley,
   name: 'eduValley',
   techs: ['Full-Stack', 'Flutter', 'Laravel'],
-  heading: 'Online Learning Platform',
+  details: ['Online Learning Platform', 'Unlimited Free Video Call', 'Video and Audio Streaming'],
   live: 'https://play.google.com/store/apps/details?id=com.eduValley.flutterValley',
   source: 'https://github.com/rex-9/eduValley-flutter',
 }, {
@@ -13,7 +13,7 @@ const projects = [{
   image: images.ChibiURL,
   name: 'Chibi URL',
   techs: ['Full-Stack', 'Ruby on Rails', 'TailwindCSS'],
-  heading: 'URL shorten service',
+  details: ['URL shorten service', 'Custom URL', 'Analytics'],
   live: 'https://www.loom.com/share/13be355568724ca6b5d8948f1ad2b7e9',
   source: 'https://github.com/rex-9/ChibiURL',
 }, {
@@ -21,7 +21,7 @@ const projects = [{
   image: images.WebArena,
   name: 'Web Arena',
   techs: ['Full-Stack', 'Ruby on Rails', 'TailwindCSS', 'Rspec'],
-  heading: 'Mini Search Engine',
+  details: ['Mini Search Engine', 'Admin Panel', 'Analytics'],
   live: 'https://web-arena.onrender.com',
   source: 'https://github.com/rex-9/WebArena',
 }, {
@@ -29,7 +29,7 @@ const projects = [{
   image: images.CarValley,
   name: 'Car Valley',
   techs: ['Full-Stack', 'React', 'Redux', 'Ruby on Rails'],
-  heading: 'Homemade Meals',
+  details: ['Car Reservations', 'Add Cars', 'Add Reservations'],
   live: '',
   source: 'https://github.com/ChrispaixK/car-valley-front-end',
 }, {
@@ -37,7 +37,7 @@ const projects = [{
   image: images.AppleUI,
   name: 'AppleTV Home Page',
   techs: ['Frontend', 'JavaScript', 'React'],
-  heading: 'My UI skills',
+  details: ['AppleTV UI clone', 'Display My UI skills', 'Responsive Design'],
   live: 'https://apple-ui-next.vercel.app/',
   source: 'https://github.com/rex-9/AppleUI',
 }, {
@@ -45,7 +45,7 @@ const projects = [{
   image: images.RexNoBasket,
   name: 'Rex No Basket',
   techs: ['Frontend', 'JavaScript', 'React', 'Redux'],
-  heading: 'My State Management Skills',
+  details: ['My Redux Skills', 'Many to Many Associations'],
   live: 'https://rex-no-basket.vercel.app/',
   source: 'https://github.com/rex-9/RexNoBasket',
 }, {
@@ -53,7 +53,7 @@ const projects = [{
   image: images.YummyValley,
   name: 'Yummy Valley',
   techs: ['Frontend', 'JavaScript', 'React', 'Redux'],
-  heading: 'Homemade Meals',
+  details: ['Homemade Meals', 'Recipes', 'Ingredients'],
   live: 'https://YummyValley.netlify.app',
   source: 'https://github.com/rex-9/YummyValley',
 }, {
@@ -61,7 +61,7 @@ const projects = [{
   image: images.Xrocket,
   name: 'Xrocket',
   techs: ['Frontend', 'JavaScript', 'React', 'Redux'],
-  heading: 'Missions from SpaceX api',
+  details: ['Missions from SpaceX api', 'Rockets from SpaceX api'],
   live: 'https://xrocket.netlify.app',
   source: 'https://github.com/rex-9/RocketX',
 }, {
@@ -69,7 +69,7 @@ const projects = [{
   //   image: images.Mathgic,
   //   name: 'Mathgic',
   //   techs: ['JavaScript', 'React'],
-  //   heading: 'Mathgical Calculator',
+  //   details: 'Mathgical Calculator',
   //   live: 'https://Mathgic.netlify.app',
   //   source: 'https://github.com/rex-9/Mathgic',
   // }, {
@@ -77,7 +77,7 @@ const projects = [{
   image: images.Pokeverse,
   name: 'Pokeverse',
   techs: ['JavaScript', 'Webpack'],
-  heading: 'The Pokeverse of Cuteness',
+  details: ['The Pokeverse of Cuteness', 'PokeAPI'],
   live: 'https://rex-9.github.io/Pokeverse',
   source: 'https://github.com/rex-9/Pokeverse',
   // }, {
@@ -85,7 +85,7 @@ const projects = [{
   //   image: images.ToDoList,
   //   name: 'To-Do List',
   //   techs: ['JavaScript', 'Webpack'],
-  //   heading: 'List of Determination',
+  //   details: 'List of Determination',
   //   live: 'https://rex-9.github.io/ToDoList',
   //   source: 'https://github.com/rex-9/ToDoList',
   // }, {
@@ -93,7 +93,7 @@ const projects = [{
   //   image: images.Leaderboard,
   //   name: 'Leaderboard',
   //   techs: ['JavaScript', 'Webpack'],
-  //   heading: 'Board of Talents',
+  //   details: 'Board of Talents',
   //   live: 'https://rex-9.github.io/Leaderboard',
   //   source: 'https://github.com/rex-9/Leaderboard',
   // }, {
@@ -101,7 +101,7 @@ const projects = [{
   //     image: images.Landsbetween,
   //     name: 'Landsbetween',
   //     techs: ['JavaScript'],
-  //     heading: 'Call of the Landsbetween',
+  //     details: 'Call of the Landsbetween',
   //     live: 'https://rex-9.github.io/Landsbetween',
   //     source: 'https://github.com/rex-9/Landsbetween',
   // }, {
@@ -109,7 +109,7 @@ const projects = [{
   //   image: images.AwesomeBooks,
   //   name: 'Awesomebooks',
   //   techs: ['JavaScript'],
-  //   heading: 'Books of Awesomeness',
+  //   details: 'Books of Awesomeness',
   //   live: 'https://rex-9.github.io/AwesomeBooks/',
   //   source: 'https://github.com/rex-9/AwesomeBooks',
   // },
@@ -118,7 +118,7 @@ const projects = [{
   //   image: images.Bookstore,
   //   name: 'Bookstore',
   //   techs: ['JavaScript', 'React', 'Redux'],
-  //   heading: 'Store of the Wisdom',
+  //   details: 'Store of the Wisdom',
   //   live: 'https://rex9bookstore.netlify.app',
   //   source: 'https://github.com/rex-9/Bookstore',
 },

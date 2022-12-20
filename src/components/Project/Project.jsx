@@ -7,7 +7,7 @@ import style from './Project.module.scss';
 
 const Project = (props) => {
   const {
-    image, name, techs, heading, live, source,
+    image, name, techs, details, live, source,
   } = props.project;
 
   return (
@@ -21,7 +21,7 @@ const Project = (props) => {
               techs.map((tech) => <div key={tech} className={style.tech}>{tech}</div>)
             }
           </div>
-          <div className={style.heading}>{heading}</div>
+          <div className={style.details}>{details.map((detail) => <p>{detail}</p>)}</div>
           <div className={style.buttons}>
             <a className={style.more} href={source} target="_blank" rel="noopener noreferrer">Source</a>
             <a className={style.more} href={live} target="_blank" rel="noopener noreferrer">Live</a>

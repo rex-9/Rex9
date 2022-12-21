@@ -14,7 +14,7 @@ const projects = [{
   name: 'Chibi URL',
   techs: ['Full-Stack', 'Ruby on Rails', 'TailwindCSS'],
   details: ['URL shorten service', 'Custom URL', 'Analytics'],
-  live: 'https://www.loom.com/share/13be355568724ca6b5d8948f1ad2b7e9',
+  live: 'https://chibiurl.onrender.com/',
   source: 'https://github.com/rex-9/ChibiURL',
 }, {
   id: 3,
@@ -22,7 +22,7 @@ const projects = [{
   name: 'Web Arena',
   techs: ['Full-Stack', 'Ruby on Rails', 'TailwindCSS', 'Rspec'],
   details: ['Mini Search Engine', 'Admin Panel', 'Analytics'],
-  live: 'https://web-arena.onrender.com',
+  live: 'https://www.loom.com/share/4bcd220ea5bf47b6a64bdc6f5dea1dc9',
   source: 'https://github.com/rex-9/WebArena',
 }, {
   id: 4,

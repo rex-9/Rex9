@@ -25,14 +25,14 @@ const projects = [{
   live: 'https://www.loom.com/share/4bcd220ea5bf47b6a64bdc6f5dea1dc9',
   source: 'https://github.com/rex-9/WebArena',
 }, {
-  id: 4,
-  image: images.CarValley,
-  name: 'Car Valley',
-  techs: ['Full-Stack', 'React', 'Redux', 'Ruby on Rails'],
-  details: ['Car Reservations', 'Add Cars', 'Add Reservations'],
-  live: '',
-  source: 'https://github.com/ChrispaixK/car-valley-front-end',
-}, {
+//   id: 4,
+//   image: images.CarValley,
+//   name: 'Car Valley',
+//   techs: ['Full-Stack', 'React', 'Redux', 'Ruby on Rails'],
+//   details: ['Car Reservations', 'Add Cars', 'Add Reservations'],
+//   live: '',
+//   source: 'https://github.com/ChrispaixK/car-valley-front-end',
+// }, {
   id: 5,
   image: images.AppleUI,
   name: 'AppleTV Home Page',

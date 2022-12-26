@@ -25,29 +25,29 @@ const projects = [{
   live: 'https://www.loom.com/share/4bcd220ea5bf47b6a64bdc6f5dea1dc9',
   source: 'https://github.com/rex-9/WebArena',
 }, {
-//   id: 4,
-//   image: images.CarValley,
-//   name: 'Car Valley',
-//   techs: ['Full-Stack', 'React', 'Redux', 'Ruby on Rails'],
-//   details: ['Car Reservations', 'Add Cars', 'Add Reservations'],
-//   live: '',
-//   source: 'https://github.com/ChrispaixK/car-valley-front-end',
-// }, {
-  id: 5,
-  image: images.AppleUI,
-  name: 'AppleTV Home Page',
-  techs: ['Frontend', 'JavaScript', 'React'],
-  details: ['AppleTV UI clone', 'Display My UI skills', 'Responsive Design'],
-  live: 'https://apple-ui-next.vercel.app/',
-  source: 'https://github.com/rex-9/AppleUI',
-}, {
-  id: 6,
-  image: images.RexNoBasket,
-  name: 'Rex No Basket',
-  techs: ['Frontend', 'JavaScript', 'React', 'Redux'],
-  details: ['My Redux Skills', 'Many to Many Associations'],
-  live: 'https://rex-no-basket.vercel.app/',
-  source: 'https://github.com/rex-9/RexNoBasket',
+  id: 4,
+  image: images.CarValley,
+  name: 'Car Valley',
+  techs: ['Full-Stack', 'React', 'Redux', 'Ruby on Rails'],
+  details: ['Car Reservations', 'Add Cars', 'Add Reservations'],
+  live: '',
+  source: 'https://github.com/ChrispaixK/car-valley-front-end',
+  // }, {
+  //   id: 5,
+  //   image: images.AppleUI,
+  //   name: 'AppleTV Home Page',
+  //   techs: ['Frontend', 'JavaScript', 'React'],
+  //   details: ['AppleTV UI clone', 'Display My UI skills', 'Responsive Design'],
+  //   live: 'https://apple-ui-next.vercel.app/',
+  //   source: 'https://github.com/rex-9/AppleUI',
+  // }, {
+  //   id: 6,
+  //   image: images.RexNoBasket,
+  //   name: 'Rex No Basket',
+  //   techs: ['Frontend', 'JavaScript', 'React', 'Redux'],
+  //   details: ['My Redux Skills', 'Many to Many Associations'],
+  //   live: 'https://rex-no-basket.vercel.app/',
+  //   source: 'https://github.com/rex-9/RexNoBasket',
 }, {
   id: 7,
   image: images.YummyValley,
@@ -64,7 +64,7 @@ const projects = [{
   details: ['Missions from SpaceX api', 'Rockets from SpaceX api'],
   live: 'https://xrocket.netlify.app',
   source: 'https://github.com/rex-9/RocketX',
-}, {
+  // }, {
   //   id: 9,
   //   image: images.Mathgic,
   //   name: 'Mathgic',
@@ -72,7 +72,7 @@ const projects = [{
   //   details: 'Mathgical Calculator',
   //   live: 'https://Mathgic.netlify.app',
   //   source: 'https://github.com/rex-9/Mathgic',
-  // }, {
+}, {
   id: 10,
   image: images.Pokeverse,
   name: 'Pokeverse',
@@ -80,7 +80,7 @@ const projects = [{
   details: ['The Pokeverse of Cuteness', 'PokeAPI'],
   live: 'https://rex-9.github.io/Pokeverse',
   source: 'https://github.com/rex-9/Pokeverse',
-  // }, {
+// }, {
   //   id: 11,
   //   image: images.ToDoList,
   //   name: 'To-Do List',
@@ -97,32 +97,30 @@ const projects = [{
   //   live: 'https://rex-9.github.io/Leaderboard',
   //   source: 'https://github.com/rex-9/Leaderboard',
   // }, {
-  //     id: 13,
-  //     image: images.Landsbetween,
-  //     name: 'Landsbetween',
-  //     techs: ['JavaScript'],
-  //     details: 'Call of the Landsbetween',
-  //     live: 'https://rex-9.github.io/Landsbetween',
-  //     source: 'https://github.com/rex-9/Landsbetween',
-  // }, {
-  //   id: 14,
-  //   image: images.AwesomeBooks,
-  //   name: 'Awesomebooks',
-  //   techs: ['JavaScript'],
-  //   details: 'Books of Awesomeness',
-  //   live: 'https://rex-9.github.io/AwesomeBooks/',
-  //   source: 'https://github.com/rex-9/AwesomeBooks',
-  // },
-  // , {
-  //   id: 15,
-  //   image: images.Bookstore,
-  //   name: 'Bookstore',
-  //   techs: ['JavaScript', 'React', 'Redux'],
-  //   details: 'Store of the Wisdom',
-  //   live: 'https://rex9bookstore.netlify.app',
-  //   source: 'https://github.com/rex-9/Bookstore',
-},
-];
+  // id: 13,
+  // image: images.Landsbetween,
+  // name: 'Landsbetween',
+  // techs: ['JavaScript'],
+  // details: ['Call of the Landsbetween'],
+  // live: 'https://rex-9.github.io/Landsbetween',
+  // source: 'https://github.com/rex-9/Landsbetween',
+}, {
+  id: 14,
+  image: images.AwesomeBooks,
+  name: 'Awesomebooks',
+  techs: ['JavaScript'],
+  details: ['Books of Awesomeness', 'Manage Books and Authors'],
+  live: 'https://rex-9.github.io/AwesomeBooks/',
+  source: 'https://github.com/rex-9/AwesomeBooks',
+// }, {
+//   id: 15,
+//   image: images.Bookstore,
+//   name: 'Bookstore',
+//   techs: ['JavaScript', 'React', 'Redux'],
+//   details: ['Store of the Wisdom'],
+//   live: 'https://rex9bookstore.netlify.app',
+//   source: 'https://github.com/rex-9/Bookstore',
+}];
 
 const profiles = [{
   platform: 'GitHub',
@@ -162,7 +160,7 @@ const skills = {
     { name: 'Ruby', url: 'https://www.ruby-lang.org/en/' },
     { name: 'PHP', url: 'https://www.php.net' },
     { name: 'Dart', url: 'https://dart.dev' },
-    { name: 'Python', url: 'https://www.python.org' }
+    { name: 'Python', url: 'https://www.python.org' },
   ],
   frontend: [
     { name: 'ReactJS', url: 'https://reactjs.org' },
@@ -174,7 +172,7 @@ const skills = {
   ],
   fullstack: [
     { name: 'Ruby on Rails', url: 'https://rubyonrails.org' },
-    { name: 'Laravel', url: 'https://laravel.com' }
+    { name: 'Laravel', url: 'https://laravel.com' },
   ],
 };
 

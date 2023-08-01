@@ -9,11 +9,16 @@ import Pokeverse from './projects/Pokeverse.png';
 import Mathgic from './projects/Mathgic.png';
 import Leaderboard from './projects/Leaderboard.png';
 import ToDoList from './projects/ToDoList.png';
-// import Landsbetween from './projects/Landsbetween.png';
+import Bidsloth from './projects/bidsloth.png';
+import Asirius from './projects/asirius.png';
+import Servd from './projects/servd.png';
+import Cloud9 from './projects/cloud9.png';
 import AwesomeBooks from './projects/AwesomeBooks.png';
 import Bookstore from './projects/Bookstore.png';
 import Xrocket from './projects/XRocket.png';
+// import Landsbetween from './projects/Landsbetween.png';
 
+import bento from './design/bento.jpeg';
 import github from './design/github.svg';
 import linkedin from './design/linkedin.svg';
 import medium from './design/medium.svg';
@@ -22,9 +27,13 @@ import twitter from './design/twitter.svg';
 import facebook from './design/facebook.svg';
 
 export const images = {
+  Bidsloth,
+  Asirius,
+  Cloud9,
+  Servd,
+  eduValley,
   AppleUI,
   RexNoBasket,
-  eduValley,
   YummyValley,
   CarValley,
   ChibiURL,
@@ -33,13 +42,14 @@ export const images = {
   Mathgic,
   Leaderboard,
   ToDoList,
-  // Landsbetween,
   AwesomeBooks,
   Bookstore,
   Xrocket,
+  // Landsbetween,
 };
 
 export const icons = {
+  bento,
   github,
   linkedin,
   medium,

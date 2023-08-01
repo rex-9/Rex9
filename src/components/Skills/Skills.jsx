@@ -24,10 +24,26 @@ const Skills = () => {
             </div>
           </article>
           <article className={style.card}>
-            <h4>Full-Stack</h4>
+            <h4>Backend</h4>
             <div className={style.skills}>
               {
-                skills.fullstack.map(fullstack => <a href={fullstack.url} target="_blank" className={style.skill}>{fullstack.name}</a>)
+                skills.backend.map(backend => <a href={backend.url} target="_blank" className={style.skill}>{backend.name}</a>)
+              }
+            </div>
+          </article>
+          <article className={style.card}>
+            <h4>Mobile</h4>
+            <div className={style.skills}>
+              {
+                skills.mobile.map(mobile => <a href={mobile.url} target="_blank" className={style.skill}>{mobile.name}</a>)
+              }
+            </div>
+          </article>
+          <article className={style.card}>
+            <h4>Tools</h4>
+            <div className={style.skills}>
+              {
+                skills.tools.map(tool => <a href={tool.url} target="_blank" className={style.skill}>{tool.name}</a>)
               }
             </div>
           </article>

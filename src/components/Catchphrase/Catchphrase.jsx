@@ -11,7 +11,7 @@ const Catchphrase = () => (
     </div>
     <div className={style.profiles}>
       {
-        profiles.map((profile) => <a key={profile.platform} className={style.profile} href={profile.link} target="_blank" rel="noopener noreferrer"><img src={profile.logo} alt={profile.platform} /></a>)
+        profiles.map((profile) => <a key={profile.platform} className={style.profile} href={profile.link} target="_blank" rel="noopener noreferrer"><img className={style.profileImg} src={profile.logo} alt={profile.platform} /></a>)
       }
     </div>
     <div className={style.downArrow}>

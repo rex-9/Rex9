@@ -248,3 +248,9 @@ textarea::-webkit-input-placeholder {
 .profile:hover {
   filter: drop-shadow(0 0 0.6rem $red1) drop-shadow(0 0 1.5rem $red2) drop-shadow(-0.2rem 0.1rem 1rem $red3);
 }
+
+.profileImg {
+  border-radius: 25%;
+  padding: 5px;
+  height: 25px;
+}

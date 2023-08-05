@@ -23,8 +23,8 @@ const Project = (props) => {
           </div>
           <div className={style.details}>{details.map((detail) => <p>{detail}</p>)}</div>
           <div className={style.buttons}>
-            <a className={style.more} href={source} target="_blank" rel="noopener noreferrer">Source</a>
-            <a className={style.more} href={live} target="_blank" rel="noopener noreferrer">Live</a>
+            <a className={source ? style.more : style.disabled} href={source} target="_blank" rel="noopener noreferrer">Source</a>
+            <a className={live ? style.more : style.disabled} href={live} target="_blank" rel="noopener noreferrer">Live</a>
           </div>
         </div>
       </div>

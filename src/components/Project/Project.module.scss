@@ -195,3 +195,18 @@
     0 0 50px $red3,
     0 0 100px $red3;
 }
+
+.disabled {
+  border: none;
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  pointer-events: none;
+  color: #ccc;
+}

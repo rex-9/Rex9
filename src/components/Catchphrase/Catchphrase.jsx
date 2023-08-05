@@ -7,7 +7,7 @@ const Catchphrase = () => (
     <div className={style.phrase}>
       <p>Greetings, Champion...</p>
       <p>This is Rex9, the Spiritual Full-Stack Developer. ✨</p>
-      <p>I can help you build attractive websites with maximum quality within the shortest time. 😎</p>
+      <p>Let's build something! 😎</p>
     </div>
     <div className={style.profiles}>
       {

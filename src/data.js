@@ -10,6 +10,14 @@ const projects = [{
   source: null,
 }, {
   id: 2,
+  image: images.Bidsloth,
+  name: 'Bidsloth',
+  techs: ['Backend', 'Nodejs', 'Stripe', 'Cloudinary', 'MongoDB'],
+  details: ['Auction anything FAN-tastic!', "It's free!", 'Effortless yet Effective Fanservice!'],
+  live: 'https://bidsloth.com/',
+  source: null,
+}, {
+  id: 3,
   image: images.Asirius,
   name: 'Asirius',
   techs: ['Full-Stack', 'Reactjs', 'Laravel', 'MySQL'],
@@ -17,7 +25,7 @@ const projects = [{
   live: 'https://asirius.io/',
   source: null,
 }, {
-  id: 3,
+  id: 4,
   image: images.Servd,
   name: 'Servd',
   techs: ['Full-Stack', 'Reactjs', 'Laravel', 'MySQL', 'MongoDB'],
@@ -25,7 +33,7 @@ const projects = [{
   live: 'https://order.servd.me/mm/?storeId=63638ed7cd299fe4b801d402',
   source: null,
 }, {
-  id: 4,
+  id: 5,
   image: images.Cloud9,
   name: 'Cloud9',
   techs: ['Mobile', 'Flutter', 'GetX'],
@@ -33,7 +41,7 @@ const projects = [{
   live: null,
   source: null,
 }, {
-  id: 5,
+  id: 6,
   image: images.eduValley,
   name: 'eduValley',
   techs: ['Full-Stack', 'Flutter', 'Laravel', 'MySQL'],
@@ -42,7 +50,7 @@ const projects = [{
   live: null,
   source: 'https://github.com/rex-9/eduValley-flutter',
 }, {
-  id: 6,
+  id: 7,
   image: images.ChibiURL,
   name: 'Chibi URL',
   techs: ['Full-Stack', 'Ruby on Rails', 'TailwindCSS', 'PostgreSQL'],
@@ -50,7 +58,7 @@ const projects = [{
   live: 'https://www.loom.com/share/13be355568724ca6b5d8948f1ad2b7e9?sid=6c54bba4-e595-45f2-b5d1-e491060f9ccb',
   source: 'https://github.com/rex-9/ChibiURL',
 }, {
-  id: 7,
+  id: 8,
   image: images.WebArena,
   name: 'Web Arena',
   techs: ['Full-Stack', 'Ruby on Rails', 'TailwindCSS', 'Rspec', 'PostgreSQL'],
@@ -66,7 +74,7 @@ const projects = [{
 //   live: '',
 //   source: 'https://github.com/ChrispaixK/car-valley-front-end',
   }, {
-  id: 8,
+  id: 9,
   image: images.AppleUI,
   name: 'AppleTV Home Page',
   techs: ['Frontend', 'JavaScript', 'React'],
@@ -74,7 +82,7 @@ const projects = [{
   live: 'https://codigo-apple-tv.vercel.app/',
   source: 'https://github.com/rex-9/AppleUI',
 }, {
-  id: 9,
+  id: 10,
   image: images.RexNoBasket,
   name: 'Rex No Basket',
   techs: ['Frontend', 'JavaScript', 'React', 'Redux'],

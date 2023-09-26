@@ -71,7 +71,7 @@ const projects = [{
   name: 'AppleTV Home Page',
   techs: ['Frontend', 'JavaScript', 'React'],
   details: ['AppleTV UI clone', 'Display My UI skills', 'Responsive Design'],
-  live: 'https://apple-ui-next.vercel.app/',
+  live: 'https://codigo-apple-tv.vercel.app/',
   source: 'https://github.com/rex-9/AppleUI',
 }, {
   id: 9,

@@ -10,11 +10,11 @@ const projects = [{
   source: null,
 }, {
   id: 2,
-  image: images.Bidsloth,
-  name: 'Bidsloth',
-  techs: ['Backend', 'Nodejs', 'Stripe', 'Cloudinary', 'MongoDB'],
-  details: ['Auction anything FAN-tastic!', "It's free!", 'Effortless yet Effective Fanservice!'],
-  live: 'https://bidsloth.com/',
+  image: images.Aidma,
+  name: 'Aidma Holdings',
+  techs: ['Frontend', 'VueJS', 'Quasar', 'Responsive', 'CSS'],
+  details: ['Japanese LinkedIn!', 'Boost your Career!', 'Boost your Company!'],
+  live: 'https://www.aidma-hd.jp/',
   source: null,
 }, {
   id: 3,

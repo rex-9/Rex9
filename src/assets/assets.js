@@ -16,6 +16,7 @@ import Cloud9 from './projects/cloud9.png';
 import AwesomeBooks from './projects/AwesomeBooks.png';
 import Bookstore from './projects/Bookstore.png';
 import Xrocket from './projects/XRocket.png';
+import Aidma from './projects/aidma.png';
 // import Landsbetween from './projects/Landsbetween.png';
 
 import bento from './design/bento.jpeg';
@@ -45,6 +46,7 @@ export const images = {
   AwesomeBooks,
   Bookstore,
   Xrocket,
+  Aidma,
   // Landsbetween,
 };
 

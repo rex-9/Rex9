@@ -4,17 +4,20 @@ import Card from '../Project/Project';
 
 import { projects } from '../../data';
 
-const Projects = () => (
+const Projects = () => {
+  const sortedProjects = projects.sort((a, b) => b.id - a.id);
+
+  return (
   <>
     <section id="Projects">
       <h1 className={style.myRecentWorks}>My Recent Works</h1>
       <div className={style.projects}>
         {
-          projects.map((project) => <Card key={project.id} project={project} />)
+          sortedProjects.map((project) => <Card key={project.id} project={project} />)
         }
       </div>
     </section>
   </>
-);
+)};
 
 export default Projects;

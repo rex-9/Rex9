@@ -10,6 +10,7 @@ import Mathgic from './projects/Mathgic.png';
 import Leaderboard from './projects/Leaderboard.png';
 import ToDoList from './projects/ToDoList.png';
 import Bidsloth from './projects/bidsloth.png';
+import Smthgood from './projects/smthgood.png';
 import Asirius from './projects/asirius.png';
 import Servd from './projects/servd.png';
 import Cloud9 from './projects/cloud9.png';
@@ -28,6 +29,7 @@ import twitter from './design/twitter.svg';
 import facebook from './design/facebook.svg';
 
 export const images = {
+  Smthgood,
   Bidsloth,
   Asirius,
   Cloud9,

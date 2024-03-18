@@ -18,6 +18,7 @@ import AwesomeBooks from './projects/AwesomeBooks.png';
 import Bookstore from './projects/Bookstore.png';
 import Xrocket from './projects/XRocket.png';
 import Aidma from './projects/aidma.png';
+import LegacyFa from './projects/legacyfa.png';
 // import Landsbetween from './projects/Landsbetween.png';
 
 import bento from './design/bento.jpeg';
@@ -49,6 +50,7 @@ export const images = {
   Bookstore,
   Xrocket,
   Aidma,
+  LegacyFa,
   // Landsbetween,
 };
 

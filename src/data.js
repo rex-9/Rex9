@@ -89,7 +89,7 @@ const projects = [{
   techs: ['Frontend', 'JavaScript', 'React'],
   details: ['AppleTV UI clone', 'Display My UI skills', 'Responsive Design'],
   live: 'https://codigo-apple-tv.vercel.app/',
-  source: 'https://github.com/rex-9/AppleUI',
+  source: 'https://github.com/rex-9/Codigo-Apple',
 }, {
   id: 11,
   image: images.RexNoBasket,

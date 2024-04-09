@@ -38,7 +38,7 @@ const projects = [{
   image: images.Servd,
   name: 'Servd',
   techs: ['Full-Stack', 'Reactjs', 'Laravel', 'MySQL', 'MongoDB'],
-  details: ['MM version of Asirius', 'Customized Merchant Websites', 'Simple yet All-in-One service'],
+  details: ['Asirius Client', 'Customized Merchant Websites', 'Simple yet All-in-One service'],
   live: 'https://order.servd.me/mm/?storeId=63638ed7cd299fe4b801d402',
   source: null,
 }, {

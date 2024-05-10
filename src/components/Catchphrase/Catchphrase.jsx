@@ -5,10 +5,10 @@ import { profiles } from '../../data';
 const Catchphrase = () => (
   <>
     <div className={style.phrase}>
-      <p>Greetings, Champion...</p>
-      <p>This is Rex9, the Spiritual Full-Stack Developer. ✨</p>
-      <p>I have hands-on experience <br /> in both Web and Mobile Full-Stack Development. 💻</p>
-      <p>Let's build something mesmerizing! 😎</p>
+      <p>Hello, Champion! 🌟</p>
+      <p>I'm your Spiritual Full-Stack Developer ✨,</p>
+      <p>with expertise in Web and Mobile Full-Stack development. 💻 </p>
+      <p>Let's craft magic together! ✨🚀</p>
     </div>
     <div className={style.profiles}>
       {

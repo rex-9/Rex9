@@ -19,6 +19,7 @@ import Bookstore from './projects/Bookstore.png';
 import Xrocket from './projects/XRocket.png';
 import Aidma from './projects/aidma.png';
 import LegacyFa from './projects/legacyfa.png';
+import Juice from './projects/juice.png';
 // import Landsbetween from './projects/Landsbetween.png';
 
 import bento from './design/bento.jpeg';
@@ -30,6 +31,7 @@ import twitter from './design/twitter.svg';
 import facebook from './design/facebook.svg';
 
 export const images = {
+  Juice,
   Smthgood,
   Bidsloth,
   Asirius,

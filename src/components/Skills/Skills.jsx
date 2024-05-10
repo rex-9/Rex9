@@ -40,6 +40,14 @@ const Skills = () => {
             </div>
           </article>
           <article className={style.card}>
+            <h4>Database</h4>
+            <div className={style.skills}>
+              {
+                skills.database.map(database => <a href={database.url} target="_blank" className={style.skill}>{database.name}</a>)
+              }
+            </div>
+          </article>
+          <article className={style.card}>
             <h4>Tools</h4>
             <div className={style.skills}>
               {

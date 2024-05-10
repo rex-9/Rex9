@@ -1,6 +1,14 @@
 import { images, icons } from './assets/assets';
 
 const projects = [{
+  id: 22,
+  image: images.Juice,
+  name: 'Juice Serve',
+  techs: ['EV', 'Full-Stack', 'Flutter', 'Python', 'GetX', 'Flask', 'Firebase', 'Web'],
+  details: ["The most seamless EV charging and parking experiences ever!", "Powered by computer vision!"],
+  live: 'https://www.js.eco/',
+  source: null,
+}, {
   id: 21,
   image: images.Smthgood,
   name: 'Smthgood',
@@ -240,13 +248,18 @@ const skills = {
     { name: 'Filament', url: 'https://filamentphp.com/' },
     { name: 'Orchid', url: 'https://orchid.software/en/' },
     { name: 'Quasar', url: 'https://quasar.dev/' },
+    { name: 'Flutter', url: 'https://www.flutter.dev' },
   ],
   backend: [
     { name: 'Ruby on Rails', url: 'https://rubyonrails.org' },
     { name: 'Node JS', url: 'https://nodejs.org/en' },
     { name: 'Laravel', url: 'https://laravel.com' },
+    { name: 'Flask', url: 'https://flask.palletsprojects.com/en/3.0.x/' },
+  ],
+  database: [
     { name: 'PostgreSQL', url: 'https://www.postgresql.org/' },
     { name: 'MySQL', url: 'https://www.mysql.com/' },
+    { name: 'NoSQL', url: 'https://en.wikipedia.org/wiki/NoSQL' },
     { name: 'MongoDB', url: 'https://www.mongodb.com/' },
     { name: 'Firebase', url: 'https://firebase.google.com/' },
   ],

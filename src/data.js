@@ -5,7 +5,7 @@ const projects = [{
   image: images.Juice,
   name: 'Juice Serve',
   techs: ['EV', 'Full-Stack', 'Flutter', 'Python', 'GetX', 'Flask', 'Firebase', 'Web'],
-  details: ["The most seamless EV charging and parking experiences ever!", "Powered by computer vision!"],
+  details: ["The most seamless EV charging and parking experiences ever", "Powered by computer vision"],
   live: 'https://www.js.eco/',
   source: null,
 }, {
@@ -13,7 +13,7 @@ const projects = [{
   image: images.Smthgood,
   name: 'Smthgood',
   techs: ['Frontend', 'Flutter', 'Bloc', 'Firebase', 'Web', 'Android', 'iOS'],
-  details: ['Look good, Do good, Feel good!', "A new Home for Conscious Fashion!", 'Discover your Inner Fashion Angel!'],
+  details: ['Look good, Do good, Feel good', "A new Home for Conscious Fashion", 'Discover your Inner Fashion Angel'],
   live: 'https://www.smthgoodco.com/',
   source: null,
 },
@@ -22,7 +22,7 @@ const projects = [{
   image: images.Bidsloth,
   name: 'Bidsloth',
   techs: ['Backend', 'Nodejs', 'Stripe', 'Cloudinary', 'MongoDB'],
-  details: ['Auction anything FAN-tastic!', "It's free!", 'Effortless yet Effective Fanservice!'],
+  details: ['Auction anything FAN-tastic', "It's free!", 'Effortless yet Effective Fanservice'],
   live: 'https://bidsloth.com/',
   source: null,
 }, {
@@ -30,7 +30,7 @@ const projects = [{
   image: images.Aidma,
   name: 'Aidma Holdings',
   techs: ['Frontend', 'VueJS', 'Quasar', 'Responsive', 'CSS'],
-  details: ['Japanese LinkedIn!', 'Boost your Career!', 'Boost your Company!'],
+  details: ['Japanese LinkedIn', 'Boost your Career', 'Boost your Company'],
   live: 'https://www.aidma-hd.jp/',
   source: null,
 }, {

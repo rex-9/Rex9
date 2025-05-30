@@ -6,10 +6,10 @@ const Catchphrase = () => (
   <>
     <div className={style.phrase}>
       <p>Champion, welcome! 🌟</p>
-      <p>I am Rex - a battle-hardened Full-Stack Architect with a mind sharpened by meditation. 🧘‍♂️💻</p>
+      <p>I am a battle-hardened Full-Stack Architect with a mind sharpened by meditation. 🧘‍♂️💻</p>
       <p>Forging digital realms where clarity meets code, and simplicity meets soul. ✨</p>
       <p>Carving seamless paths where beauty and strength walk side by side. ⚔️🌿</p>
-      <p>Let's shape thy vision into reality — with purpose, and a touch of magic! 🚀</p>
+      <p>Let's shape thy vision into reality with purpose, and a touch of magic! 🚀</p>
     </div>
     <div className={style.profiles}>
       {

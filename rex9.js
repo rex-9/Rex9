@@ -15,43 +15,43 @@ const DATA = {
       platform: 'GitHub',
       username: 'rex-9',
       link: 'https://github.com/rex-9',
-      logo: './src/assets/design/github.svg',
+      logo: './assets/design/github.svg',
     },
     {
       platform: 'Linkedin',
       username: 'rex9',
       link: 'https://www.linkedin.com/in/rex9',
-      logo: './src/assets/design/linkedin.svg',
+      logo: './assets/design/linkedin.svg',
     },
     {
       platform: 'Angellist',
       username: 'rex9',
       link: 'https://angel.co/u/rex9',
-      logo: './src/assets/design/angellist.svg',
+      logo: './assets/design/angellist.svg',
     },
     {
       platform: 'Bento',
       username: 'rex9',
       link: 'https://bento.me/rex9',
-      logo: './src/assets/design/bento.jpeg',
+      logo: './assets/design/bento.jpeg',
     },
     {
       platform: 'Medium',
       username: 'rex9',
       link: 'https://medium.com/@rex9',
-      logo: './src/assets/design/medium.svg',
+      logo: './assets/design/medium.svg',
     },
     {
       platform: 'Twitter',
       username: 'htetnaing0814',
       link: 'https://twitter.com/htetnaing0814',
-      logo: './src/assets/design/twitter.svg',
+      logo: './assets/design/twitter.svg',
     },
     {
       platform: 'Facebook',
       username: 'htetnaing0814',
       link: 'https://facebook.com/htetnaing0814',
-      logo: './src/assets/design/facebook.svg',
+      logo: './assets/design/facebook.svg',
     },
   ],
 
@@ -130,7 +130,7 @@ const DATA = {
     {
       id: 30,
       name: 'RexOne Core',
-      image: './src/assets/projects/rexone-core.jpg',
+      image: './assets/projects/rexone-core.jpg',
       techs: ['Ruby on Rails', 'PostgreSQL', 'Redis', 'ActionCable', 'Sidekiq', 'Stripe', 'Docker', 'Gemini AI'],
       details: [
         'Enterprise multi-tenant backend foundation with modular domain architecture',
@@ -143,7 +143,7 @@ const DATA = {
     {
       id: 29,
       name: 'RexOne Web',
-      image: './src/assets/projects/rexone-web.jpg',
+      image: './assets/projects/rexone-web.jpg',
       techs: ['React', 'TypeScript', 'Vite', 'TailwindCSS', 'DaisyUI', 'WebSockets', 'Stripe Checkout', 'i18n'],
       details: [
         'Modern SaaS frontend with reactive state, glassmorphism UI & theme switching',
@@ -156,7 +156,7 @@ const DATA = {
     {
       id: 28,
       name: 'RexOne Mobile',
-      image: './src/assets/projects/rexone-mobile.jpg',
+      image: './assets/projects/rexone-mobile.jpg',
       techs: ['Flutter', 'Dart', 'GetX', 'Clean Architecture', 'Firebase', 'OneSignal', 'WebSockets', 'Stripe'],
       details: [
         'Production cross-platform mobile app built on layered Clean Architecture',
@@ -169,7 +169,7 @@ const DATA = {
     {
       id: 22,
       name: 'Juice Serve',
-      image: './src/assets/projects/juice.png',
+      image: './assets/projects/juice.png',
       techs: ['EV', 'Full-Stack', 'Flutter', 'Python', 'GetX', 'Flask', 'Firebase', 'Web'],
       details: [
         'The most seamless EV charging and parking experiences ever',
@@ -181,7 +181,7 @@ const DATA = {
     {
       id: 21,
       name: 'Smthgood',
-      image: './src/assets/projects/smthgood.png',
+      image: './assets/projects/smthgood.png',
       techs: ['Frontend', 'Flutter', 'Bloc', 'Firebase', 'Web', 'Android', 'iOS'],
       details: [
         'Look good, Do good, Feel good',
@@ -194,7 +194,7 @@ const DATA = {
     {
       id: 20,
       name: 'Bidsloth',
-      image: './src/assets/projects/bidsloth.png',
+      image: './assets/projects/bidsloth.png',
       techs: ['Backend', 'Nodejs', 'Stripe', 'Cloudinary', 'MongoDB'],
       details: [
         'Auction anything FAN-tastic',
@@ -207,7 +207,7 @@ const DATA = {
     {
       id: 19,
       name: 'Aidma Holdings',
-      image: './src/assets/projects/aidma.png',
+      image: './assets/projects/aidma.png',
       techs: ['Frontend', 'VueJS', 'Quasar', 'Responsive', 'CSS'],
       details: [
         'Japanese LinkedIn',
@@ -220,7 +220,7 @@ const DATA = {
     {
       id: 18,
       name: 'Asirius',
-      image: './src/assets/projects/asirius.png',
+      image: './assets/projects/asirius.png',
       techs: ['Full-Stack', 'Reactjs', 'Laravel', 'MySQL'],
       details: [
         'Powerful E-commerce',
@@ -233,7 +233,7 @@ const DATA = {
     {
       id: 17,
       name: 'Servd',
-      image: './src/assets/projects/servd.png',
+      image: './assets/projects/servd.png',
       techs: ['Full-Stack', 'Reactjs', 'Laravel', 'MySQL', 'MongoDB'],
       details: [
         'Asirius Client',
@@ -246,7 +246,7 @@ const DATA = {
     {
       id: 16,
       name: 'Cloud9',
-      image: './src/assets/projects/cloud9.png',
+      image: './assets/projects/cloud9.png',
       techs: ['Mobile', 'Flutter', 'GetX'],
       details: [
         'Unlock the Power of Loyalty',
@@ -259,7 +259,7 @@ const DATA = {
     {
       id: 15,
       name: 'eduValley',
-      image: './src/assets/projects/eduValley.png',
+      image: './assets/projects/eduValley.png',
       techs: ['Full-Stack', 'Flutter', 'Laravel', 'MySQL'],
       details: [
         'Online Learning Platform',
@@ -272,7 +272,7 @@ const DATA = {
     {
       id: 14,
       name: 'Chibi URL',
-      image: './src/assets/projects/ChibiURL.png',
+      image: './assets/projects/ChibiURL.png',
       techs: ['Full-Stack', 'Ruby on Rails', 'TailwindCSS', 'PostgreSQL'],
       details: [
         'URL shorten service',
@@ -285,7 +285,7 @@ const DATA = {
     {
       id: 12,
       name: 'AppleTV Home Page',
-      image: './src/assets/projects/AppleUI.png',
+      image: './assets/projects/AppleUI.png',
       techs: ['Frontend', 'JavaScript', 'React'],
       details: [
         'AppleTV UI clone',
@@ -298,7 +298,7 @@ const DATA = {
     {
       id: 11,
       name: 'Rex No Basket',
-      image: './src/assets/projects/RexNoBasket.png',
+      image: './assets/projects/RexNoBasket.png',
       techs: ['Frontend', 'JavaScript', 'React', 'Redux'],
       details: [
         'My Redux Skills',
@@ -310,7 +310,7 @@ const DATA = {
     {
       id: 10,
       name: 'Legacy FA Admin UI',
-      image: './src/assets/projects/legacyfa.png',
+      image: './assets/projects/legacyfa.png',
       techs: ['Frontend', 'JavaScript', 'React', 'Apex Charts'],
       details: [
         'Admin UI',

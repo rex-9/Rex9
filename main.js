@@ -185,7 +185,7 @@ const DATA = {
         'Look Good, Do Good, Feel Good — Discover Your Inner Style',
         'Discover your Inner Fashion Angel',
       ],
-      live: 'https://www.smthgoodco.com/',
+      live: null,
       source: null,
     },
     {

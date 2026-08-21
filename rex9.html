@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Portfolio of Rex9, the Full-Stack developer" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- SEO -->
+  <meta name="og:title" content="Rex9" />
+  <meta name="description" content="Rex's Portfolio" />
+  <meta name="og:description" content="Professional Remote Software Developer who excels in both frontend and backend development covering both mobile and web applications" />
+  <meta name="type" content="website" />
+  <meta name="og:type" content="website" />
+  <meta name="image" content="favicon.png" />
+  <meta name="og:image" content="favicon.png" />
+  <meta name="og:image:type" content="image/*" />
+  <meta name="og:image:width" content="300" />
+  <meta name="og:image:height" content="300" />
+  <meta name="og:url" content="https://rex9.vercel.app/" />
+  <meta name="og:locale" content="en_US" />
+  <meta name="og:site_name" content="Rex9" />
+  <meta name="keywords" content="rex, rex9, soul, software, full-stack, frontend, backend, mobile, web, website, app, android, ios, programming, htet naing, ytu, microverse" />
+
+  <meta name="twitter:title" content="Rex9" />
+  <meta name="twitter:description" content="Rex's Portfolio" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="favicon.png" />
+  <link rel="canonical" href="https://rex9.vercel.app/" />
+
+  <meta name="google-site-verification" content="6UL5LVLyNuK2I22hV7aE9VaJV80eRGQ6uCTYd9AW8kI" />
+
+  <title>Rex9</title>
+  <link rel="stylesheet" href="rex9.css" />
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION (<Nav />) ==================== -->
+  <section class="nav" id="main-nav" style="height: 70px;">
+    <nav class="desktopNav">
+      <a href="#Greetings" class="nav-link active" data-section="#Greetings">Greetings</a>
+      <a href="#Skills" class="nav-link inactive" data-section="#Skills">Skills</a>
+      <a href="#Projects" class="nav-link inactive" data-section="#Projects">Projects</a>
+      <a href="#Testimonials" class="nav-link inactive" data-section="#Testimonials">Testimonials</a>
+      <a href="#Contact" class="nav-link inactive" data-section="#Contact">Contact</a>
+    </nav>
+    <nav class="mobileNav" id="mobile-nav" style="justify-content: flex-end; height: 70px;">
+      <button id="menu-btn" type="button" aria-label="Open Navigation Menu">
+        <img id="menu-icon" src="./src/assets/design/menu.svg" alt="menu" style="display: block;" />
+      </button>
+      <div id="mobile-menu-wrapper" style="display: none;">
+        <div class="menu">
+          <a href="#Greetings" class="mobile-nav-link active" data-section="#Greetings">Greetings</a>
+          <a href="#Projects" class="mobile-nav-link inactive" data-section="#Projects">Projects</a>
+          <a href="#Testimonials" class="mobile-nav-link inactive" data-section="#Testimonials">Testimonials</a>
+          <a href="#Contact" class="mobile-nav-link inactive" data-section="#Contact">Contact</a>
+        </div>
+      </div>
+      <button id="cancel-btn" type="button" aria-label="Close Navigation Menu">
+        <img id="cancel-icon" class="cancel" src="./src/assets/design/cancel.png" alt="cancel" style="display: none;" />
+      </button>
+    </nav>
+  </section>
+
+  <!-- ==================== HERO SIGN (<Rex9 />) ==================== -->
+  <section id="Greetings" class="sign">
+    <span class="fastFlicker">r</span>e<span class="flicker">x</span>9
+  </section>
+
+  <!-- ==================== CATCHPHRASE & SOCIALS (<Catchphrase />) ==================== -->
+  <div class="phrase">
+    <p>Champion, welcome! 🌟</p>
+    <p>I am a battle-hardened Full-Stack Architect with a mind sharpened by meditation. 🧘‍♂️💻</p>
+    <p>Forging digital realms where clarity meets code, and simplicity meets soul. ✨</p>
+    <p>Carving seamless paths where beauty and strength walk side by side. ⚔️🌿</p>
+    <p>Let's shape thy vision into reality with purpose, and a touch of magic! 🚀</p>
+  </div>
+
+  <!-- Dynamic Social Profiles rendered from DATA.profiles in rex9.js -->
+  <div class="profiles" id="profiles-container"></div>
+
+  <div class="downArrow">
+    <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="40" height="40" rx="20" fill="transparent" />
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2929 17.2929C14.6834 16.9024 15.3166 16.9024 15.7071 17.2929L21 22.5858L26.2929 17.2929C26.6834 16.9024 27.3166 16.9024 27.7071 17.2929C28.0976 17.6834 28.0976 18.3166 27.7071 18.7071L21.7071 24.7071C21.3166 25.0976 20.6834 25.0976 20.2929 24.7071L14.2929 18.7071C13.9024 18.3166 13.9024 17.6834 14.2929 17.2929Z" fill="currentColor" />
+      <rect x="1" y="1" width="40" height="40" rx="20" stroke="currentColor" />
+    </svg>
+  </div>
+
+  <!-- ==================== SKILLS (<Skills />) ==================== -->
+  <section id="Skills" class="skills-container">
+    <div>
+      <h1>Skills</h1>
+      <!-- Dynamic Skills Cards rendered from DATA.skills in rex9.js -->
+      <div class="skills-box" id="skills-box"></div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS (<Projects />) ==================== -->
+  <section id="Projects">
+    <h1 class="myRecentWorks">My Recent Works</h1>
+    <!-- Dynamic Projects Cards rendered from DATA.projects in rex9.js -->
+    <div class="projects" id="projects-container"></div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS (<Testimonials />) ==================== -->
+  <section id="Testimonials" class="testimonials-box">
+    <h2>Testimonials</h2>
+    <!-- Dynamic Testimonials rendered from DATA.testimonials in rex9.js -->
+    <div class="testimonials-cardBox" id="testimonials-container"></div>
+  </section>
+
+  <!-- ==================== CONTACT & FOOTER (<Contact />) ==================== -->
+  <section id="Contact">
+    <div class="contact-container">
+      <div class="contactText">
+        I'm always interested in hearing
+        about new projects,<br />
+        so if you'd
+        like to chat, please kindly get in touch with me.<br />
+        <div class="resumeBox">
+          <div class="resume">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a id="resume-download-link" href="https://tinyurl.com/rex9-cv" target="_blank" rel="noopener noreferrer">View / Download my Resume 📄</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contactForm">
+        <h2>Keep in Touch</h2>
+        <form action="https://formspree.io/f/moqrrpoj" method="post" id="contact" name="contact" target="_blank" rel="noopener noreferrer">
+          <div class="userBox">
+            <input type="text" name="name" placeholder="Kindly enter your Full Name" required />
+          </div>
+          <div class="userBox">
+            <input type="email" name="email" placeholder="Kindly enter your Email" required />
+          </div>
+          <div class="userBox">
+            <textarea name="details" placeholder="How can I kindly help you?" required></textarea>
+          </div>
+          <button type="submit">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Dynamic Footer Profiles rendered from DATA.profiles in rex9.js -->
+    <div class="footer-profiles" id="footer-profiles-container"></div>
+  </section>
+
+  <!-- ==================== SCRIPT (rex9.js) ==================== -->
+  <script src="rex9.js"></script>
+</body>
+</html>

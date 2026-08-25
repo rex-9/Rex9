@@ -233,21 +233,21 @@ const DATA = {
         'Seamless digital restaurant ordering & merchant POS network',
         'High-throughput real-time operations engine for food & beverage',
       ],
-      live: 'https://order.servd.me/mm/?storeId=63638ed7cd299fe4b801d402',
-      source: null,
-    },
-    {
-      id: 16,
-      name: 'Cloud9',
-      image: './assets/projects/cloud9.png',
-      techs: ['Flutter', 'GetX', 'Mobile', 'Loyalty', 'Agile'],
-      details: [
-        'Next-gen mobile loyalty scanner & customer rewards engine',
-        'Instant QR code verification with reactive mobile architecture',
-      ],
       live: null,
       source: null,
     },
+    // {
+    //   id: 16,
+    //   name: 'Cloud9',
+    //   image: './assets/projects/cloud9.png',
+    //   techs: ['Flutter', 'GetX', 'Mobile', 'Loyalty', 'Agile'],
+    //   details: [
+    //     'Next-gen mobile loyalty scanner & customer rewards engine',
+    //     'Instant QR code verification with reactive mobile architecture',
+    //   ],
+    //   live: null,
+    //   source: null,
+    // },
     {
       id: 15,
       name: 'eduValley',

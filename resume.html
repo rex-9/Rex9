@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Htet Naing (Rex) — Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  @page {
+    size: letter;
+    margin: 0.75in;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #000000;
+    background-color: #f8fafc;
+    font-size: 10pt;
+    line-height: 1.35;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page {
+    background: #ffffff;
+    max-width: 820px;
+    margin: 30px auto;
+    padding: 50px 60px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  }
+  @media print {
+    body {
+      background: #ffffff !important;
+    }
+    .page {
+      padding: 0 !important;
+      margin: 0 !important;
+      box-shadow: none !important;
+      max-width: 100% !important;
+    }
+    .no-print {
+      display: none !important;
+    }
+  }
+
+  /* Toolbar */
+  .toolbar {
+    max-width: 820px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .btn {
+    background-color: #068d9d;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 9pt;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .btn:hover {
+    background-color: #05707d;
+  }
+
+  /* Header */
+  table.header-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 3pt;
+  }
+  table.header-table td {
+    padding: 0;
+    vertical-align: baseline;
+  }
+  .name {
+    font-size: 22pt;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: -0.3pt;
+  }
+  .header-role {
+    font-size: 11.5pt;
+    font-weight: 700;
+    color: #068d9d;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.3pt;
+  }
+  .links-row {
+    font-size: 9.5pt;
+    color: #1a73e8;
+    margin-bottom: 18pt;
+  }
+  .links-row a {
+    color: #1a73e8;
+    text-decoration: underline;
+  }
+  .sep {
+    color: #000000;
+    margin: 0 3pt;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  /* Section Title */
+  h2.section-heading {
+    font-size: 11pt;
+    font-weight: 700;
+    color: #068d9d;
+    text-transform: uppercase;
+    letter-spacing: 0.4pt;
+    margin-top: 16pt;
+    margin-bottom: 6pt;
+    border: none;
+  }
+
+  /* Summary */
+  .summary-text {
+    font-size: 10pt;
+    line-height: 1.4;
+    color: #000000;
+    margin-bottom: 10pt;
+  }
+
+  /* Skills */
+  .skills-block {
+    margin-bottom: 10pt;
+  }
+  .skill-line {
+    font-size: 10pt;
+    line-height: 1.45;
+    margin-bottom: 2pt;
+    color: #000000;
+  }
+  .skill-line b {
+    font-weight: 700;
+    color: #000000;
+  }
+
+  /* Experience / Project Entry */
+  .entry {
+    margin-bottom: 12pt;
+  }
+  table.entry-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 6pt;
+    margin-bottom: 3pt;
+  }
+  table.entry-table td {
+    padding: 0;
+    vertical-align: baseline;
+  }
+  .comp-name {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #068d9d;
+    text-transform: uppercase;
+  }
+  .comp-name a {
+    color: #068d9d;
+    text-decoration: none;
+  }
+  .comp-name a:hover {
+    text-decoration: underline;
+  }
+  .comp-loc {
+    font-size: 10pt;
+    color: #000000;
+    text-align: right;
+  }
+  .job-title {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #000000;
+  }
+  .job-dates {
+    font-size: 10pt;
+    color: #000000;
+    text-align: right;
+  }
+
+  /* Bullets */
+  ul.bullets {
+    margin: 3pt 0 6pt 0;
+    padding-left: 20pt;
+    list-style-type: disc;
+  }
+  ul.bullets li {
+    font-size: 10pt;
+    line-height: 1.4;
+    color: #000000;
+    margin-bottom: 3pt;
+  }
+</style>
+</head>
+<body>
+
+<div class="toolbar no-print">
+  <div style="font-size:9.5pt; font-weight:600; color:#334155;">
+    Original Format Preserved &bull; Accent: <span style="color:#068d9d; font-weight:700;">#068D9D (Ocean Teal)</span>
+  </div>
+  <div style="display:flex; gap:8px;">
+    <button class="btn" onclick="window.print()">🖨️ Print / Save to PDF</button>
+    <a class="btn" href="resume.docx" download>⬇️ Download .DOCX</a>
+  </div>
+</div>
+
+<div class="page">
+
+  <!-- HEADER -->
+  <table class="header-table">
+    <tr>
+      <td class="name">Htet Naing (Rex)</td>
+      <td class="header-role">FULL-STACK DEVELOPER</td>
+    </tr>
+  </table>
+
+  <div class="links-row">
+    <a href="https://bento.me/rex9" target="_blank">Bento</a><span class="sep">|</span>
+    <a href="mailto:htetnaing0814@gmail.com">Email</a><span class="sep">|</span>
+    <a href="https://github.com/rex-9" target="_blank">GitHub</a><span class="sep">|</span>
+    <a href="https://www.linkedin.com/in/rex9" target="_blank">LinkedIn</a><span class="sep">|</span>
+    <a href="https://rexone.me" target="_blank">RexOne</a><span class="sep">|</span>
+    <a href="https://meritmoon.com" target="_blank">MeritMoon</a><span class="sep">|</span>
+    <a href="https://rex9.vercel.app" target="_blank">Portfolio</a><span class="sep">|</span>
+    <a href="tel:+66944056131">+66944056131</a>
+  </div>
+
+  <!-- SUMMARY -->
+  <h2 class="section-heading">SUMMARY</h2>
+  <p class="summary-text">
+    A Full-Stack Web and Mobile App Developer and Product Craftsman with 7+ years of experience, adept at crafting innovative solutions that transform business models with an unwavering dedication to simplicity. Experienced across high-throughput distributed backends (Rails, Node.js, Python), modern reactive frontends (React, TypeScript), cross-platform mobile apps (Flutter), and 60 FPS HTML5 canvas simulations. Pioneer of the Constitutional AI Engineering paradigm (<code>LAW.md</code>), achieving 10x development velocity with zero technical debt and 540+ invariant test guarantees. Beyond coding, I pride myself on being a mindful mentor, discerning recruiter, and cheerful team player. Let’s craft magic together!
+  </p>
+
+  <!-- SKILLS -->
+  <h2 class="section-heading">SKILLS</h2>
+  <div class="skills-block">
+    <div class="skill-line"><b>Front-End:</b> JavaScript, React, TypeScript, Redux, Flutter, Next.js, Tailwind CSS, DaisyUI, Vuejs, Quasar, Alpinejs, Livewire, 60fps Canvas Physics, Web Audio</div>
+    <div class="skill-line"><b>Back-End:</b> Ruby, Rails 8, Python, Node.js, PHP, Laravel, MySQL, PostgreSQL, MongoDB, Redis, Sidekiq, WebSockets, Firebase</div>
+    <div class="skill-line"><b>Toolkit:</b> Git, Docker, Garage S3, AWS, Vercel, Stripe, Cloudinary, Bitrise CI/CD, Computer Vision, Termius, Roboflow, SEO, OpenAI</div>
+    <div class="skill-line"><b>Quality &amp; Rigor:</b> RSpec (541 core tests), Vitest (218 tests), Flutter Tests (97 tests), Playwright, Constitutional AI (LAW.md)</div>
+    <div class="skill-line"><b>OS:</b> Mac, Linux, Ubuntu, Mint, Windows</div>
+    <div class="skill-line"><b>Professional:</b> Remote Pair-Programming, Systems Architecture, Mentoring, Meditation, Discerning Recruiting, Leadership, Teamwork</div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <h2 class="section-heading">EXPERIENCE</h2>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name"><a href="https://rexone.me" target="_blank">REXONE ECOSYSTEM</a></td>
+        <td class="comp-loc">Remote</td>
+      </tr>
+      <tr>
+        <td class="job-title">Founder, Lead Architect</td>
+        <td class="job-dates">2024 &ndash; Present</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Pioneered and engineered the production-grade multi-platform foundation spanning Rails 8 API (<i>core</i>), React 19 (<i>web</i>), and Flutter 3 (<i>mobile</i>), unified by contract-driven WebSockets and isolated Garage S3 storage.</li>
+      <li>Architected a 100% transparent "glass-box" distributed infrastructure with zero hidden magic: real-time ActionCable streaming, Redis multi-tier caching, and robust asynchronous background queues (Sidekiq) for AI, media, and payment jobs.</li>
+      <li>Engineered comprehensive mission-control observability dashboards across web and mobile, providing plain-as-daylight telemetry for audit logs, client/server errors, live user activity, and storage pipelines.</li>
+      <li>Authored 541 RSpec core specifications across 74 suites, guarding bedrock domain models, multi-tier IAM, and payment webhook invariants against regression.</li>
+      <li>Established the Constitutional AI Engineering paradigm (<i>LAW.md</i>) and automated multi-casing rebranding engines (kebab-case Docker, snake_case Postgres, Title Case UI) to eliminate AI drift and guarantee clean forkability.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name"><a href="https://meritmoon.com" target="_blank">MERITMOON</a></td>
+        <td class="comp-loc">Remote</td>
+      </tr>
+      <tr>
+        <td class="job-title">Creator &amp; Canvas Architect</td>
+        <td class="job-dates">2024 &ndash; Present</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Engineered a zero-dependency celestial meditation and breathwork platform running at a locked 60 FPS using pure vanilla JavaScript, CSS, and HTML5 Canvas.</li>
+      <li>Implemented real-time procedural starfield generation, nebula dissipation, firefly flocking algorithms, drifting leaf physics, and pure Web Audio ambient waveform synthesis.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name"><a href="https://www.js.eco/" target="_blank">JUICESERVE</a></td>
+        <td class="comp-loc">Remote</td>
+      </tr>
+      <tr>
+        <td class="job-title">Full-Stack Developer</td>
+        <td class="job-dates">Feb 2023 &ndash; Present</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Spearhead the creation of innovative cross-platform web and mobile applications in the EV sector, utilizing <i>Flutter</i> and <i>Python</i> to bridge frontend and backend functionalities.</li>
+      <li>Perform a pivotal role in development and execution, bridging time zones from Southeast Asia, ensuring seamless project continuity with the CTO and CEO in the US and UK teams.</li>
+      <li>Forge effective strategies, establish best-in-class communication and remote working practices, positioning me as a key contributor within the company.</li>
+      <li>Cultivate relationships with high-profile US clients, including notable engagements with industry leaders like <b>Revel</b> and ongoing collaboration with the global giant, <b>Uber</b>.</li>
+      <li>Enriching expertise through teamwork with former Microsoft and Google professionals.</li>
+      <li>Integrated computer vision models with real-time cloud APIs for automated vehicle telemetry and smart parking recognition.</li>
+      <li>Proactively recruit and lead talent, ensuring high-quality development and state management standards.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name">SMTHGOOD</td>
+        <td class="comp-loc">Remote</td>
+      </tr>
+      <tr>
+        <td class="job-title">Frontend Developer</td>
+        <td class="job-dates">Oct 2023 &ndash; Feb 2024</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Crafted and launched cross-platform applications using <i>Flutter</i> and <i>Dart</i>, emphasizing UI/UX principles and RESTful API integration through <i>Flutter BLoC</i> and <i>GetX</i>.</li>
+      <li>Developed web platforms like landing pages and admin panels using <i>React</i>.</li>
+      <li>Achieved timely delivery of feature-rich, high-performance apps through diverse teams.</li>
+      <li>Developed visually appealing and user-friendly mobile applications utilizing strong problem-solving skills and ability to adapt to evolving technologies and frameworks.</li>
+      <li>Remarkably launched Version 3 of Smthgood witnessing a <b>750% surge in weekly active users</b> and a <b>342% boost in monthly active users</b> within just two weeks.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name">BIDSLOTH</td>
+        <td class="comp-loc">Remote</td>
+      </tr>
+      <tr>
+        <td class="job-title">Founding Backend Engineer</td>
+        <td class="job-dates">Jun 2023 &ndash; Oct 2023</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Developed a secure backend infrastructure for an online auction platform using <i>Node.js</i> and <i>MongoDB</i>, enhancing system stability and scalability by 80%.</li>
+      <li>Optimized APIs through caching strategies, efficiently enhancing user experience.</li>
+      <li>Automated Stripe payment transactions with cron, significantly enhancing operational efficiency by reducing manual screen time.</li>
+      <li>Enabled file upload capabilities with Cloudinary and Socket.io to support real-time interactions, achieving a <b>90% customer satisfaction score</b>.</li>
+      <li>Crucial contributions to the successful launch and scaling of bidsloth.com, establishing it as a promising online auction platform with a growing user base.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name">ALPHA SIRIUS</td>
+        <td class="comp-loc">Remote</td>
+      </tr>
+      <tr>
+        <td class="job-title">Full-Stack Developer</td>
+        <td class="job-dates">Oct 2022 &ndash; Jun 2023</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Enhanced the customer ordering system and merchant portal of Servdmm, boosting online sales by <b>30%</b> and reducing cart abandonment by <b>20%</b>.</li>
+      <li>Forged successful partnerships with over 20 top-tier companies, including <b>Pizza Hut</b>, by prioritizing merchant needs and delivering exceptional service.</li>
+      <li>Enhanced administrative efficiency with Orchid and Filament, streamlining administrative operations effectively.</li>
+      <li>Leveraged React, Laravel, RESTful APIs, and databases to refine Servd products, achieving a <b>30% improvement in page load times</b> and superior site performance.</li>
+      <li>Improved code quality and application robustness by conducting code reviews and integrating automated testing, ensuring robust and error-free applications.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name"><a href="https://www.aidma-hd.jp/" target="_blank">AIDMA HOLDINGS</a></td>
+        <td class="comp-loc">Remote</td>
+      </tr>
+      <tr>
+        <td class="job-title">Full-Stack Developer (Freelance)</td>
+        <td class="job-dates">August 2022 &ndash; September 2022</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Revamped the extensive codebase of a Japanese Recruiter Platform with Vue + Quasar for the frontend and Laravel for the backend, both encapsulated in Docker.</li>
+      <li>Enhanced the platform by introducing new features and ensuring responsiveness through sophisticated CSS techniques and meticulous debugging, under rigorous code review.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name">ROBUST AND BEST</td>
+        <td class="comp-loc">Remote</td>
+      </tr>
+      <tr>
+        <td class="job-title">Full-Stack Developer (Part-time)</td>
+        <td class="job-dates">August 2022 &ndash; September 2022</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Engineered and launched the "Earn To Learn" website from the ground up using React + Ruby on Rails, enabling users to convert points into currency.</li>
+      <li>Directed and mentored a team of three juniors throughout the project's lifecycle.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name">EDUVALLEY</td>
+        <td class="comp-loc">Yangon, Myanmar</td>
+      </tr>
+      <tr>
+        <td class="job-title">Founder, CEO, Full-Stack developer</td>
+        <td class="job-dates">April 2019 &ndash; May 2022</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Pioneered, crafted, and launched an online learning platform accessible via mobile and web applications from scratch, using Flutter and Laravel.</li>
+      <li>Boosted daily active users by approximately 1k.</li>
+      <li>Achieved early profitability through organic growth within the first month of launch.</li>
+    </ul>
+  </div>
+
+  <!-- VOLUNTEER -->
+  <h2 class="section-heading">VOLUNTEER</h2>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name">MICROVERSE</td>
+        <td class="comp-loc">Remote</td>
+      </tr>
+      <tr>
+        <td class="job-title">Mentor</td>
+        <td class="job-dates">June 2022 &ndash; Jan 2023</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Mentored 3 junior developers, enhancing their skills through meticulous code reviews.</li>
+      <li>Proposed improvements that significantly boosted code quality and performance, earning recognition from senior members of the global community.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name">THATEPANHUB</td>
+        <td class="comp-loc">Remote</td>
+      </tr>
+      <tr>
+        <td class="job-title">Backend Developer</td>
+        <td class="job-dates">Jan 2022 &ndash; June 2022</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Revitalized the backend architecture of a sophisticated relational database system.</li>
+      <li>Spearheaded the development and launch of a new CMS for the organization, utilizing Laravel and Livewire, enhancing content management efficiency.</li>
+    </ul>
+  </div>
+
+  <!-- EDUCATION -->
+  <h2 class="section-heading">EDUCATION</h2>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name">YANGON TECHNOLOGICAL UNIVERSITY</td>
+        <td class="comp-loc">Yangon, Myanmar</td>
+      </tr>
+      <tr>
+        <td class="job-title">Mechatronics Engineering</td>
+        <td class="job-dates">December 2016 &ndash; April 2020</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Explored Robotic Technologies, constructing several autonomous vehicles.</li>
+      <li>Secured the best performance and best design awards in national STEM competitions.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name">MICROVERSE</td>
+        <td class="comp-loc">May 2022 &ndash; Jan 2023</td>
+      </tr>
+      <tr>
+        <td class="job-title">Remote Full-Stack Web Development Program, Full-Time</td>
+        <td class="job-dates"></td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Dedicated over 1300 hours mastering Data Structures and Algorithms, and Full-Stack development, building projects in Ruby, Rails, JavaScript, React, and Redux.</li>
+      <li>Refined remote collaboration skills through pair programming, utilizing GitHub, Git-Flow, and daily standups, working with developers worldwide.</li>
+      <li>Earned certifications in professional remote software development.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <table class="entry-table">
+      <tr>
+        <td class="comp-name">GOOGLE DEEPMIND ANTIGRAVITY</td>
+        <td class="comp-loc">Sep 2026</td>
+      </tr>
+      <tr>
+        <td class="job-title">Autonomous AI Architect Audit &mdash; Rated 9.9 / 10</td>
+        <td class="job-dates">Verified Evaluation</td>
+      </tr>
+    </table>
+    <ul class="bullets">
+      <li>Classified as <i>Grandmaster Full-Stack Architect &amp; Product Craftsman</i> based on constitutional AI rigor and multi-platform engineering (<a href="https://rexone.me/RATING.md" target="_blank" style="color:#068d9d;">RATING.md</a>).</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>

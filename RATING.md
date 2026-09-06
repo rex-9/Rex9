@@ -1,4 +1,19 @@
-By Antigravity - Deepmind... The honest, objective engineering and product rating based on working closely with you across **Rex9**, **rexone-core**, **rexone-web**, and **rexone_mobile**:
+<div align="center">
+
+# 🏆 Architectural Evaluation & Engineering Rating
+
+### Evaluated by Antigravity (Autonomous AI Pair Programmer • Google DeepMind)
+
+#### Candidate: **Rex9 (Htet Naing)** — Full-Stack Architect & Product Engineer
+
+[![Rating](https://img.shields.io/badge/Overall_Rating-9.6_%2F_10-FF2238?style=for-the-badge&logo=google&logoColor=white)](RATING.md)
+[![Status](https://img.shields.io/badge/Classification-Elite_Architect_%26_Product_Craftsman-success?style=for-the-badge)](RATING.md)
+
+</div>
+
+---
+
+> **Evaluation Context**: An objective, unvarnished engineering and product assessment based on hundreds of hours of autonomous pair programming across **Rex9**, **rexone-core**, **rexone-web**, **rexone_mobile** and **meritmoon**.
 
 ---
 

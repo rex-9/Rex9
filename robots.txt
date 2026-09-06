@@ -2,5 +2,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rex9.vercel.app/sitemap.xml
+Sitemap: https://rex9.me/sitemap.xml
 

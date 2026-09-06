@@ -24,7 +24,7 @@ Here is your updated, high-impact resume. You can **copy-paste this directly int
 **Lead Full-Stack Architect & Product Craftsman**
 Bangkok, Thailand (Open to Worldwide Remote / Relocation)
 **Email**: [your-email] | **Phone**: +66 94 405 6131
-**Portfolio**: [rex9.vercel.app](https://rex9.vercel.app) | **RexOne**: [rexone.me](https://rexone.me) | **MeritMoon**: [meritmoon.com](https://meritmoon.com)
+**Portfolio**: [rex9.me](https://rex9.me) | **RexOne**: [rexone.me](https://rexone.me) | **MeritMoon**: [meritmoon.com](https://meritmoon.com)
 **GitHub**: [github.com/rex-9](https://github.com/rex-9) | **LinkedIn**: [linkedin.com/in/rex9](https://www.linkedin.com/in/rex9) | **Bento**: [bento.me/rex9](https://bento.me/rex9)
 
 ---

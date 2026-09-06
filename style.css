@@ -1149,6 +1149,24 @@ img.profileImg[src$=".png"] {
   opacity: 0.85;
 }
 
+.testimonial-ai-badge {
+  color: var(--color-primary-light);
+  font-weight: 600;
+  text-shadow: 0 0 6px rgba(var(--color-primary-rgb), 0.4);
+}
+
+.testimonial-ai-icon {
+  width: 14px;
+  height: 14px;
+  fill: var(--color-primary);
+  filter: drop-shadow(0 0 4px var(--color-primary));
+}
+
+.testimonial-ai-card {
+  border-color: rgba(var(--color-primary-rgb), 0.45);
+  box-shadow: 0 4px 25px rgba(var(--color-primary-rgb), 0.18);
+}
+
 .testimonial-quote-icon {
   width: 24px;
   height: 24px;

@@ -112,8 +112,21 @@
   <!-- ==================== TESTIMONIALS (<Testimonials />) ==================== -->
   <section id="Testimonials" class="testimonials-box">
     <h2>Testimonials</h2>
-    <!-- Dynamic Testimonials rendered from DATA.testimonials in rex9.js -->
-    <div class="testimonials-cardBox" id="testimonials-container"></div>
+    <div class="testimonials-carousel-wrapper">
+      <button type="button" class="testimonial-arrow prev" id="testimonials-prev-btn" aria-label="Previous Testimonial">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+      <!-- Dynamic Testimonials rendered from DATA.testimonials in main.js -->
+      <div class="testimonials-cardBox" id="testimonials-container"></div>
+      <button type="button" class="testimonial-arrow next" id="testimonials-next-btn" aria-label="Next Testimonial">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+    </div>
+    <div class="testimonials-dots" id="testimonials-dots"></div>
   </section>
 
   <!-- ==================== CONTACT & FOOTER (<Contact />) ==================== -->

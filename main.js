@@ -506,18 +506,98 @@ function renderProjects() {
 /** Render Testimonials */
 function renderTestimonials() {
   const container = document.getElementById('testimonials-container');
-  if (!container) return;
+  if (!container || !DATA.testimonials) return;
 
-  const html = DATA.testimonials.map(t => `
-    <div class="testimonial-card">
-      <a href="${escapeHtml(t.link)}" target="_blank" rel="noopener noreferrer">
-        <div class="testimonial-name">${escapeHtml(t.name)}</div>
-        <div class="testimonial-recommendation">${escapeHtml(t.recommendation)}</div>
-      </a>
+  const html = DATA.testimonials.map((t, idx) => `
+    <div class="testimonial-card" data-index="${idx}">
+      <div class="testimonial-header">
+        <div class="testimonial-author">
+          <a href="${escapeHtml(t.link)}" target="_blank" rel="noopener noreferrer" class="testimonial-name">
+            ${escapeHtml(t.name)}
+          </a>
+          <span class="testimonial-badge">
+            <svg class="testimonial-linkedin-icon" viewBox="0 0 24 24">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.25c-.9 0-1.63.73-1.63 1.63s.73 1.63 1.63 1.63 1.63-.73 1.63-1.63-.73-1.63-1.63-1.63Z"/>
+            </svg>
+            LinkedIn Recommendation
+          </span>
+        </div>
+        <svg class="testimonial-quote-icon" viewBox="0 0 24 24">
+          <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+        </svg>
+      </div>
+      <div class="testimonial-recommendation">${escapeHtml(t.recommendation)}</div>
+      <div class="testimonial-footer">
+        <a href="${escapeHtml(t.link)}" target="_blank" rel="noopener noreferrer" class="testimonial-link">
+          View on LinkedIn
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
+      </div>
     </div>
   `).join('');
 
   container.innerHTML = html;
+  initTestimonialsCarousel();
+}
+
+/** Testimonials Carousel Navigation & Indicators */
+function initTestimonialsCarousel() {
+  const container = document.getElementById('testimonials-container');
+  const prevBtn = document.getElementById('testimonials-prev-btn');
+  const nextBtn = document.getElementById('testimonials-next-btn');
+  const dotsContainer = document.getElementById('testimonials-dots');
+  if (!container) return;
+
+  const getScrollStep = () => {
+    const card = container.querySelector('.testimonial-card');
+    return card ? card.offsetWidth + 20 : 380;
+  };
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      container.scrollBy({ left: -getScrollStep(), behavior: 'smooth' });
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      container.scrollBy({ left: getScrollStep(), behavior: 'smooth' });
+    });
+  }
+
+  if (dotsContainer && DATA.testimonials && DATA.testimonials.length > 0) {
+    dotsContainer.innerHTML = DATA.testimonials.map((_, i) => `
+      <button type="button" class="testimonial-dot ${i === 0 ? 'active' : ''}" aria-label="Go to testimonial ${i + 1}" data-index="${i}"></button>
+    `).join('');
+
+    const dots = dotsContainer.querySelectorAll('.testimonial-dot');
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        const index = parseInt(dot.getAttribute('data-index'), 10);
+        const card = container.querySelector(`[data-index="${index}"]`);
+        if (card) {
+          card.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+        }
+      });
+    });
+
+    let scrollTimer = null;
+    container.addEventListener('scroll', () => {
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(() => {
+        const scrollLeft = container.scrollLeft;
+        const step = getScrollStep();
+        const activeIdx = Math.round(scrollLeft / step);
+        dots.forEach((dot, i) => {
+          dot.classList.toggle('active', i === Math.min(activeIdx, DATA.testimonials.length - 1));
+        });
+      }, 50);
+    }, { passive: true });
+  }
 }
 
 /* ============================================================

@@ -456,14 +456,17 @@ function renderSkills() {
   box.innerHTML = html;
 }
 
-/** Render Project Cards sorted by ID descending */
+let showAllProjects = false;
+
+/** Render Project Cards sorted by ID descending (shows first 4 projects by default) */
 function renderProjects() {
   const container = document.getElementById('projects-container');
   if (!container) return;
 
   const sortedProjects = [...DATA.projects].sort((a, b) => b.id - a.id);
+  const visibleProjects = showAllProjects ? sortedProjects : sortedProjects.slice(0, 4);
 
-  const html = sortedProjects.map(project => {
+  const html = visibleProjects.map(project => {
     const techsHtml = project.techs.map(tech => `
       <div class="tech-tag">${escapeHtml(tech)}</div>
     `).join('');
@@ -501,6 +504,35 @@ function renderProjects() {
   }).join('');
 
   container.innerHTML = html;
+  updateProjectsToggleButton();
+}
+
+/** Update projects toggle button text and aria attribute */
+function updateProjectsToggleButton() {
+  const btn = document.getElementById('projects-toggle-btn');
+  const text = document.getElementById('projects-toggle-text');
+  if (!btn || !text) return;
+
+  btn.setAttribute('aria-expanded', String(showAllProjects));
+  text.textContent = showAllProjects ? 'Show Less Projects' : 'See More Projects';
+}
+
+/** Initialize projects unfold / fold button handler */
+function initProjectsToggle() {
+  const btn = document.getElementById('projects-toggle-btn');
+  if (!btn) return;
+
+  btn.addEventListener('click', () => {
+    showAllProjects = !showAllProjects;
+    renderProjects();
+
+    if (!showAllProjects) {
+      const section = document.getElementById('Projects');
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  });
 }
 
 /** Render Testimonials */
@@ -609,6 +641,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderProfiles();
   renderSkills();
   renderProjects();
+  initProjectsToggle();
   renderTestimonials();
 
   // 2. Initialize Navigation and UI controls

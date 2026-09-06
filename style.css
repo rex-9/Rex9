@@ -16,23 +16,23 @@
    Change colors here to update the entire website instantly!
    ============================================================ */
 :root {
-  /* ===== PRIMARY PALETTE (Neon Sunset Coral: between orange & pink) ===== */
-  --color-primary: #ff5e62;
-  /* Vibrant Neon Coral */
-  --color-primary-rgb: 255, 94, 98;
-  --color-primary-light: #ff8a8d;
-  /* Soft Rose Highlight */
-  --color-primary-dark: #e8334a;
-  /* Vivid Crimson-Coral */
+  /* ===== PRIMARY PALETTE (Neon Scarlet Red: More Red, Less Pink) ===== */
+  --color-primary: #ff2238;
+  /* Vibrant Neon Red */
+  --color-primary-rgb: 255, 34, 56;
+  --color-primary-light: #ff5263;
+  /* Soft Poppy Red Highlight */
+  --color-primary-dark: #cc1125;
+  /* Vivid Deep Crimson */
 
   --color-glow-white: #fff2f4;
   /* White-Rose Neon Core */
-  --color-glow-outer: #6b1426;
+  --color-glow-outer: #5c0916;
   /* Deep Atmospheric Ruby */
-  --color-glow-outer-rgb: 107, 20, 38;
+  --color-glow-outer-rgb: 92, 9, 22;
 
   /* ===== BACKGROUNDS & GLASSMORPHISM ===== */
-  --bg-body: #080808;
+  --bg-body: #160b11;
   --bg-glass-nav: rgba(22, 7, 13, 0.75);
   --bg-glass-card: rgba(35, 12, 20, 0.38);
   --bg-glass-card-hover: rgba(50, 16, 28, 0.55);
@@ -44,11 +44,11 @@
   --glass-blur-heavy: 14px;
 
   /* ===== BORDERS & GLOW ACCENTS ===== */
-  --border-glass: rgba(255, 94, 98, 0.22);
-  --border-glass-hover: rgba(255, 94, 98, 0.55);
-  --border-tag: rgba(255, 94, 98, 0.65);
-  --border-tag-bg: rgba(255, 94, 98, 0.08);
-  --border-tag-bg-hover: rgba(255, 94, 98, 0.28);
+  --border-glass: rgba(255, 34, 56, 0.22);
+  --border-glass-hover: rgba(255, 34, 56, 0.55);
+  --border-tag: rgba(255, 34, 56, 0.65);
+  --border-tag-bg: rgba(255, 34, 56, 0.08);
+  --border-tag-bg-hover: rgba(255, 34, 56, 0.28);
 
   /* ===== TEXT COLORS ===== */
   --text-white: #ffffff;
@@ -87,6 +87,8 @@ body {
   font-family: var(--font-body);
   background-color: var(--bg-body);
   background-image: url("./assets/design/dark-brick-wall.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
   overflow-x: hidden;
   color: var(--text-white);
   width: 100%;
@@ -243,43 +245,46 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 600px;
-  min-height: 200px;
-  margin: 50px auto 10px auto;
+  max-width: 650px;
+  min-height: 224px;
+  margin: 48px auto 16px auto;
   background-image: radial-gradient(ellipse 65% 55% at 50% 50%,
       rgba(var(--color-glow-outer-rgb), 0.85),
       transparent 70%);
   transform: none;
-  letter-spacing: 6px;
+  letter-spacing: 0.1em;
   font-family: var(--font-heading);
   text-transform: uppercase;
-  font-size: 6.5em;
+  font-size: 8rem;
+  line-height: 1;
   color: var(--color-glow-white);
   text-shadow:
-    0 0 0.6rem var(--color-glow-white),
-    0 0 1.5rem var(--color-primary),
-    -0.2rem 0.1rem 1rem var(--color-primary),
-    0.2rem 0.1rem 1rem var(--color-primary),
-    0 -0.5rem 2rem var(--color-primary-dark),
-    0 0.5rem 3rem var(--color-primary-dark);
+    0 0 7px var(--color-glow-white),
+    0 0 10px var(--color-glow-white),
+    0 0 21px var(--color-glow-white),
+    0 0 42px var(--color-primary),
+    0 0 82px var(--color-primary),
+    0 0 92px var(--color-primary),
+    0 0 102px var(--color-primary),
+    0 0 151px var(--color-primary);
   animation: shine 2s forwards, flicker 3s infinite;
   text-align: center;
 }
 
 @media (max-width: 800px) {
   .sign {
-    font-size: 4.8em;
-    min-height: 160px;
-    margin: 40px auto 10px auto;
+    font-size: 5.5rem;
+    min-height: 180px;
+    margin: 36px auto 12px auto;
   }
 }
 
 @media (max-width: 480px) {
   .sign {
-    font-size: 3.4em;
-    min-height: 120px;
-    margin: 25px auto 5px auto;
-    letter-spacing: 3px;
+    font-size: 3.75rem;
+    min-height: 140px;
+    margin: 24px auto 8px auto;
+    letter-spacing: 0.08em;
   }
 }
 
@@ -467,35 +472,39 @@ a {
 /* ===== CATCHPHRASE & PROFILES ===== */
 .phrase {
   font-family: var(--font-heading);
-  font-size: 19px;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 40px 20px 0 20px;
+  font-size: 18px;
+  max-width: 896px;
+  margin: 32px auto;
+  padding: 0 20px;
   color: var(--text-white);
   text-align: center;
-  line-height: 1.85;
+  line-height: 1.625;
+  letter-spacing: 0.025em;
+  font-weight: 400;
   text-shadow:
-    0 0 0.6rem var(--color-glow-white),
-    0 0 1.5rem var(--color-primary),
-    -0.2rem 0.1rem 1rem var(--color-primary),
-    0.2rem 0.1rem 1rem var(--color-primary),
-    0 -0.5rem 2rem var(--color-primary-dark),
-    0 0.5rem 3rem var(--color-primary-dark);
+    0 0 8px var(--color-glow-white),
+    0 0 20px var(--color-primary),
+    0 0 40px var(--color-primary-dark);
 }
 
-@media (max-width: 800px) {
-  .phrase {
-    font-size: 17px;
-    padding: 30px 20px 0 20px;
-    line-height: 1.7;
-  }
+.phrase p {
+  margin: 0 0 12px 0;
 }
 
-@media (max-width: 600px) {
+.phrase p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
   .phrase {
-    font-size: 15px;
-    padding: 20px 15px 0 15px;
+    font-size: 16px;
     line-height: 1.6;
+    margin: 24px auto;
+    padding: 0 16px;
+  }
+
+  .phrase p {
+    margin-bottom: 10px;
   }
 }
 
@@ -878,6 +887,59 @@ img.profileImg[src$=".png"] {
   }
 }
 
+/* ===== PROJECTS TOGGLE (Unfold / Fold 2 Rows) ===== */
+.projects-toggle-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 36px auto 10px auto;
+  width: 100%;
+}
+
+.projects-toggle-btn {
+  background: var(--bg-glass-card);
+  border: 1px solid var(--border-glass);
+  border-radius: 9999px;
+  padding: 13px 32px;
+  color: var(--color-glow-white);
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  cursor: var(--laser-cursor);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
+  outline: none;
+}
+
+.projects-toggle-btn:hover {
+  background: var(--bg-glass-card-hover);
+  border-color: var(--border-glass-hover);
+  color: var(--color-primary-light);
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 15px rgba(var(--color-primary-rgb), 0.5),
+    0 0 30px rgba(var(--color-primary-rgb), 0.2);
+}
+
+.projects-toggle-btn:active {
+  transform: translateY(0);
+}
+
+.projects-toggle-icon {
+  transition: transform 0.35s ease;
+  stroke: currentColor;
+}
+
+.projects-toggle-btn[aria-expanded="true"] .projects-toggle-icon {
+  transform: rotate(180deg);
+}
+
 /* ===== TESTIMONIALS ===== */
 .testimonials-box {
   padding: 10px 20px;
@@ -1054,12 +1116,17 @@ img.profileImg[src$=".png"] {
 
 .testimonial-name {
   color: var(--color-glow-white);
-  font-size: 19px;
-  font-weight: 700;
-  font-family: var(--font-body);
-  text-shadow: 0 0 10px rgba(var(--color-primary-rgb), 0.7);
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: var(--font-heading);
+  text-shadow:
+    0 0 8px var(--color-glow-white),
+    0 0 16px var(--color-primary),
+    0 0 24px var(--color-primary-dark);
   text-decoration: none;
   transition: color 0.2s ease, text-shadow 0.2s ease;
+  display: block;
 }
 
 .testimonial-name:hover {

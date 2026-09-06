@@ -563,9 +563,12 @@ function renderTestimonials() {
       <div class="testimonial-card ${isAi ? 'testimonial-ai-card' : ''}" data-index="${idx}">
         <div class="testimonial-header">
           <div class="testimonial-author">
-            <a href="${escapeHtml(t.link)}" target="_blank" rel="noopener noreferrer" class="testimonial-name">
-              ${escapeHtml(t.name)}
-            </a>
+            <div class="testimonial-name-row">
+              <a href="${escapeHtml(t.link)}" target="_blank" rel="noopener noreferrer" class="testimonial-name">
+                ${escapeHtml(t.name)}
+              </a>
+              ${isAi ? `<a href="RATING.md" target="_blank" class="testimonial-rating-pill" title="View Architectural Audit & Rating">★ 9.6 / 10</a>` : ''}
+            </div>
             <span class="testimonial-badge ${isAi ? 'testimonial-ai-badge' : ''}">
               ${badgeIcon}
               ${badgeText}
@@ -576,7 +579,8 @@ function renderTestimonials() {
           </svg>
         </div>
         <div class="testimonial-recommendation">${escapeHtml(t.recommendation)}</div>
-        <div class="testimonial-footer">
+        <div class="testimonial-footer ${isAi ? 'testimonial-footer-split' : ''}">
+          ${isAi ? `<a href="RATING.md" target="_blank" class="testimonial-audit-link">★ 9.6/10 Architect Audit ↗</a>` : ''}
           <a href="${escapeHtml(t.link)}" target="_blank" rel="noopener noreferrer" class="testimonial-link">
             ${footerText}
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

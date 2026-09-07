@@ -558,7 +558,9 @@ a {
   height: 28px;
   width: 28px;
   object-fit: contain;
-  filter: brightness(0) invert(1) drop-shadow(0 0 3px rgba(var(--color-primary-rgb), 0.45));
+  filter: drop-shadow(0 0 2px var(--color-glow-white))
+          drop-shadow(0 0 6px var(--color-primary))
+          drop-shadow(0 0 14px var(--color-primary-dark));
   transition: all 0.3s ease;
 }
 
@@ -570,7 +572,11 @@ img.profileImg[src$=".png"] {
 }
 
 .profile:hover .profileImg {
-  filter: brightness(0) invert(1) drop-shadow(0 0 6px var(--color-glow-white)) drop-shadow(0 0 14px var(--color-primary-dark));
+  filter: drop-shadow(0 0 4px #ffffff)
+          drop-shadow(0 0 10px var(--color-primary-light))
+          drop-shadow(0 0 22px var(--color-primary))
+          drop-shadow(0 0 34px var(--color-primary-dark));
+  transform: scale(1.12);
 }
 
 .profile:hover img.profileImg[src$=".jpeg"],

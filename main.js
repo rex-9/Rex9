@@ -30,12 +30,6 @@ const DATA = {
       logo: './assets/design/angellist.svg',
     },
     {
-      platform: 'Bento',
-      username: 'rex9',
-      link: 'https://bento.me/rex9',
-      logo: './assets/design/bento.jpeg',
-    },
-    {
       platform: 'Medium',
       username: 'rex9',
       link: 'https://medium.com/@rex9',

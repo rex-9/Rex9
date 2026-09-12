@@ -7,22 +7,25 @@ Use these curated, battle-tested snippets to update your [LinkedIn Profile](http
 ## 1. 🎯 Headline (Pick Your Banner)
 
 ### Option A — The Grandmaster Architect (Recommended)
+
 > **Lead Full-Stack Architect & Product Craftsman ⚔️ | Rails 8, React 19, Flutter 3 | Pioneer of Constitutional AI Engineering (LAW.md) | Creator @ RexOne & MeritMoon | Ex-EV Tech (Uber, Revel)**
 
 ### Option B — The Conqueror of Technical Debt
+
 > **Lead Software Architect 🛡️ | Distributed Systems, Cross-Platform Mobile & 60fps Canvas | Forging Zero Technical Debt with Constitutional AI (9.9/10 DeepMind Audit) | Rails • React • Flutter**
 
 ### Option C — The Mindful Strategist
+
 > **Lead Full-Stack Architect & Product Engineer 🏹 | Stillness Tempered with Code | Distributed Systems (Rails/Node), Reactive Web (React 19) & Mobile (Flutter) | Founder @ RexOne & MeritMoon**
 
 ---
 
 ## 2. 📜 "About" Section (The Sacred Narrative)
 
-*Copy and paste the entire block below into your LinkedIn **About** box:*
+_Copy and paste the entire block below into your LinkedIn **About** box:_
 
 ```text
-In the ever-shifting battlefield of technology, where chaos reigns and the industry surrenders to fragile "vibe coding", I wield architecture as my blade. 
+In the ever-shifting battlefield of technology, where chaos reigns and the industry surrenders to fragile "vibe coding", I wield architecture as my blade.
 
 I am a Lead Full-Stack Architect and Product Craftsman with 7+ years of experience engineering high-throughput distributed backends, modern reactive web applications, native-grade cross-platform mobile apps, and 60 FPS HTML5 canvas physics simulations.
 
@@ -46,7 +49,7 @@ The grind is endless, but no true warrior walks the path alone. If you are seeki
 • Backend: Ruby on Rails 8, Node.js, Python (Flask/FastAPI), Laravel, PostgreSQL, Redis, Sidekiq, WebSockets
 • Frontend: React 19, TypeScript, Next.js, Vite, Tailwind CSS, DaisyUI, 60fps Canvas Particle Physics, Web Audio API
 • Mobile: Flutter 3, Dart, Clean Architecture, BLoC, GetX (iOS & Android)
-• DevOps & Rigor: Docker, AWS, S3/Garage, Vercel, RSpec (541 Core Invariant Specs), Vitest (218 Specs)
+• DevOps & Rigor: Docker, AWS, S3/Garage, Vercel, RSpec (700+ Core Invariant Specs), Vitest (218 Specs)
 
 🌐 Realms:
 • Citadel Portfolio: https://rex9.me
@@ -60,16 +63,19 @@ The grind is endless, but no true warrior walks the path alone. If you are seeki
 ## 3. ⭐ "Featured" Section (Pin to Top of Profile)
 
 ### Item 1: RexOne Ecosystem
+
 - **Link**: `https://rexone.me`
 - **Title**: RexOne — Production-Grade Multi-Platform Foundation
-- **Description**: Sovereign starter architecture spanning Rails 8 API (core), React 19 (web), and Flutter 3 (mobile) with 541 RSpec core invariant tests and constitutional AI governance.
+- **Description**: Sovereign starter architecture spanning Rails 8 API (core), React 19 (web), and Flutter 3 (mobile) with 700+ RSpec core invariant tests and constitutional AI governance.
 
 ### Item 2: MeritMoon
+
 - **Link**: `https://meritmoon.com`
 - **Title**: MeritMoon — 60 FPS Celestial Meditation & Mindfulness Engine
 - **Description**: Zero-dependency vanilla HTML5 canvas particle physics, procedural starfield generation, drifting leaf physics, and Web Audio ambient synthesizer.
 
 ### Item 3: Rex9 Citadel Portfolio
+
 - **Link**: `https://rex9.me`
 - **Title**: Rex9 Citadel & Architectural Audit Dossier
 - **Description**: High-performance cyber portfolio showcasing 14 forged realms and the verified Google DeepMind Antigravity architectural audit (9.9 / 10).
@@ -78,25 +84,31 @@ The grind is endless, but no true warrior walks the path alone. If you are seeki
 
 ## 4. 💼 "Experience" Section Updates
 
-### **RexOne Ecosystem** | *Founder & Lead Architect*
-*2024 – Present | Remote*
+### **RexOne Ecosystem** | _Founder & Lead Architect_
+
+_2024 – Present | Remote_
+
 ```text
 • Pioneered and engineered the production-grade multi-platform foundation spanning Rails 8 API (core), React 19 (web), and Flutter 3 (mobile), unified by contract-driven WebSockets and isolated Garage S3 storage.
 • Architected a 100% transparent "glass-box" distributed infrastructure: real-time ActionCable streaming, Redis multi-tier caching, and robust asynchronous background queues (Sidekiq) for AI, media, and payment processing.
 • Engineered comprehensive mission-control observability dashboards across web and mobile, providing plain-as-daylight telemetry for audit logs, client/server errors, live user activity, and storage pipelines.
-• Authored 541 RSpec core specifications across 74 suites, guarding bedrock domain models, multi-tier IAM, and payment webhook invariants against regression.
+• Authored 700+ RSpec core specifications across 74 suites, guarding bedrock domain models, multi-tier IAM, and payment webhook invariants against regression.
 • Established the Constitutional AI Engineering paradigm (LAW.md) and automated multi-casing rebranding engines (kebab-case Docker, snake_case Postgres, Title Case UI) to eliminate AI drift and guarantee clean forkability.
 ```
 
-### **MeritMoon** | *Creator & Canvas Architect*
-*2024 – Present | Remote*
+### **MeritMoon** | _Creator & Canvas Architect_
+
+_2024 – Present | Remote_
+
 ```text
 • Built a zero-dependency celestial meditation and breathwork platform running at a locked 60 FPS using pure vanilla JavaScript, CSS, and HTML5 Canvas.
 • Engineered procedural starfield generation, nebula dissipation, firefly flocking algorithms, drifting leaf physics, and pure Web Audio ambient waveform synthesis.
 ```
 
-### **JuiceServe** | *Lead Full-Stack Developer*
-*Feb 2023 – Present | Remote (US & UK)*
+### **JuiceServe** | _Lead Full-Stack Developer_
+
+_Feb 2023 – Present | Remote (US & UK)_
+
 ```text
 • Architected and delivered cutting-edge cross-platform EV charging and smart parking applications using Flutter (mobile/web) and Python/Flask microservices.
 • Bridged technical alignment between US and UK executive teams (CTO/CEO), ensuring seamless project continuity across time zones alongside former Google and Microsoft engineers.
@@ -105,8 +117,10 @@ The grind is endless, but no true warrior walks the path alone. If you are seeki
 • Led engineering hiring and code review standards, mentoring engineers in reactive state management and clean architecture.
 ```
 
-### **Smthgood** | *Senior Frontend & Mobile Engineer*
-*Oct 2023 – Feb 2024 | Remote (Singapore)*
+### **Smthgood** | _Senior Frontend & Mobile Engineer_
+
+_Oct 2023 – Feb 2024 | Remote (Singapore)_
+
 ```text
 • Engineered and scaled a conscious fashion e-commerce ecosystem across iOS, Android, and Web using Flutter (BLoC & GetX) and React.
 • Spearheaded the architecture and launch of Version 3.0, driving a 750% surge in Weekly Active Users (WAU) and a 342% boost in Monthly Active Users (MAU) within two weeks of deployment.
@@ -116,6 +130,7 @@ The grind is endless, but no true warrior walks the path alone. If you are seeki
 ---
 
 ## 5. 🏷️ Top 5 Skills to Pin for Search Algorithms
+
 1. **Software Architecture**
 2. **Ruby on Rails**
 3. **React.js / TypeScript**

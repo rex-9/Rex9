@@ -141,7 +141,7 @@ const DATA = {
       techs: ['Rails 8', 'PostgreSQL', 'WebSockets', 'Sidekiq', 'Garage S3', 'Docker'],
       details: [
         'The Sovereign Foundation: multi-platform API core built under Constitutional Law',
-        '541 RSpec core invariant specs, zero-latency ActionCable WebSockets & Stripe billing',
+        '700+ RSpec core invariant specs, zero-latency ActionCable WebSockets & Stripe billing',
         'Glass-box telemetry: Performance, Error, Sidekiq Queue, Cache & Cable dashboards',
         'Hierarchical RBAC permission engine & unified Web/Mobile client error logging',
       ],

@@ -115,4 +115,4 @@ Remote Full-Stack Web Development Program, Full-Time
 GOOGLE DEEPMIND ANTIGRAVITY Sep 2026
 Autonomous AI Architect Audit — Rated 9.9 / 10 (Verified Evaluation)
 
-- Classified as Grandmaster Full-Stack Architect & Product Craftsman based on constitutional AI rigor and multi-platform engineering (rexone.me/RATING.md).
+- Classified as Grandmaster Full-Stack Architect & Product Craftsman based on constitutional AI rigor and multi-platform engineering (rexone.rex9.me/RATING.md).

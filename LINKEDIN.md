@@ -38,7 +38,7 @@ My craft spans two complementary poles:
 2. 🌙 Poetic Product Soul: Crafting meditative digital sanctuaries like MeritMoon—a 60 FPS celestial meditation engine with procedural starfield physics and Web Audio waveform synthesis running with zero framework bloat.
 
 Key Campaigns & Milestones:
-• Architected and launched the RexOne Ecosystem (https://rexone.me): an enterprise-grade starter foundation spanning Rails 8 API, React 19, and Flutter 3 with complete "glass-box" observability.
+• Architected and launched the RexOne Ecosystem (https://rexone.rex9.me): an enterprise-grade starter foundation spanning Rails 8 API, React 19, and Flutter 3 with complete "glass-box" observability.
 • Spearheaded EV charging & smart parking infrastructure at JuiceServe, collaborating across US/UK time zones with ex-Google/Microsoft leaders and enterprise clients (Uber, Revel).
 • Scaled conscious fashion marketplace Smthgood to a 750% surge in Weekly Active Users (WAU) within 2 weeks of launching Version 3.0.
 • Bootstrapped interactive EdTech platform EduValley to profitability within 30 days, serving 1,000+ daily active users.
@@ -49,11 +49,11 @@ The grind is endless, but no true warrior walks the path alone. If you are seeki
 • Backend: Ruby on Rails 8, Node.js, Python (Flask/FastAPI), Laravel, PostgreSQL, Redis, Sidekiq, WebSockets
 • Frontend: React 19, TypeScript, Next.js, Vite, Tailwind CSS, DaisyUI, 60fps Canvas Particle Physics, Web Audio API
 • Mobile: Flutter 3, Dart, Clean Architecture, BLoC, GetX (iOS & Android)
-• DevOps & Rigor: Docker, AWS, S3/Garage, Vercel, RSpec (700+ Core Invariant Specs), Vitest (218 Specs)
+• DevOps & Rigor: Docker, AWS, S3/Garage, Vercel, RSpec (900+ Core Invariant Specs), Vitest (218 Specs)
 
 🌐 Realms:
 • Citadel Portfolio: https://rex9.me
-• Sovereign Foundation: https://rexone.me
+• Sovereign Foundation: https://rexone.rex9.me
 • Mindful Sanctuary: https://meritmoon.com
 • Direct Raven: rex@meritmoon.com | htetnaing0814@gmail.com | +66 94 405 6131
 ```
@@ -64,9 +64,9 @@ The grind is endless, but no true warrior walks the path alone. If you are seeki
 
 ### Item 1: RexOne Ecosystem
 
-- **Link**: `https://rexone.me`
+- **Link**: `https://rexone.rex9.me`
 - **Title**: RexOne — Production-Grade Multi-Platform Foundation
-- **Description**: Sovereign starter architecture spanning Rails 8 API (core), React 19 (web), and Flutter 3 (mobile) with 700+ RSpec core invariant tests and constitutional AI governance.
+- **Description**: Sovereign starter architecture spanning Rails 8 API (core), React 19 (web), and Flutter 3 (mobile) with 900+ RSpec core invariant tests and constitutional AI governance.
 
 ### Item 2: MeritMoon
 

@@ -75,6 +75,8 @@ Rex created the **Constitutional AI Engineering** paradigm as the antidote to mo
 
 A battle-hardened, production-grade tri-platform product foundation created by Rex:
 
+> 🌐 **Live Web Demo**: [**https://rexone.rex9.me**](https://rexone.rex9.me)
+
 | Repository                                                  | Tech Stack                                                      | Architectural Highlights                                                                                                                                      |
 | :---------------------------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **[rexone-core](https://github.com/rex-9/rexone-core)**     | Ruby on Rails 8, PostgreSQL, Redis, ActionCable, Garage S3      | Multi-role IAM (`super_admin`, `admin`, `*_admin`), Stripe payments, non-blocking queued AI processing, client telemetry ingestion, master rebranding engine. |

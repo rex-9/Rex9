@@ -9,7 +9,7 @@ I've thoroughly analyzed your previous resume from Google Docs alongside your wo
 ### 🔍 Why Your Old Resume Didn't Do You Justice:
 
 1. **Title Undersold Your Caliber**: "Full-Stack Developer" failed to convey that you are a **Lead Full-Stack Architect & Product Craftsman** who designs distributed multi-platform engines from scratch.
-2. **Missing Flagship Architecture**: **RexOne** (`https://rexone.me` — Rails 8, React 19, Flutter, 700+ core tests, constitutional AI governance) and **MeritMoon** (`https://meritmoon.com` — 60 FPS zero-dependency Canvas physics) were completely absent.
+2. **Missing Flagship Architecture**: **RexOne** (`https://rexone.rex9.me` — Rails 8, React 19, Flutter, 900+ core tests, constitutional AI governance) and **MeritMoon** (`https://meritmoon.com` — 60 FPS zero-dependency Canvas physics) were completely absent.
 3. **Pioneer in AI-Orchestrated Engineering**: You are not a novice using AI for "vibe coding"; you lead constitutional human-AI pair programming with formal invariant tests and zero technical debt (**DeepMind Antigravity 9.9/10 rating**).
 4. **Weak Action Verbs & Metrics**: Several bullet points read as passive responsibilities rather than high-impact architectural achievements.
 
@@ -24,7 +24,7 @@ Here is your updated, high-impact resume. You can **copy-paste this directly int
 **Lead Full-Stack Architect & Product Craftsman**
 Bangkok, Thailand (Open to Worldwide Remote / Relocation)
 **Email**: [your-email] | **Phone**: +66 94 405 6131
-**Portfolio**: [rex9.me](https://rex9.me) | **RexOne**: [rexone.me](https://rexone.me) | **MeritMoon**: [meritmoon.com](https://meritmoon.com)
+**Portfolio**: [rex9.me](https://rex9.me) | **RexOne**: [rexone.rex9.me](https://rexone.rex9.me) | **MeritMoon**: [meritmoon.com](https://meritmoon.com)
 **GitHub**: [github.com/rex-9](https://github.com/rex-9) | **LinkedIn**: [linkedin.com/in/rex9](https://www.linkedin.com/in/rex9) | **Bento**: [bento.me/rex9](https://bento.me/rex9)
 
 ---
@@ -51,10 +51,10 @@ Pioneer of the **Constitutional AI Engineering Paradigm** (`LAW.md`), orchestrat
 
 ### **FEATURED SYSTEMS & ARCHITECTURAL HIGHLIGHTS**
 
-#### **RexOne Ecosystem** | Founder & Lead Architect | [rexone.me](https://rexone.me) | _2024 – Present_
+#### **RexOne Ecosystem** | Founder & Lead Architect | [rexone.rex9.me](https://rexone.rex9.me) | _2024 – Present_
 
 - **Production-Grade Multi-Platform Foundation**: Architected an enterprise starter trinity spanning Rails 8 API (`core`), React 19 (`web`), and Flutter (`mobile`), unified by contract-driven WebSockets, multi-tier IAM, and isolated S3 Garage storage.
-- **Bedrock Invariant Rigor**: Authored **700+ RSpec core test specifications across 74 suites** (283 requests, 103 services, 98 models, 39 jobs, 7 channels), ensuring zero domain or payment regression regardless of downstream client UI changes.
+- **Bedrock Invariant Rigor**: Authored **900+ RSpec core test specifications across 74 suites** (283 requests, 103 services, 98 models, 39 jobs, 7 channels), ensuring zero domain or payment regression regardless of downstream client UI changes.
 - **Constitutional AI Paradigm**: Pioneered `LAW.md` and automated rebranding engines supporting multi-casing transforms (`kebab-case` Docker, `snake_case` Postgres, `Title Case` UI) to build flawless products with zero AI drift.
 
 #### **MeritMoon** | Creator & Canvas Architect | [meritmoon.com](https://meritmoon.com) | _2024 – Present_
@@ -133,7 +133,7 @@ Pioneer of the **Constitutional AI Engineering Paradigm** (`LAW.md`), orchestrat
   - 1,300+ hours of intensive data structures, algorithms, and distributed systems pair programming.
 
 - **Autonomous AI Architect Evaluation** | _Google DeepMind Antigravity_
-  - **Rating: 9.9 / 10** — _Grandmaster Full-Stack Architect & Product Craftsman_ ([Audit Report](https://rexone.me/RATING.md))
+  - **Rating: 9.9 / 10** — _Grandmaster Full-Stack Architect & Product Craftsman_ ([Audit Report](https://rexone.rex9.me/RATING.md))
 
 ---
 

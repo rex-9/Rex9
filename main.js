@@ -122,6 +122,19 @@ const DATA = {
      ============================================================ */
   projects: [
     {
+      id: 32,
+      name: 'RexOne',
+      image: './assets/projects/rexone.png',
+      techs: ['Rails 8', 'React 19', 'Flutter 3', 'Clean Architecture', 'WebSockets', 'Constitutional Law'],
+      details: [
+        'The Sovereign Trinity: unified backend, web, and mobile ecosystem built under Constitutional Law',
+        'Start from One. Not from Zero. Forged for high-velocity SaaS with zero technical debt',
+        'Rails 8 API core with 900+ specs, React 19 client, and Flutter native mobile vanguard',
+      ],
+      live: 'https://rexone.rex9.me',
+      source: 'https://github.com/rex-9/rexone-core',
+    },
+    {
       id: 31,
       name: 'MeritMoon',
       image: './assets/projects/meritmoon.png',
@@ -136,12 +149,24 @@ const DATA = {
     },
     {
       id: 30,
+      name: 'Juice Serve',
+      image: './assets/projects/juice.png',
+      techs: ['EV Tech', 'Flutter', 'Python', 'Flask', 'GetX', 'Firebase', 'Web'],
+      details: [
+        'Next-Gen EV charging & smart parking',
+        'Computer vision with real-time cloud APIs',
+      ],
+      live: 'https://www.js.eco/',
+      source: null,
+    },
+    {
+      id: 29,
       name: 'RexOne Core',
       image: './assets/projects/rexone-core.jpg',
       techs: ['Rails 8', 'PostgreSQL', 'WebSockets', 'Sidekiq', 'Garage S3', 'Docker'],
       details: [
         'The Sovereign Foundation: multi-platform API core built under Constitutional Law',
-        '700+ RSpec core invariant specs, zero-latency ActionCable WebSockets & Stripe billing',
+        '900+ RSpec core invariant specs, zero-latency ActionCable WebSockets & Stripe billing',
         'Glass-box telemetry: Performance, Error, Sidekiq Queue, Cache & Cable dashboards',
         'Hierarchical RBAC permission engine & unified Web/Mobile client error logging',
       ],
@@ -149,7 +174,7 @@ const DATA = {
       source: 'https://github.com/rex-9/rexone-core',
     },
     {
-      id: 29,
+      id: 28,
       name: 'RexOne Web',
       image: './assets/projects/rexone-web.jpg',
       techs: ['React', 'TypeScript', 'Vite', 'TailwindCSS', 'DaisyUI', 'WebSockets'],
@@ -161,7 +186,7 @@ const DATA = {
       source: 'https://github.com/rex-9/rexone-web',
     },
     {
-      id: 28,
+      id: 27,
       name: 'RexOne Mobile',
       image: './assets/projects/rexone-mobile.jpg',
       techs: ['Flutter', 'Dart', 'GetX', 'Clean Architecture', 'Biometrics'],
@@ -171,18 +196,6 @@ const DATA = {
       ],
       live: null,
       source: 'https://github.com/rex-9/rexone_mobile',
-    },
-    {
-      id: 22,
-      name: 'Juice Serve',
-      image: './assets/projects/juice.png',
-      techs: ['EV Tech', 'Flutter', 'Python', 'Flask', 'GetX', 'Firebase', 'Web'],
-      details: [
-        'Next-Gen EV charging & smart parking',
-        'Computer vision with real-time cloud APIs',
-      ],
-      live: 'https://www.js.eco/',
-      source: null,
     },
     {
       id: 21,
@@ -474,13 +487,13 @@ function renderSkills() {
 
 let showAllProjects = false;
 
-/** Render Project Cards sorted by ID descending (shows first 4 projects by default) */
+/** Render Project Cards sorted by ID descending (shows first 6 projects by default) */
 function renderProjects() {
   const container = document.getElementById('projects-container');
   if (!container) return;
 
   const sortedProjects = [...DATA.projects].sort((a, b) => b.id - a.id);
-  const visibleProjects = showAllProjects ? sortedProjects : sortedProjects.slice(0, 4);
+  const visibleProjects = showAllProjects ? sortedProjects : sortedProjects.slice(0, 6);
 
   const html = visibleProjects.map(project => {
     const techsHtml = project.techs.map(tech => `

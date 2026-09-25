@@ -114,6 +114,14 @@ const DATA = {
       { name: 'Termius', url: 'https://termius.com/' },
       { name: 'Pm2', url: 'https://pm2.io/' },
     ],
+    architecture: [
+      { name: 'Constitutional Law (LAW.md)', url: 'https://github.com/rex-9/rexone-core' },
+      { name: 'Zero Technical Debt', url: 'https://github.com/rex-9/rexone-core' },
+      { name: '1,000+ Automated Tests', url: 'https://github.com/rex-9/rexone-core' },
+      { name: 'Theravada Mindfulness', url: '#Greetings' },
+      { name: 'System Design & Scalability', url: 'https://rexone.rex9.me' },
+      { name: 'Deterministic API Contracts', url: 'https://github.com/rex-9/rexone-core' },
+    ],
   },
 
   /* ============================================================
@@ -129,7 +137,8 @@ const DATA = {
       details: [
         'The Sovereign Trinity: unified backend, web, and mobile ecosystem built under Constitutional Law',
         'Start from One. Not from Zero. Forged for high-velocity SaaS with zero technical debt',
-        'Rails 8 API core with 900+ specs, React 19 client, and Flutter native mobile vanguard',
+        'Rails 8 API core with 1,000+ tests across trinity, React 19 client, and Flutter mobile vanguard',
+        'Built-in Ai::ToonService reducing token overhead by 53.9% with deterministic contracts',
       ],
       live: 'https://rexone.rex9.me',
       source: 'https://github.com/rex-9/rexone-core',
@@ -163,12 +172,12 @@ const DATA = {
       id: 29,
       name: 'RexOne Core',
       image: './assets/projects/rexone-core.jpg',
-      techs: ['Rails 8', 'PostgreSQL', 'WebSockets', 'Sidekiq', 'Garage S3', 'Docker'],
+      techs: ['Rails 8', 'PostgreSQL', 'WebSockets', 'Sidekiq', 'Garage S3', 'Ai::ToonService'],
       details: [
-        'The Sovereign Foundation: multi-platform API core built under Constitutional Law',
-        '900+ RSpec core invariant specs, zero-latency ActionCable WebSockets & Stripe billing',
-        'Glass-box telemetry: Performance, Error, Sidekiq Queue, Cache & Cable dashboards',
-        'Hierarchical RBAC permission engine & unified Web/Mobile client error logging',
+        'The Sovereign Foundation: multi-platform API core built under Constitutional Law (LAW.md)',
+        '700+ core invariant specs, zero-latency ActionCable WebSockets & Stripe billing',
+        'Ai::ToonService reducing token overhead by 53.9% with bi-directional JSON/TOON conversion',
+        'Glass-box telemetry: Pulse, Sidekiq, Solid Cache & Cable dashboards with 90-day retention policies',
       ],
       live: null,
       source: 'https://github.com/rex-9/rexone-core',
@@ -177,10 +186,10 @@ const DATA = {
       id: 28,
       name: 'RexOne Web',
       image: './assets/projects/rexone-web.jpg',
-      techs: ['React', 'TypeScript', 'Vite', 'TailwindCSS', 'DaisyUI', 'WebSockets'],
+      techs: ['React 19', 'TypeScript', 'Vite', 'TailwindCSS', 'DaisyUI', 'WebSockets'],
       details: [
         'Production-grade SaaS client engineered for high-velocity product campaigns',
-        'Neon Scarlet design tokens, reactive state orchestration & zero technical debt',
+        'Neon Scarlet design tokens, 218 Vitest suites, reactive state orchestration & zero technical debt',
       ],
       live: null,
       source: 'https://github.com/rex-9/rexone-web',
@@ -189,10 +198,10 @@ const DATA = {
       id: 27,
       name: 'RexOne Mobile',
       image: './assets/projects/rexone-mobile.jpg',
-      techs: ['Flutter', 'Dart', 'GetX', 'Clean Architecture', 'Biometrics'],
+      techs: ['Flutter 3', 'Dart', 'GetX', 'Clean Architecture', 'Biometrics'],
       details: [
         'Cross-platform mobile vanguard to launch native iOS & Android flagships',
-        'Layered Clean Architecture, real-time push telemetry & biometric security',
+        'Layered Clean Architecture, 97 unit/widget tests, real-time push telemetry & biometric security',
       ],
       live: null,
       source: 'https://github.com/rex-9/rexone_mobile',
@@ -464,6 +473,7 @@ function renderSkills() {
     mobile: 'Mobile & Cross-Platform',
     database: 'Database & Caching',
     tools: 'DevOps, Cloud & AI',
+    architecture: 'Mindful Architecture & Discipline',
   };
 
   const html = Object.entries(DATA.skills).map(([key, items]) => {

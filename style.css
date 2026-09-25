@@ -469,42 +469,320 @@ a {
   }
 }
 
-/* ===== CATCHPHRASE & PROFILES ===== */
+/* ===== CATCHPHRASE & HERO INTRODUCTION ===== */
 .phrase {
-  font-family: var(--font-heading);
-  font-size: 18px;
-  max-width: 896px;
-  margin: 32px auto;
+  max-width: 1080px;
+  margin: 24px auto 28px auto;
   padding: 0 20px;
-  color: var(--text-white);
   text-align: center;
-  line-height: 1.625;
-  letter-spacing: 0.025em;
-  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-welcome {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.welcome-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 16px;
+  border-radius: 9999px;
+  background: rgba(255, 34, 56, 0.09);
+  border: 1px solid rgba(255, 34, 56, 0.38);
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--color-primary-light);
+  letter-spacing: 0.05em;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 0 16px rgba(255, 34, 56, 0.18);
+  transition: all 0.3s ease;
+}
+
+.welcome-pill:hover {
+  background: rgba(255, 34, 56, 0.16);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 24px rgba(255, 34, 56, 0.38);
+  transform: translateY(-1px);
+}
+
+.welcome-glow-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  box-shadow: 0 0 8px var(--color-primary), 0 0 12px var(--color-primary-light);
+  animation: pulse-dot 2s infinite ease-in-out;
+}
+
+@keyframes pulse-dot {
+  0%, 100% {
+    transform: scale(0.9);
+    opacity: 0.75;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 1;
+    box-shadow: 0 0 12px var(--color-primary-light), 0 0 20px var(--color-primary);
+  }
+}
+
+/* Stylish "I am Rex" Identity */
+.hero-identity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 2px auto 16px auto;
+  flex-wrap: wrap;
+}
+
+.hero-iam {
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-rex {
+  font-family: var(--font-heading);
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--color-glow-white);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1;
   text-shadow:
-    0 0 8px var(--color-glow-white),
-    0 0 20px var(--color-primary),
-    0 0 40px var(--color-primary-dark);
+    0 0 6px var(--color-glow-white),
+    0 0 16px var(--color-primary),
+    0 0 32px var(--color-primary),
+    0 0 54px var(--color-primary-dark);
+  display: inline-block;
+  padding: 0 4px;
 }
 
-.phrase p {
-  margin: 0 0 12px 0;
+.hero-separator {
+  color: var(--color-primary-light);
+  font-size: 15px;
+  opacity: 0.75;
+  text-shadow: 0 0 8px var(--color-primary);
+  user-select: none;
 }
 
-.phrase p:last-child {
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 14px;
+  border-radius: 8px;
+  background: rgba(255, 34, 56, 0.12);
+  border: 1px solid rgba(255, 34, 56, 0.45);
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-white);
+  letter-spacing: 0.05em;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 0 18px rgba(255, 34, 56, 0.22);
+}
+
+/* High-Readability Narrative Flow — Fits on One Line Per Thought on Desktop */
+.hero-narrative {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: var(--font-body);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-light);
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.85), 0 0 14px rgba(255, 34, 56, 0.18);
+}
+
+.hero-narrative p {
+  margin: 0 0 10px 0;
+  text-wrap: balance;
+}
+
+.hero-narrative p:last-child {
   margin-bottom: 0;
 }
 
+.highlight-mindful {
+  color: #ffffff;
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(255, 34, 56, 0.4);
+  border-bottom: 1px dashed rgba(255, 34, 56, 0.55);
+  padding-bottom: 1px;
+}
+
+.highlight-contrast {
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 0 0 8px rgba(255, 34, 56, 0.45);
+}
+
+/* ===== CORE PILLARS: MINDFULNESS & SOVEREIGN ARCHITECTURE ===== */
+.core-pillars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 36px auto 30px auto;
+  padding: 0 20px;
+}
+
+.pillar-card {
+  background: var(--bg-glass-card);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-card);
+  padding: 24px 18px;
+  text-align: center;
+  transition: all 0.35s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pillar-card:hover {
+  background: var(--bg-glass-card-hover);
+  border-color: var(--border-glass-hover);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(var(--color-primary-rgb), 0.22);
+}
+
+.pillar-icon {
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: 12px;
+  filter: drop-shadow(0 0 8px var(--color-primary));
+}
+
+.pillar-card h3 {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  color: var(--text-white);
+  margin: 0 0 10px 0;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 10px rgba(var(--color-primary-rgb), 0.6);
+}
+
+.pillar-card p {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.pillar-card code {
+  color: var(--color-primary-light);
+  background: var(--border-tag-bg);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+/* Tablet Breakpoint */
+@media (max-width: 1024px) {
+  .core-pillars {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+/* Mobile Breakpoints */
 @media (max-width: 640px) {
   .phrase {
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 24px auto;
+    margin: 18px auto 22px auto;
     padding: 0 16px;
   }
 
-  .phrase p {
+  .hero-welcome {
     margin-bottom: 10px;
+  }
+
+  .welcome-pill {
+    font-size: 12px;
+    padding: 4px 12px;
+    letter-spacing: 0.04em;
+  }
+
+  .hero-identity {
+    gap: 8px;
+    margin: 4px auto 14px auto;
+  }
+
+  .hero-iam {
+    font-size: 17px;
+  }
+
+  .hero-rex {
+    font-size: 34px;
+  }
+
+  .hero-separator {
+    display: none;
+  }
+
+  .hero-badge {
+    font-size: 12px;
+    padding: 4px 10px;
+    width: auto;
+  }
+
+  .hero-narrative {
+    font-size: 15px;
+    line-height: 1.68;
+    padding: 0 4px;
+  }
+
+  .hero-narrative p {
+    margin-bottom: 12px;
+  }
+
+  .core-pillars {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 0 16px;
+    margin: 24px auto 20px auto;
+  }
+
+  .pillar-card {
+    padding: 18px 16px;
+  }
+
+  .pillar-card h3 {
+    font-size: 19px;
+  }
+
+  .pillar-card p {
+    font-size: 13.5px;
+    line-height: 1.55;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-rex {
+    font-size: 28px;
+  }
+
+  .hero-narrative {
+    font-size: 14px;
+    line-height: 1.6;
   }
 }
 
